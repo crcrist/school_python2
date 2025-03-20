@@ -1,0 +1,4 @@
+id,type,title,author,library,available,checkout_date,return_date,extra_data
+1,Book,The Great Gatsby,F. Scott Fitzgerald,Main Library,True,,,
+2,EBook,Digital Fortress,Dan Brown,Online Branch,True,,,"PDF,2.5"
+3,AudioBook,Harry Potter,J.K. Rowling,Audio Collection,True,,,"Stephen Fry,8.5"
