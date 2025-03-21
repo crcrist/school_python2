@@ -24,14 +24,16 @@ class Library:
         """Add a staff member to the library."""
         self.staff.append(staff)
         return f"Added {staff.fname} {staff.lname} as staff"
-        
+       
+        # finding book by matching on title name, feature to use fuzzy match would be helpful
     def find_book_by_title(self, title):
         """Find a book by its title."""
         for book in self.books:
             if book.title.lower() == title.lower():
                 return book
         return None
-    
+   
+        # finding author by exact match, feature for fuzzy match here as well
     def find_book_by_author(self, author):
         """Find books by a particular author."""
         results = []
@@ -52,7 +54,8 @@ class Library:
                 if book.is_overdue():
                     overdue_books.append((member, book))
         return overdue_books
-    
+   
+        # create a notification for members with overdue books
     def send_overdue_notifications(self):
         """Send notifications for overdue books."""
         overdue_info = self.check_overdue_books()

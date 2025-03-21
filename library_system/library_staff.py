@@ -1,7 +1,7 @@
 from datetime import date
 
 class LibraryStaff:
-    """Class representing a library staff member."""
+    """class representing a library staff member."""
     
     def __init__(self, fname="", lname="", email="", phone_number="", birthday="", ssn="", home_address=""):
         self.fname = fname
@@ -24,7 +24,8 @@ class LibraryStaff:
         self.ssn = input("Social security number: ")
         self.home_address = input("Home address: ")
         print(f"Thank you {self.fname} {self.lname}, you have been successfully hired")
-        
+       
+        # checkout a book for the member
     def process_checkout(self, member, book):
         """Process a book checkout for a member."""
         if book.available:
@@ -36,7 +37,8 @@ class LibraryStaff:
                 book.add_to_waitlist(member)
                 return f"Staff {self.fname} could not process checkout as {book.title} is unavailable. Added {member.fname} to waitlist."
             return f"Staff {self.fname} could not process checkout as {book.title} is unavailable."
-    
+   
+        # return a book for the member, add feature to actually notify member in future 
     def process_return(self, member, book):
         """Process a book return from a member."""
         result = member.return_book(book)
@@ -46,13 +48,15 @@ class LibraryStaff:
             return f"Staff {self.fname} processed: {result}. Notifying {next_member.fname} that the book is now available."
         return f"Staff {self.fname} processed: {result}"
     
+        # process an extension for the user
     def process_extension(self, member, book, days=7):
         """Process an extension request for a book."""
         if book.waitlist:
             return f"Staff {self.fname} denied extension for {book.title} as there are members waiting for it."
         result = member.request_extension(book, days)
         return f"Staff {self.fname} processed: {result}"
-    
+   
+        # create an overdue report of members, their book title, and days overdue
     def generate_overdue_report(self, library):
         """Generate a report of all overdue books."""
         overdue_info = library.check_overdue_books()

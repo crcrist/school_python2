@@ -1,4 +1,3 @@
-# members.py
 from datetime import timedelta
 
 class Member:
@@ -15,8 +14,9 @@ class Member:
         self.checked_out_books = []
         self.id = id(self)  # using object id as a unique identifier
         
+        # provide personal information to sign up as member of library
     def sign_up(self):
-        """Interactive method to sign up a new member."""
+        """interactive method to sign up a new member."""
         print("To become a member of the library, please enter the following information...")
         self.fname = input("First name: ")
         self.lname = input("Last name: ")
@@ -26,17 +26,19 @@ class Member:
         self.ssn = input("Social security number: ")
         self.home_address = input("Home address: ")
         print(f"Thank you {self.fname} {self.lname}, you have been successfully signed up")
-        
+      
+        # checkout book if it is available, add to list of checked out books for member
     def checkout_book(self, book):
-        """Check out a book from the library."""
+        """check out a book from the library."""
         if book.available:
             book.checkout_book()
             self.checked_out_books.append(book)
             return f"{self.fname} has checked out {book.title}"
         return f"{book.title} is not available"
     
+        # if book is in checked out books list and user is returning, make book available to be checked out, and remove from members checked out books list
     def return_book(self, book):
-        """Return a book to the library."""
+        """return a book to the library."""
         if book in self.checked_out_books:
             book.available = True
             book.checkout_date = None
@@ -44,11 +46,12 @@ class Member:
             self.checked_out_books.remove(book)
             return f"{self.fname} has returned {book.title}"
         return f"{self.fname} has not checked out {book.title}"
-    
+
     def get_overdue_books(self):
-        """Get a list of the member's overdue books."""
+        """get a list of the member's overdue books."""
         return [book for book in self.checked_out_books if book.is_overdue()]
     
+        # extend the deadline for return by 7 days
     def request_extension(self, book, days=7):
         """Request an extension on the return date for a book."""
         if book in self.checked_out_books:
