@@ -47,15 +47,18 @@ The system supports multiple book types through inheritance:
 ### Installation
 No additional libraries are required. The system uses Python's standard libraries.
 
-
+```
 git clone <repository-url>
 cd library-management-system
 python main.py
+```
 
 ### Running the System
 Execute `main.py` to start the system:
 
+```
 python main.py
+```
 
 ### Main Menu Options
 The system presents the following main menu:
