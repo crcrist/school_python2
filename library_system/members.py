@@ -1,5 +1,6 @@
-
 # members.py
+from datetime import timedelta
+
 class Member:
     """Class representing a library member."""
     
@@ -58,4 +59,3 @@ class Member:
     def __str__(self):
         """String representation of the member."""
         return f"{self.fname} {self.lname} ({self.email})"
-
