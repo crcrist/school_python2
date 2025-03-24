@@ -28,38 +28,53 @@ CUSTOMER_EXPERIENCE_RATING = ['Bad', 'Under Expectations', 'Satisfactory', 'Exce
 
 
 def generate_sales_data(row_count, start_date, end_date, output_file):
-    
     with open(output_file, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)    
-
         header = ['Date', 'Product', 'Price', 'Quantity', 'Region', 'Salesperson',  'TotalSale']
         csv_writer.writerow(header)
 
         for _ in range(row_count):
-            # generate random start and end date
-            days_range = (end_date - start_date).days
-            random_days = random.randint(0, days_range)
-            sale_date = start_date + timedelta(days = random_days)
+            # initializing values
+            sale_date = None
+            product = None
+            price = None
+            quantity = None
+            region = None
+            salesperson = None
+            total_sale = None 
 
-            # select random product and get its price
-            product = random.choice(list(PRODUCT_PRICES.keys()))
-            price = PRODUCT_PRICES[product]
+            if random.random() >= 0.03:
+                days_range = (end_date - start_date).days
+                random_days = random.randint(0, days_range)
+                sale_date = start_date + timedelta(days=random_days)
 
-            # generate random quantity
-            quantity = random.randint(1,10)
+            if random.random() >= 0.03:
+                product = random.choice(list(PRODUCT_PRICES.keys()))
+                price = PRODUCT_PRICES[product]
 
-            # select random region and sales person
-            region = random.choice(REGIONS)
-            salesperson = random.choice(SALES_PEOPLE)
+            if random.random() >= 0.03:
+                quantity = random.randint(1,10)
+
+            if random.random() >= 0.03:
+                region = random.choice(REGIONS)
+
+            if random.random() >= 0.03:
+                salesperson = random.choice(SALES_PEOPLE)
             
-            # calculate total sale
-            total_sale = price * quantity 
+            if price is not None and quantity is not None:
+                total_sale = price * quantity 
 
             # format date as a stirng (YYYY-MM-DD)
-            date_str = sale_date.strftime('%Y-%m-%d')
-        
+            date_str = '' if sale_date is None else sale_date.strftime('%Y-%m-%d')
+            product_str = '' if product is None else product
+            price_str = '' if price is None else price
+            quantity_str = '' if quantity is None else quantity
+            region_str = '' if region is None else region
+            salesperson_str = '' if salesperson is None else salesperson
+            total_sale_str = '' if total_sale is None else total_sale
+
             # write record to CSV 
-            csv_writer.writerow([date_str, product, price, quantity, region, salesperson, total_sale])
+            csv_writer.writerow([date_str, product_str, price_str, quantity_str, region_str, salesperson_str, total_sale_str])
 
 
     print(f"Generated {row_count} sales records in {output_file}")
