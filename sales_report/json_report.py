@@ -1,7 +1,8 @@
 import csv 
 import json
 import matplotlib.pyplot as plt
-import os 
+import os
+import numpy as np
 
 def process_sales_data(file_path):
     total_sales = 0
@@ -63,11 +64,17 @@ def create_visualizations(data, output_folder):
     if not os.path.exists(data_dir):
         os.makedirs(data_dir)
 
+
     regions = list(data['sales_by_region'].keys())
     sales = list(data['sales_by_region'].values())
 
+    sort_indices = np.argsort(sales)
+    
+    sorted_regions = [regions[i] for i in sort_indices]
+    sorted_sales = [sales[i] for i in sort_indices]
+
     plt.figure(figsize=(10,6))
-    plt.bar(regions, sales)
+    plt.bar(sorted_regions, sorted_sales)
     plt.title('Sales by Region')
     plt.xlabel('Region')
     plt.ylabel('Sales Amount')
