@@ -30,7 +30,7 @@ CUSTOMER_EXPERIENCE_RATING = ['Bad', 'Under Expectations', 'Satisfactory', 'Exce
 def generate_sales_data(row_count, start_date, end_date, output_file):
     with open(output_file, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)    
-        header = ['Date', 'Product', 'Price', 'Quantity', 'Region', 'Salesperson',  'TotalSale']
+        header = ['Date', 'Product', 'Price', 'Quantity', 'Region', 'Salesperson',  'CustomerExperience', 'TotalSale']
         csv_writer.writerow(header)
 
         for _ in range(row_count):
@@ -41,6 +41,7 @@ def generate_sales_data(row_count, start_date, end_date, output_file):
             quantity = None
             region = None
             salesperson = None
+            customer_experience = None
             total_sale = None 
 
             if random.random() >= 0.03:
@@ -60,6 +61,9 @@ def generate_sales_data(row_count, start_date, end_date, output_file):
 
             if random.random() >= 0.03:
                 salesperson = random.choice(SALES_PEOPLE)
+
+            if random.random() >= 0.06:
+                customer_experience = random.choice(CUSTOMER_EXPERIENCE_RATING)
             
             if price is not None and quantity is not None:
                 total_sale = price * quantity 
@@ -71,10 +75,11 @@ def generate_sales_data(row_count, start_date, end_date, output_file):
             quantity_str = '' if quantity is None else quantity
             region_str = '' if region is None else region
             salesperson_str = '' if salesperson is None else salesperson
+            customer_experience_str = '' if customer_experience is None else customer_experience
             total_sale_str = '' if total_sale is None else total_sale
 
             # write record to CSV 
-            csv_writer.writerow([date_str, product_str, price_str, quantity_str, region_str, salesperson_str, total_sale_str])
+            csv_writer.writerow([date_str, product_str, price_str, quantity_str, region_str, salesperson_str, customer_experience_str, total_sale_str])
 
 
     print(f"Generated {row_count} sales records in {output_file}")

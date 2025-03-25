@@ -8,6 +8,12 @@ def process_sales_data(file_path):
     total_sales = 0
     sales_by_region = {}
     sales_count = 0
+    sales_by_item = {}
+    total_quantity = 0
+    quantity_by_region = {}
+    quantity_by_item = {}
+    sales_by_date = {}
+    quantity_by_date = {}
 
     try:
         with open(file_path, 'r') as csv_file:
@@ -15,19 +21,55 @@ def process_sales_data(file_path):
 
             for row in reader:
                 try: 
-                    if not row['TotalSale'] or not row['Region']:
-                        print(f"Warning: missing data in row {row}")
-                        continue
+                    if row['TotalSale'] and row['Region'] and row['Quantity']:
+                        amount = float(row['TotalSale'])
+                        quantity = int(row['Quantity'])
+                        total_sales += amount
+                        total_quantity += quantity
+                        sales_count += 1
 
-                    amount = float(row['TotalSale'])
-                    total_sales += amount
-                    sales_count += 1
+                        region = row['Region']
+                        if region in sales_by_region:
+                            sales_by_region[region] += amount
+                        else:
+                            sales_by_region[region] = amount
 
-                    region = row['Region']
-                    if region in sales_by_region:
-                        sales_by_region[region] += amount
-                    else:
-                        sales_by_region[region] = amount
+                        if region in quantity_by_region:
+                            quantity_by_region[region] += quantity 
+                        else:
+                            quantity_by_region[region] = quantity
+
+                    if row['TotalSale'] and row['Product'] and row['Quantity']:
+                        amount = float(row['TotalSale'])
+                        quantity = int(row['Quantity'])
+
+                        item = row['Product']
+                        if item in sales_by_item:
+                            sales_by_item[item] += amount
+                        else:
+                            sales_by_item[item] = amount
+
+                        if item in quantity_by_item:
+                            quantity_by_item[item] += quantity
+                        else:
+                            quantity_by_item[item] = quantity
+
+                    if row['TotalSale'] and row['Quantity'] and row['Date']:
+                        amount = float(row['TotalSale'])
+                        quantity = int(row['Quantity'])
+
+                        date = row['Date']
+                        if date in sales_by_date:
+                            sales_by_date[date] += amount
+                        else:
+                            sales_by_date[date] = amount
+                        
+                        if date in quantity_by_date:
+                            quantity_by_date[date] += quantity
+                        else:
+                            quantity_by_date[date] = quantity
+                            
+                
 
                 except ValueError as e:
                     print(f"Error processing row {row} : {e}")
@@ -36,8 +78,14 @@ def process_sales_data(file_path):
 
         summary = {
                 "total_sales": total_sales,
+                "total_quantity": total_quantity,
                 "average_sales": avg_sales,
-                "sales_by_region": sales_by_region
+                "sales_by_region": sales_by_region,
+                "sales_by_item": sales_by_item,
+                "quantity_by_region": quantity_by_region,
+                "quantity_by_item": quantity_by_item,
+                "sales_by_date": sales_by_date,
+                "quantity_by_date": quantity_by_date
         }
 
         return summary
