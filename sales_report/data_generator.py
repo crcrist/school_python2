@@ -24,9 +24,6 @@ PRODUCT_PRICES = {
 
 SALES_PEOPLE = ('John Smith', 'Jane Doh', 'Robert Johnson', 'Lisa Chen', 'Miguel Rodriguez')
 
-CUSTOMER_EXPERIENCE_RATING = ['Bad', 'Under Expectations', 'Satisfactory', 'Exceeded Expectations', 'Excellent']
-
-
 def generate_sales_data(row_count, start_date, end_date, output_file):
     with open(output_file, 'w', newline='') as csvfile:
         csv_writer = csv.writer(csvfile)    
@@ -62,8 +59,8 @@ def generate_sales_data(row_count, start_date, end_date, output_file):
             if random.random() >= 0.03:
                 salesperson = random.choice(SALES_PEOPLE)
 
-            if random.random() >= 0.06:
-                customer_experience = random.choice(CUSTOMER_EXPERIENCE_RATING)
+            if random.random() >= 0.05:
+                customer_experience = round(random.uniform(1.0,5.0),1)
             
             if price is not None and quantity is not None:
                 total_sale = price * quantity 
@@ -76,7 +73,7 @@ def generate_sales_data(row_count, start_date, end_date, output_file):
             region_str = '' if region is None else region
             salesperson_str = '' if salesperson is None else salesperson
             customer_experience_str = '' if customer_experience is None else customer_experience
-            total_sale_str = '' if total_sale is None else total_sale
+            total_sale_str = '' if total_sale is None else round(total_sale,2)
 
             # write record to CSV 
             csv_writer.writerow([date_str, product_str, price_str, quantity_str, region_str, salesperson_str, customer_experience_str, total_sale_str])

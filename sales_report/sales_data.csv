@@ -1,1001 +1,1001 @@
 Date,Product,Price,Quantity,Region,Salesperson,CustomerExperience,TotalSale
-2024-11-20,Motherboard,299.99,1,South,Jane Doh,,299.99
-2024-05-02,,,5,South,John Smith,Bad,
-2024-05-31,Monitor,119.99,1,East,Miguel Rodriguez,Bad,119.99
-2024-09-25,GPU,1499.99,6,West,Robert Johnson,Excellent,8999.94
-2024-07-19,SSD,39.99,10,Central,Miguel Rodriguez,Excellent,399.90000000000003
-2025-01-29,Monitor,119.99,1,East,Robert Johnson,Excellent,119.99
-2024-11-18,Mouse,15.99,10,East,Miguel Rodriguez,Excellent,159.9
-,Monitor,119.99,5,East,John Smith,Bad,599.9499999999999
-2025-02-20,Keyboard,40.0,7,North,John Smith,Exceeded Expectations,280.0
-2025-03-01,RAM,129.99,5,Central,Robert Johnson,Exceeded Expectations,649.95
-2024-09-24,CPU,399.99,10,Central,John Smith,Exceeded Expectations,3999.9
-2025-01-17,Mouse,15.99,6,East,Robert Johnson,Excellent,95.94
-2024-04-07,RAM,129.99,1,West,Miguel Rodriguez,Under Expectations,129.99
-2024-11-25,RAM,129.99,7,North,Lisa Chen,Excellent,909.9300000000001
-2024-03-28,Headphones,19.99,,West,Miguel Rodriguez,Bad,
-2024-06-07,SSD,39.99,3,Central,John Smith,Exceeded Expectations,119.97
-2024-04-12,Monster,3.99,1,West,Jane Doh,Under Expectations,3.99
-2024-06-29,,,4,North,John Smith,Satisfactory,
-2024-10-20,SSD,39.99,4,South,Miguel Rodriguez,Exceeded Expectations,159.96
-2024-08-01,Harddrive,49.99,9,North,Miguel Rodriguez,Exceeded Expectations,449.91
-2025-01-14,Mouse,15.99,9,Central,John Smith,Exceeded Expectations,143.91
-2024-08-14,Monitor,119.99,9,North,,Bad,1079.9099999999999
-2024-04-09,Mouse,15.99,2,Central,Robert Johnson,Bad,31.98
-2024-05-14,RAM,129.99,8,West,Jane Doh,Bad,1039.92
-2024-11-24,Monster,3.99,1,Central,Jane Doh,Excellent,3.99
-2025-03-09,Monitor,119.99,9,Central,Jane Doh,,1079.9099999999999
-2024-10-23,SSD,39.99,7,North,Miguel Rodriguez,Bad,279.93
-2025-01-25,Monitor,119.99,4,North,Miguel Rodriguez,Exceeded Expectations,479.96
-2024-11-18,Headphones,19.99,1,South,Jane Doh,Satisfactory,19.99
-2024-11-20,Monster,3.99,1,Central,John Smith,Bad,3.99
-2024-08-08,Monitor,119.99,8,North,Robert Johnson,Satisfactory,959.92
-,GPU,1499.99,1,Central,Jane Doh,Satisfactory,1499.99
-2024-10-18,Charger,9.99,2,North,Lisa Chen,Excellent,19.98
-2025-02-03,Monster,3.99,9,North,Lisa Chen,Satisfactory,35.910000000000004
-2024-07-05,Headphones,19.99,4,West,John Smith,Excellent,79.96
-2025-02-10,RAM,129.99,2,South,Miguel Rodriguez,,259.98
-2024-03-30,Monster,3.99,4,West,Jane Doh,Under Expectations,15.96
-2025-02-17,RAM,129.99,9,Central,Jane Doh,Excellent,1169.91
-2024-05-28,Monster,3.99,8,North,Jane Doh,Under Expectations,31.92
-2024-12-22,Harddrive,49.99,6,West,Robert Johnson,Exceeded Expectations,299.94
-2024-10-25,Harddrive,49.99,3,East,Miguel Rodriguez,Exceeded Expectations,149.97
-2024-07-25,RAM,129.99,6,North,Jane Doh,Bad,779.94
-2024-09-07,Laptop,499.99,3,East,Robert Johnson,Bad,1499.97
-2024-04-08,CPU,399.99,5,South,Jane Doh,Satisfactory,1999.95
-2024-10-27,SSD,39.99,6,East,Robert Johnson,Under Expectations,239.94
-2024-06-04,Charger,9.99,4,West,John Smith,Excellent,39.96
-2024-12-30,Keyboard,40.0,,Central,Robert Johnson,Bad,
-2024-09-02,SSD,39.99,1,East,Miguel Rodriguez,Satisfactory,39.99
-2024-11-25,CPU,399.99,6,West,Miguel Rodriguez,Bad,2399.94
-2024-09-12,Mouse,15.99,,South,John Smith,Under Expectations,
-2024-11-15,Laptop,499.99,4,East,John Smith,Satisfactory,1999.96
-2024-04-14,Marker,2.99,9,South,Lisa Chen,Satisfactory,26.910000000000004
-2025-03-02,SSD,39.99,5,East,Miguel Rodriguez,Exceeded Expectations,199.95000000000002
-2024-05-15,Monster,3.99,3,South,Lisa Chen,Exceeded Expectations,11.97
-2024-12-31,Marker,2.99,1,West,Jane Doh,Satisfactory,2.99
-2024-10-17,Mouse,15.99,5,Central,Robert Johnson,Under Expectations,79.95
-2024-08-10,Harddrive,49.99,6,South,Jane Doh,Bad,299.94
-2024-08-20,Motherboard,299.99,8,North,,Excellent,2399.92
-2024-10-16,Headphones,19.99,10,Central,Miguel Rodriguez,Satisfactory,199.89999999999998
-2025-01-13,RAM,129.99,3,Central,Lisa Chen,Bad,389.97
-2024-12-17,Keyboard,40.0,6,East,Jane Doh,Bad,240.0
-2024-10-19,SSD,39.99,3,North,John Smith,Excellent,119.97
-2024-11-22,Monitor,119.99,4,West,Jane Doh,,479.96
-2024-07-19,SSD,39.99,8,South,Jane Doh,Bad,319.92
-2024-11-03,Marker,2.99,5,North,John Smith,Exceeded Expectations,14.950000000000001
-2024-11-11,GPU,1499.99,3,East,Jane Doh,Excellent,4499.97
-2024-06-07,SSD,39.99,10,West,Lisa Chen,Excellent,399.90000000000003
-2025-03-11,Motherboard,299.99,5,North,Jane Doh,Under Expectations,1499.95
-2024-08-01,SSD,39.99,2,East,Miguel Rodriguez,Exceeded Expectations,79.98
-2024-12-04,CPU,399.99,1,South,Lisa Chen,Satisfactory,399.99
-2024-03-26,Headphones,19.99,1,North,John Smith,Bad,19.99
-2025-01-31,Keyboard,40.0,10,East,Jane Doh,Excellent,400.0
-2024-11-30,Mouse,15.99,5,North,,Exceeded Expectations,79.95
-2024-11-14,Marker,2.99,10,East,Miguel Rodriguez,,29.900000000000002
-,,,7,East,Lisa Chen,Satisfactory,
-2024-09-25,,,10,West,Robert Johnson,Exceeded Expectations,
-2024-11-02,SSD,39.99,1,West,Jane Doh,Exceeded Expectations,39.99
-2025-02-24,Laptop,499.99,2,South,John Smith,Satisfactory,999.98
-2024-10-29,Keyboard,40.0,3,East,John Smith,Satisfactory,120.0
-2024-09-04,SSD,39.99,4,East,Lisa Chen,Exceeded Expectations,159.96
-2024-09-18,Motherboard,299.99,10,Central,Miguel Rodriguez,Exceeded Expectations,2999.9
-2025-02-02,Marker,2.99,2,North,John Smith,Excellent,5.98
-2024-12-28,Laptop,499.99,1,North,John Smith,Under Expectations,499.99
-2024-10-05,Laptop,499.99,8,South,Jane Doh,Satisfactory,3999.92
-2024-08-12,Monitor,119.99,6,South,Miguel Rodriguez,Excellent,719.9399999999999
-2024-08-22,Mouse,15.99,10,Central,Lisa Chen,Exceeded Expectations,159.9
-2024-11-11,Monster,3.99,3,Central,Jane Doh,Bad,11.97
-2024-07-16,Laptop,499.99,9,East,John Smith,Exceeded Expectations,4499.91
-2024-05-17,Laptop,499.99,3,North,Jane Doh,Bad,1499.97
-2025-03-16,Monitor,119.99,9,Central,Lisa Chen,Under Expectations,1079.9099999999999
-2024-05-24,Laptop,499.99,,Central,Miguel Rodriguez,Satisfactory,
-2024-06-19,Monster,3.99,10,South,Robert Johnson,,39.900000000000006
-2024-11-27,Motherboard,299.99,1,North,Miguel Rodriguez,Satisfactory,299.99
-2024-03-28,Harddrive,49.99,5,South,Lisa Chen,Satisfactory,249.95000000000002
-2024-06-08,Marker,2.99,9,West,John Smith,Exceeded Expectations,26.910000000000004
-2024-04-04,Harddrive,49.99,7,South,Miguel Rodriguez,Excellent,349.93
-2024-09-19,Motherboard,299.99,5,Central,John Smith,Satisfactory,1499.95
-2024-11-04,Headphones,19.99,9,Central,Jane Doh,Under Expectations,179.91
-2024-05-01,Laptop,499.99,5,East,Lisa Chen,Satisfactory,2499.95
-2024-04-27,RAM,129.99,3,East,Robert Johnson,Under Expectations,389.97
-2024-12-26,Marker,2.99,4,Central,Jane Doh,Satisfactory,11.96
-2024-05-13,,,4,East,Miguel Rodriguez,Excellent,
-2024-05-08,Harddrive,49.99,1,North,Robert Johnson,Excellent,49.99
-2025-01-18,,,2,North,Lisa Chen,Under Expectations,
-2024-12-15,Monitor,119.99,,Central,Jane Doh,Exceeded Expectations,
-2025-01-06,GPU,1499.99,5,West,John Smith,Exceeded Expectations,7499.95
-2024-06-05,Keyboard,40.0,7,North,Robert Johnson,Bad,280.0
-2024-10-10,Charger,9.99,5,North,Jane Doh,Exceeded Expectations,49.95
-2024-09-22,Keyboard,40.0,3,East,Miguel Rodriguez,Bad,120.0
-2024-07-22,CPU,399.99,6,South,Robert Johnson,Exceeded Expectations,2399.94
-2024-09-18,Motherboard,299.99,2,South,John Smith,Under Expectations,599.98
-2024-05-11,Monster,3.99,10,West,Miguel Rodriguez,Excellent,39.900000000000006
-2024-10-19,Laptop,499.99,7,South,Jane Doh,Satisfactory,3499.9300000000003
-2025-03-10,CPU,399.99,3,Central,Lisa Chen,Exceeded Expectations,1199.97
-2024-06-28,Harddrive,49.99,6,South,Lisa Chen,Excellent,299.94
-2024-07-02,Motherboard,299.99,3,West,Lisa Chen,Excellent,899.97
-2024-10-15,Mouse,15.99,6,North,Lisa Chen,Satisfactory,95.94
-2024-09-21,,,5,South,John Smith,Bad,
-2025-02-09,Headphones,19.99,6,East,Robert Johnson,Under Expectations,119.94
-2025-03-09,Laptop,499.99,7,Central,John Smith,Excellent,3499.9300000000003
-2024-11-03,Keyboard,40.0,10,East,Robert Johnson,Under Expectations,400.0
-2024-08-02,SSD,39.99,9,,John Smith,Excellent,359.91
-2025-03-01,Marker,2.99,10,Central,Lisa Chen,Bad,29.900000000000002
-2025-02-22,Harddrive,49.99,7,West,Lisa Chen,Satisfactory,349.93
-2024-06-10,Laptop,499.99,3,West,Miguel Rodriguez,Exceeded Expectations,1499.97
-2024-12-26,Mouse,15.99,10,North,Robert Johnson,Under Expectations,159.9
-2024-11-20,Laptop,499.99,9,East,John Smith,Exceeded Expectations,4499.91
-,Marker,2.99,8,North,Lisa Chen,Exceeded Expectations,23.92
-2024-09-20,Marker,2.99,5,South,John Smith,Satisfactory,14.950000000000001
-2024-04-16,Keyboard,40.0,9,South,Jane Doh,Satisfactory,360.0
-2025-01-03,Charger,9.99,4,South,Miguel Rodriguez,Satisfactory,39.96
-2024-12-06,Harddrive,49.99,4,East,Jane Doh,,199.96
-2025-01-11,,,2,South,Robert Johnson,,
-2024-08-14,RAM,129.99,5,North,John Smith,,649.95
-2025-03-13,GPU,1499.99,8,South,,Bad,11999.92
-2024-10-13,Headphones,19.99,8,South,Jane Doh,Exceeded Expectations,159.92
-2024-10-27,SSD,39.99,9,East,John Smith,Excellent,359.91
-2024-09-17,Charger,9.99,1,South,Jane Doh,Excellent,9.99
-2024-07-07,Motherboard,299.99,4,East,Robert Johnson,Under Expectations,1199.96
-2025-01-22,Headphones,19.99,3,West,Jane Doh,Under Expectations,59.97
-2024-08-13,Motherboard,299.99,3,South,Jane Doh,,899.97
-2024-04-18,Motherboard,299.99,10,East,Robert Johnson,Bad,2999.9
-2024-10-18,SSD,39.99,4,East,Miguel Rodriguez,Bad,159.96
-2024-10-06,Charger,9.99,4,Central,Miguel Rodriguez,Bad,39.96
-2024-03-25,Keyboard,40.0,1,East,John Smith,Bad,40.0
-2024-12-03,Mouse,15.99,3,North,Lisa Chen,Under Expectations,47.97
-2024-05-18,CPU,399.99,1,West,John Smith,Excellent,399.99
-2025-01-14,Motherboard,299.99,6,South,Miguel Rodriguez,Excellent,1799.94
-,Headphones,19.99,8,South,Robert Johnson,Excellent,159.92
-2025-01-21,Monitor,119.99,4,West,Robert Johnson,Under Expectations,479.96
-2024-07-05,Charger,9.99,8,East,Robert Johnson,Excellent,79.92
-2024-12-17,CPU,399.99,5,East,Robert Johnson,Under Expectations,1999.95
-2025-03-08,Harddrive,49.99,9,East,Lisa Chen,,449.91
-2024-05-01,Monitor,119.99,2,North,Miguel Rodriguez,Satisfactory,239.98
-2024-07-14,RAM,129.99,9,North,Jane Doh,Exceeded Expectations,1169.91
-2024-08-19,Keyboard,40.0,1,South,Robert Johnson,Bad,40.0
-2024-09-25,Keyboard,40.0,1,East,John Smith,Excellent,40.0
-2024-08-10,Headphones,19.99,5,South,Jane Doh,Bad,99.94999999999999
-2024-06-27,Monitor,119.99,10,North,Miguel Rodriguez,Bad,1199.8999999999999
-2025-03-18,,,1,Central,John Smith,Exceeded Expectations,
-2025-03-02,Marker,2.99,9,South,Miguel Rodriguez,Bad,26.910000000000004
-2024-08-25,Charger,9.99,1,West,Miguel Rodriguez,Excellent,9.99
-2024-08-06,Harddrive,49.99,7,East,Lisa Chen,Bad,349.93
-2024-07-12,RAM,129.99,4,Central,Miguel Rodriguez,Exceeded Expectations,519.96
-2024-11-19,Motherboard,299.99,7,North,Miguel Rodriguez,Satisfactory,2099.9300000000003
-2024-10-30,RAM,129.99,1,East,John Smith,Satisfactory,129.99
-2025-02-12,SSD,39.99,5,North,Lisa Chen,Exceeded Expectations,199.95000000000002
-2024-12-16,Monster,3.99,7,West,Jane Doh,Satisfactory,27.93
-2024-03-29,Mouse,15.99,3,North,Miguel Rodriguez,Under Expectations,47.97
-2024-06-10,Motherboard,299.99,6,North,John Smith,,1799.94
-2024-04-15,CPU,399.99,8,North,John Smith,Satisfactory,3199.92
-2024-05-15,Mouse,15.99,6,East,Lisa Chen,Excellent,95.94
-2024-11-05,CPU,399.99,6,South,John Smith,Under Expectations,2399.94
-2024-06-08,Headphones,19.99,6,East,Lisa Chen,Under Expectations,119.94
-2024-06-14,Monster,3.99,5,East,John Smith,Under Expectations,19.950000000000003
-2024-05-28,Headphones,19.99,5,Central,Robert Johnson,Exceeded Expectations,99.94999999999999
-2025-01-09,SSD,39.99,7,South,Jane Doh,Under Expectations,279.93
-2024-08-11,Motherboard,299.99,6,North,Miguel Rodriguez,Bad,1799.94
-2024-05-07,SSD,39.99,7,East,Miguel Rodriguez,Satisfactory,279.93
-2024-10-25,Marker,2.99,4,North,John Smith,Exceeded Expectations,11.96
-2024-04-01,CPU,399.99,4,North,Miguel Rodriguez,Excellent,1599.96
-2024-06-22,Headphones,19.99,3,West,Lisa Chen,Excellent,59.97
-2024-05-04,Headphones,19.99,,South,Miguel Rodriguez,Under Expectations,
-2024-12-28,Mouse,15.99,10,South,John Smith,Bad,159.9
-2024-11-13,CPU,399.99,10,South,Miguel Rodriguez,Satisfactory,3999.9
-2024-12-11,Motherboard,299.99,5,Central,Lisa Chen,Exceeded Expectations,1499.95
-2025-02-05,Charger,9.99,7,East,John Smith,Exceeded Expectations,69.93
-2024-05-09,Monster,3.99,3,South,Robert Johnson,Under Expectations,11.97
-2024-12-09,CPU,399.99,4,West,Lisa Chen,,1599.96
-2025-01-12,Monitor,119.99,4,North,Miguel Rodriguez,Satisfactory,479.96
-2024-08-15,Headphones,19.99,7,Central,Lisa Chen,Excellent,139.92999999999998
-2024-11-07,Motherboard,299.99,5,East,Lisa Chen,Bad,1499.95
-2024-10-15,Monitor,119.99,9,West,Miguel Rodriguez,Exceeded Expectations,1079.9099999999999
-2024-10-29,GPU,1499.99,5,Central,John Smith,Excellent,7499.95
-2025-01-26,Mouse,15.99,4,Central,,Exceeded Expectations,63.96
-2025-02-23,RAM,129.99,6,North,Jane Doh,Satisfactory,779.94
-2024-11-02,SSD,39.99,1,East,Jane Doh,Satisfactory,39.99
-2024-03-25,Laptop,499.99,9,North,John Smith,Excellent,4499.91
-2024-04-13,Harddrive,49.99,8,North,John Smith,Under Expectations,399.92
-,RAM,129.99,10,Central,Jane Doh,Exceeded Expectations,1299.9
-2024-05-31,Monitor,119.99,10,Central,John Smith,Excellent,1199.8999999999999
-2024-10-07,Mouse,15.99,3,Central,Robert Johnson,Excellent,47.97
-2024-08-31,Motherboard,299.99,8,Central,Robert Johnson,Excellent,2399.92
-2025-02-20,Laptop,499.99,5,East,,Exceeded Expectations,2499.95
-2024-11-26,Harddrive,49.99,4,Central,,Satisfactory,199.96
-2025-02-07,Monitor,119.99,10,West,Jane Doh,Exceeded Expectations,1199.8999999999999
-2024-04-20,Marker,2.99,9,North,Lisa Chen,,26.910000000000004
-2024-09-24,Motherboard,299.99,10,Central,Robert Johnson,Satisfactory,2999.9
-2024-11-24,Charger,9.99,8,South,Jane Doh,Under Expectations,79.92
-2024-12-04,CPU,399.99,4,Central,Miguel Rodriguez,Exceeded Expectations,1599.96
-2024-04-30,Harddrive,49.99,4,East,Miguel Rodriguez,Under Expectations,199.96
-2024-07-11,Mouse,15.99,9,North,John Smith,Under Expectations,143.91
-2024-07-18,Marker,2.99,2,Central,Robert Johnson,Satisfactory,5.98
-2024-11-11,Laptop,499.99,6,South,Robert Johnson,Excellent,2999.94
-2024-09-25,Mouse,15.99,7,North,Jane Doh,Bad,111.93
-2024-04-29,Mouse,15.99,3,South,John Smith,Excellent,47.97
-2024-07-20,CPU,399.99,5,West,Miguel Rodriguez,Under Expectations,1999.95
-2024-12-16,Mouse,15.99,1,Central,Lisa Chen,Satisfactory,15.99
-2025-03-02,CPU,399.99,8,West,Miguel Rodriguez,Bad,3199.92
-2025-01-05,Headphones,19.99,8,Central,Lisa Chen,Excellent,159.92
-2024-07-23,SSD,39.99,5,Central,Robert Johnson,Excellent,199.95000000000002
-2024-10-27,,,2,West,Jane Doh,Excellent,
-2024-11-07,Monster,3.99,10,East,Jane Doh,Bad,39.900000000000006
-2025-03-07,Mouse,15.99,7,North,Lisa Chen,Satisfactory,111.93
-2024-07-17,Headphones,19.99,2,South,Miguel Rodriguez,Bad,39.98
-2024-09-14,GPU,1499.99,6,North,Miguel Rodriguez,,8999.94
-2025-01-28,CPU,399.99,6,North,Miguel Rodriguez,Excellent,2399.94
-2025-03-04,Monitor,119.99,7,West,Miguel Rodriguez,Under Expectations,839.93
-2024-06-25,Charger,9.99,5,North,Jane Doh,Under Expectations,49.95
-2024-12-26,GPU,1499.99,7,East,Lisa Chen,Excellent,10499.93
-2024-04-06,Headphones,19.99,3,Central,Jane Doh,Satisfactory,59.97
-2024-06-29,Keyboard,40.0,8,North,Lisa Chen,Under Expectations,320.0
-,Motherboard,299.99,10,Central,Jane Doh,Exceeded Expectations,2999.9
-2024-07-08,Headphones,19.99,5,Central,,Satisfactory,99.94999999999999
-2024-11-22,Monitor,119.99,3,West,Robert Johnson,Exceeded Expectations,359.96999999999997
-2025-03-12,GPU,1499.99,1,Central,Miguel Rodriguez,Excellent,1499.99
-2024-09-01,Headphones,19.99,5,South,Miguel Rodriguez,Exceeded Expectations,99.94999999999999
-2024-04-06,Monitor,119.99,7,Central,Robert Johnson,Excellent,839.93
-2025-02-15,GPU,1499.99,2,South,John Smith,Excellent,2999.98
-2024-07-24,Monitor,119.99,10,North,Robert Johnson,Excellent,1199.8999999999999
-2025-01-16,Keyboard,40.0,1,North,Lisa Chen,,40.0
-2024-08-24,Mouse,15.99,9,East,,Satisfactory,143.91
-2024-07-22,Marker,2.99,4,East,Jane Doh,Under Expectations,11.96
-2024-07-01,Harddrive,49.99,3,West,Robert Johnson,Exceeded Expectations,149.97
-2025-02-09,SSD,39.99,3,South,John Smith,Satisfactory,119.97
-,Monster,3.99,4,East,Lisa Chen,Bad,15.96
-2024-08-01,Marker,2.99,5,South,Jane Doh,Exceeded Expectations,14.950000000000001
-2025-01-16,Keyboard,40.0,8,North,Robert Johnson,Excellent,320.0
-2024-04-09,Motherboard,299.99,2,North,Lisa Chen,Excellent,599.98
-2025-03-24,Headphones,19.99,8,Central,Lisa Chen,Satisfactory,159.92
-2024-08-17,RAM,129.99,4,North,Lisa Chen,Bad,519.96
-2024-07-16,Keyboard,40.0,1,Central,Jane Doh,Under Expectations,40.0
-2024-10-26,Headphones,19.99,8,South,John Smith,Exceeded Expectations,159.92
-2024-11-03,CPU,399.99,10,South,Robert Johnson,Exceeded Expectations,3999.9
-2024-07-25,Harddrive,49.99,2,East,Miguel Rodriguez,Bad,99.98
-2024-04-07,Monster,3.99,8,North,John Smith,Satisfactory,31.92
-2025-03-10,Monster,3.99,7,East,Robert Johnson,Bad,27.93
-2024-04-30,GPU,1499.99,9,Central,Jane Doh,Exceeded Expectations,13499.91
-2024-06-29,Motherboard,299.99,10,Central,Robert Johnson,Excellent,2999.9
-2024-09-07,CPU,399.99,1,West,Lisa Chen,,399.99
-2024-06-11,Monster,3.99,8,East,John Smith,Under Expectations,31.92
-2024-06-29,Charger,9.99,5,Central,Jane Doh,Satisfactory,49.95
-2025-01-22,Harddrive,49.99,9,West,Lisa Chen,Excellent,449.91
-2024-09-06,CPU,399.99,7,,Miguel Rodriguez,Exceeded Expectations,2799.9300000000003
-2024-06-16,Headphones,19.99,1,West,John Smith,Satisfactory,19.99
-2024-07-26,Harddrive,49.99,10,West,Jane Doh,Satisfactory,499.90000000000003
-2024-03-25,RAM,129.99,1,Central,Robert Johnson,,129.99
-2025-03-15,Marker,2.99,4,West,Jane Doh,Excellent,11.96
-,GPU,1499.99,10,West,,Excellent,14999.9
-2024-08-08,SSD,39.99,9,East,Jane Doh,Excellent,359.91
-2024-06-13,Motherboard,299.99,4,Central,Robert Johnson,Exceeded Expectations,1199.96
-2024-08-31,Keyboard,40.0,,Central,Robert Johnson,Excellent,
-2024-11-03,CPU,399.99,9,North,Jane Doh,Exceeded Expectations,3599.91
-2025-02-21,Marker,2.99,6,North,Jane Doh,Satisfactory,17.94
-2024-05-10,GPU,1499.99,10,South,John Smith,Excellent,14999.9
-2024-08-05,SSD,39.99,6,Central,Robert Johnson,Bad,239.94
-2024-07-17,Charger,9.99,8,North,Miguel Rodriguez,Exceeded Expectations,79.92
-2024-10-23,Charger,9.99,10,North,Jane Doh,Satisfactory,99.9
-2024-08-12,CPU,399.99,7,South,Miguel Rodriguez,Bad,2799.9300000000003
-2024-12-21,GPU,1499.99,5,North,Robert Johnson,,7499.95
-2024-03-30,CPU,399.99,2,West,Jane Doh,Excellent,799.98
-2025-02-24,Motherboard,299.99,2,West,Lisa Chen,Exceeded Expectations,599.98
-2024-12-06,Harddrive,49.99,10,North,Jane Doh,Exceeded Expectations,499.90000000000003
-2024-08-26,Monitor,119.99,9,North,Jane Doh,Excellent,1079.9099999999999
-2025-02-18,Keyboard,40.0,5,North,Miguel Rodriguez,Excellent,200.0
-2024-11-26,Mouse,15.99,7,Central,John Smith,Excellent,111.93
-2024-11-13,Monitor,119.99,8,Central,John Smith,Bad,959.92
-2024-07-02,Monitor,119.99,7,West,Jane Doh,Exceeded Expectations,839.93
-2024-10-08,,,8,East,Lisa Chen,Exceeded Expectations,
-2024-05-14,CPU,399.99,6,South,Lisa Chen,Bad,2399.94
-2024-04-01,Headphones,19.99,10,,Robert Johnson,Excellent,199.89999999999998
-2024-11-10,Charger,9.99,9,North,Lisa Chen,Excellent,89.91
-2024-06-14,SSD,39.99,1,South,Jane Doh,Excellent,39.99
-2024-10-04,Laptop,499.99,6,East,Jane Doh,Bad,2999.94
-2025-01-08,Laptop,499.99,7,North,John Smith,Exceeded Expectations,3499.9300000000003
-2024-09-08,CPU,399.99,1,,Robert Johnson,Excellent,399.99
-2024-12-21,Charger,9.99,10,North,John Smith,Excellent,99.9
-2025-01-02,Keyboard,40.0,5,Central,Lisa Chen,Bad,200.0
-2024-12-19,Harddrive,49.99,4,West,Miguel Rodriguez,Excellent,199.96
-2024-10-03,Motherboard,299.99,8,,Lisa Chen,Bad,2399.92
-2024-06-19,Headphones,19.99,8,Central,John Smith,Bad,159.92
-2025-03-23,Charger,9.99,,North,Lisa Chen,Satisfactory,
-2024-06-16,Monster,3.99,9,South,John Smith,Exceeded Expectations,35.910000000000004
-2024-06-02,Mouse,15.99,1,Central,Lisa Chen,Under Expectations,15.99
-2025-02-13,Monitor,119.99,,Central,John Smith,Under Expectations,
-2025-02-16,,,8,Central,,Bad,
-2024-05-25,Mouse,15.99,3,West,Miguel Rodriguez,Under Expectations,47.97
-2024-08-21,Headphones,19.99,,West,Robert Johnson,Under Expectations,
-2024-07-23,Monster,3.99,8,South,John Smith,Under Expectations,31.92
-2024-11-09,Keyboard,40.0,10,South,Miguel Rodriguez,Exceeded Expectations,400.0
-2025-03-02,Monster,3.99,5,South,Jane Doh,Under Expectations,19.950000000000003
-2024-12-16,Motherboard,299.99,2,South,Robert Johnson,Under Expectations,599.98
-2025-03-09,Keyboard,40.0,8,South,Miguel Rodriguez,Bad,320.0
-2024-05-13,Monster,3.99,10,East,Robert Johnson,Exceeded Expectations,39.900000000000006
-2024-06-11,Marker,2.99,10,Central,Miguel Rodriguez,Excellent,29.900000000000002
-2025-02-04,Charger,9.99,3,West,Miguel Rodriguez,Under Expectations,29.97
-2024-10-21,RAM,129.99,5,Central,Robert Johnson,Under Expectations,649.95
-2024-11-03,GPU,1499.99,9,North,Lisa Chen,Satisfactory,13499.91
-2024-12-14,RAM,129.99,10,East,Lisa Chen,Exceeded Expectations,1299.9
-2024-11-10,Keyboard,40.0,9,East,Robert Johnson,Excellent,360.0
-2025-03-09,Charger,9.99,2,North,John Smith,Exceeded Expectations,19.98
-2025-01-27,GPU,1499.99,8,East,Jane Doh,Bad,11999.92
-2025-01-19,Marker,2.99,1,Central,Jane Doh,Bad,2.99
-2024-08-06,Mouse,15.99,3,West,Robert Johnson,Under Expectations,47.97
-2025-02-07,Monster,3.99,1,South,Jane Doh,Under Expectations,3.99
-2025-02-13,Marker,2.99,4,North,Jane Doh,Under Expectations,11.96
-2024-12-02,,,10,West,Jane Doh,Bad,
-2024-04-25,GPU,1499.99,10,West,Miguel Rodriguez,Bad,14999.9
-2024-06-08,,,7,North,John Smith,Under Expectations,
-2024-04-29,Mouse,15.99,9,West,,Under Expectations,143.91
-2024-11-06,Laptop,499.99,6,North,Lisa Chen,,2999.94
-2024-10-03,SSD,39.99,5,South,Miguel Rodriguez,Excellent,199.95000000000002
-2024-07-01,Harddrive,49.99,3,Central,,Excellent,149.97
-2025-02-14,Marker,2.99,5,Central,Jane Doh,Under Expectations,14.950000000000001
-2024-04-04,Keyboard,40.0,9,Central,Miguel Rodriguez,Exceeded Expectations,360.0
-2024-09-11,Marker,2.99,8,West,Jane Doh,Excellent,23.92
-,CPU,399.99,8,North,Lisa Chen,Excellent,3199.92
-2025-02-10,Headphones,19.99,8,North,Lisa Chen,Exceeded Expectations,159.92
-2024-07-02,Charger,9.99,7,North,Miguel Rodriguez,Exceeded Expectations,69.93
-2024-12-26,,,6,North,Robert Johnson,Excellent,
-2025-02-06,Harddrive,49.99,7,West,Lisa Chen,Exceeded Expectations,349.93
-2025-01-22,Laptop,499.99,2,West,John Smith,Satisfactory,999.98
-2024-05-14,RAM,129.99,5,East,,Satisfactory,649.95
-2024-12-23,RAM,129.99,7,West,Robert Johnson,Bad,909.9300000000001
-2024-07-02,Keyboard,40.0,4,,John Smith,Satisfactory,160.0
-2025-01-08,Laptop,499.99,7,East,Jane Doh,Under Expectations,3499.9300000000003
-2024-12-10,Keyboard,40.0,9,West,John Smith,Exceeded Expectations,360.0
-2024-11-01,,,8,North,Lisa Chen,Exceeded Expectations,
-2024-10-08,Charger,9.99,8,Central,Lisa Chen,Bad,79.92
-2024-07-02,Keyboard,40.0,4,West,Jane Doh,Exceeded Expectations,160.0
-2025-02-10,Mouse,15.99,4,West,Jane Doh,Under Expectations,63.96
-2024-04-20,SSD,39.99,1,West,John Smith,Satisfactory,39.99
-2024-11-09,Marker,2.99,8,,Miguel Rodriguez,Exceeded Expectations,23.92
-2024-11-02,Headphones,19.99,3,North,Miguel Rodriguez,Exceeded Expectations,59.97
-2024-09-23,SSD,39.99,1,East,Jane Doh,Excellent,39.99
-2025-01-26,Monster,3.99,8,North,Lisa Chen,Under Expectations,31.92
-2024-09-08,Headphones,19.99,8,East,John Smith,Excellent,159.92
-2024-06-27,SSD,39.99,3,North,Jane Doh,Exceeded Expectations,119.97
-2024-04-16,Headphones,19.99,10,East,Lisa Chen,Exceeded Expectations,199.89999999999998
-2024-04-03,Motherboard,299.99,5,North,,Satisfactory,1499.95
-2024-06-02,CPU,399.99,6,East,John Smith,Under Expectations,2399.94
-2024-06-08,Motherboard,299.99,5,East,Robert Johnson,Under Expectations,1499.95
-2025-02-19,Monster,3.99,8,West,Lisa Chen,Exceeded Expectations,31.92
-2024-08-15,GPU,1499.99,3,Central,Miguel Rodriguez,Satisfactory,4499.97
-2025-01-08,Harddrive,49.99,4,Central,Lisa Chen,Exceeded Expectations,199.96
-2024-11-17,Harddrive,49.99,8,West,Jane Doh,Under Expectations,399.92
-2024-11-20,CPU,399.99,4,Central,Robert Johnson,Exceeded Expectations,1599.96
-2024-06-05,,,3,Central,Lisa Chen,Satisfactory,
-2024-05-26,Marker,2.99,4,Central,Lisa Chen,,11.96
-2025-01-06,RAM,129.99,8,Central,Miguel Rodriguez,Exceeded Expectations,1039.92
-2024-05-28,Headphones,19.99,8,Central,Jane Doh,Satisfactory,159.92
-2024-03-26,Monitor,119.99,10,East,Miguel Rodriguez,Excellent,1199.8999999999999
-2024-08-30,GPU,1499.99,2,North,Jane Doh,,2999.98
-2025-03-06,Charger,9.99,1,North,John Smith,Exceeded Expectations,9.99
-2024-04-13,GPU,1499.99,4,West,Jane Doh,Excellent,5999.96
-2025-03-24,Marker,2.99,8,East,Miguel Rodriguez,Under Expectations,23.92
-2025-01-22,Mouse,15.99,6,North,John Smith,Bad,95.94
-2025-03-18,Monitor,119.99,4,West,Robert Johnson,Satisfactory,479.96
-2024-06-19,SSD,39.99,9,East,Lisa Chen,Exceeded Expectations,359.91
-2024-12-20,Monster,3.99,3,East,Miguel Rodriguez,,11.97
-2025-01-21,Laptop,499.99,6,West,Lisa Chen,Bad,2999.94
-2024-12-29,Charger,9.99,2,South,Miguel Rodriguez,Bad,19.98
-2024-09-18,Charger,9.99,1,East,Robert Johnson,Excellent,9.99
-2025-01-02,CPU,399.99,9,South,Lisa Chen,Excellent,3599.91
-2025-03-09,Harddrive,49.99,5,East,Miguel Rodriguez,,249.95000000000002
-2024-06-19,Monitor,119.99,7,North,John Smith,Under Expectations,839.93
-2025-03-14,SSD,39.99,1,West,Jane Doh,Satisfactory,39.99
-2024-11-28,CPU,399.99,6,,Miguel Rodriguez,Satisfactory,2399.94
-2024-10-28,Laptop,499.99,4,Central,Miguel Rodriguez,Exceeded Expectations,1999.96
-2024-09-22,CPU,399.99,8,Central,Jane Doh,Satisfactory,3199.92
-2024-04-27,Charger,9.99,4,South,Robert Johnson,Satisfactory,39.96
-2024-09-23,RAM,129.99,7,South,Jane Doh,Excellent,909.9300000000001
-2024-05-09,Monster,3.99,6,South,Lisa Chen,Excellent,23.94
-2024-08-24,SSD,39.99,8,North,Miguel Rodriguez,Exceeded Expectations,319.92
-2024-08-31,Mouse,15.99,10,Central,Robert Johnson,Exceeded Expectations,159.9
-2025-01-30,Monster,3.99,10,East,Miguel Rodriguez,Exceeded Expectations,39.900000000000006
-2025-01-02,RAM,129.99,8,East,John Smith,Bad,1039.92
-2024-12-28,Harddrive,49.99,7,North,,,349.93
-2024-03-30,Laptop,499.99,8,West,Jane Doh,Bad,3999.92
-2024-10-17,Charger,9.99,10,South,Lisa Chen,Excellent,99.9
-2024-05-19,SSD,39.99,7,North,John Smith,Excellent,279.93
-2025-02-16,SSD,39.99,1,North,Lisa Chen,Excellent,39.99
-2024-04-14,Monster,3.99,8,West,John Smith,Under Expectations,31.92
-2025-03-08,Keyboard,40.0,1,West,Jane Doh,Bad,40.0
-2024-08-03,SSD,39.99,7,West,John Smith,Excellent,279.93
-2024-04-06,Marker,2.99,7,North,Miguel Rodriguez,Excellent,20.93
-2024-11-22,Monitor,119.99,7,South,Jane Doh,Excellent,839.93
-2024-04-17,Motherboard,299.99,5,North,Lisa Chen,Under Expectations,1499.95
-2024-05-04,CPU,399.99,7,South,Jane Doh,Satisfactory,2799.9300000000003
-2024-08-26,Headphones,19.99,10,,Jane Doh,Exceeded Expectations,199.89999999999998
-2025-01-06,Monitor,119.99,9,South,John Smith,Exceeded Expectations,1079.9099999999999
-2025-03-25,Headphones,19.99,7,East,,Bad,139.92999999999998
-2024-11-28,GPU,1499.99,3,West,Robert Johnson,Satisfactory,4499.97
-2024-11-27,SSD,39.99,4,Central,Lisa Chen,Exceeded Expectations,159.96
-2025-03-09,Keyboard,40.0,3,West,Lisa Chen,Bad,120.0
-2024-09-23,Motherboard,299.99,9,West,Jane Doh,Satisfactory,2699.91
-2024-12-05,SSD,39.99,4,Central,John Smith,Excellent,159.96
-2025-02-23,Monster,3.99,9,North,Jane Doh,Exceeded Expectations,35.910000000000004
-,Charger,9.99,4,West,Miguel Rodriguez,Satisfactory,39.96
-2025-01-30,CPU,399.99,6,East,,,2399.94
-2024-08-25,RAM,129.99,3,East,John Smith,Exceeded Expectations,389.97
-2024-06-11,Monitor,119.99,7,North,Miguel Rodriguez,Under Expectations,839.93
-2024-10-30,CPU,399.99,5,North,John Smith,Excellent,1999.95
-2024-08-16,Keyboard,40.0,3,East,Miguel Rodriguez,Bad,120.0
-2024-07-30,CPU,399.99,2,West,John Smith,Bad,799.98
-2024-08-15,GPU,1499.99,,West,John Smith,Bad,
-2024-11-13,Harddrive,49.99,9,West,Jane Doh,Under Expectations,449.91
-2024-08-01,SSD,39.99,5,West,Miguel Rodriguez,Satisfactory,199.95000000000002
-2024-04-27,Laptop,499.99,2,South,Lisa Chen,Excellent,999.98
-2024-07-06,Headphones,19.99,7,East,John Smith,Bad,139.92999999999998
-2025-01-14,Monitor,119.99,1,West,Robert Johnson,Excellent,119.99
-2024-05-16,Motherboard,299.99,3,West,Robert Johnson,Exceeded Expectations,899.97
-2024-12-12,Motherboard,299.99,7,South,John Smith,Under Expectations,2099.9300000000003
-2024-06-08,,,5,North,Lisa Chen,Satisfactory,
-2025-02-02,CPU,399.99,8,East,John Smith,Excellent,3199.92
-2025-03-02,Marker,2.99,6,North,Jane Doh,Satisfactory,17.94
-2025-03-05,Harddrive,49.99,6,North,Robert Johnson,Bad,299.94
-2024-04-24,Headphones,19.99,3,North,Robert Johnson,Under Expectations,59.97
-2024-11-10,GPU,1499.99,8,Central,Robert Johnson,Exceeded Expectations,11999.92
-2025-01-01,Mouse,15.99,7,North,Lisa Chen,Under Expectations,111.93
-2024-10-28,Motherboard,299.99,4,North,Robert Johnson,Excellent,1199.96
-2024-09-25,GPU,1499.99,7,East,Miguel Rodriguez,Satisfactory,10499.93
-2025-01-19,Headphones,19.99,8,West,John Smith,,159.92
-2024-08-04,Motherboard,299.99,8,West,Jane Doh,Under Expectations,2399.92
-2024-10-25,Mouse,15.99,7,West,Robert Johnson,Bad,111.93
-,Charger,9.99,3,West,Miguel Rodriguez,Under Expectations,29.97
-2024-04-02,CPU,399.99,9,West,,Exceeded Expectations,3599.91
-2024-04-23,Monster,3.99,5,East,Robert Johnson,Bad,19.950000000000003
-2024-07-13,Charger,9.99,1,East,Lisa Chen,Under Expectations,9.99
-2024-11-20,CPU,399.99,4,East,Robert Johnson,Bad,1599.96
-2024-12-16,Laptop,499.99,1,North,John Smith,Bad,499.99
-2024-04-07,Headphones,19.99,7,West,John Smith,Satisfactory,139.92999999999998
-2024-10-31,Mouse,15.99,1,East,John Smith,Bad,15.99
-2024-05-26,Marker,2.99,10,North,Lisa Chen,Exceeded Expectations,29.900000000000002
-2024-12-06,SSD,39.99,5,East,Miguel Rodriguez,Bad,199.95000000000002
-2024-07-14,Headphones,19.99,6,West,Miguel Rodriguez,Under Expectations,119.94
-2025-03-07,Motherboard,299.99,5,East,Lisa Chen,,1499.95
-2024-11-24,Keyboard,40.0,5,Central,Lisa Chen,Excellent,200.0
-2025-02-14,Headphones,19.99,1,South,John Smith,Excellent,19.99
-2024-10-15,Laptop,499.99,3,East,John Smith,Satisfactory,1499.97
-2024-06-23,Laptop,499.99,10,North,Lisa Chen,Under Expectations,4999.9
-2024-09-08,Motherboard,299.99,7,West,Lisa Chen,Bad,2099.9300000000003
-2024-07-13,Marker,2.99,4,North,John Smith,Exceeded Expectations,11.96
-2024-11-10,Headphones,19.99,6,Central,Lisa Chen,Bad,119.94
-2024-10-15,Marker,2.99,10,South,Robert Johnson,Under Expectations,29.900000000000002
-2024-06-16,Harddrive,49.99,5,West,Lisa Chen,Exceeded Expectations,249.95000000000002
-2025-02-19,SSD,39.99,8,North,Lisa Chen,Excellent,319.92
-2024-07-19,Keyboard,40.0,5,East,Jane Doh,Satisfactory,200.0
-2024-07-23,SSD,39.99,10,East,John Smith,Under Expectations,399.90000000000003
-2024-10-13,Laptop,499.99,4,Central,Lisa Chen,Satisfactory,1999.96
-2024-10-05,Motherboard,299.99,,South,John Smith,Exceeded Expectations,
-2024-08-31,GPU,1499.99,4,West,Miguel Rodriguez,Satisfactory,5999.96
-,Monitor,119.99,1,North,Jane Doh,Bad,119.99
-2024-09-10,RAM,129.99,5,West,Jane Doh,Excellent,649.95
-2024-10-04,,,8,Central,Miguel Rodriguez,Excellent,
-2024-06-15,Mouse,15.99,1,South,Lisa Chen,Satisfactory,15.99
-2024-06-29,RAM,129.99,9,South,John Smith,Under Expectations,1169.91
-2024-04-26,Monitor,119.99,6,East,John Smith,Excellent,719.9399999999999
-2024-07-07,Headphones,19.99,7,Central,Lisa Chen,Under Expectations,139.92999999999998
-2025-01-22,Keyboard,40.0,5,North,Lisa Chen,Satisfactory,200.0
-2025-01-13,Motherboard,299.99,4,Central,Lisa Chen,Exceeded Expectations,1199.96
-2024-04-04,Monitor,119.99,10,West,Jane Doh,,1199.8999999999999
-,Laptop,499.99,4,East,Miguel Rodriguez,Bad,1999.96
-2024-09-10,GPU,1499.99,6,West,Miguel Rodriguez,Excellent,8999.94
-2024-05-05,Charger,9.99,8,West,Robert Johnson,Satisfactory,79.92
-2024-10-12,Laptop,499.99,10,North,Miguel Rodriguez,Excellent,4999.9
-2024-04-19,Charger,9.99,,East,John Smith,Satisfactory,
-2024-06-22,Charger,9.99,1,South,Robert Johnson,Under Expectations,9.99
-2025-02-27,RAM,129.99,2,North,Jane Doh,Bad,259.98
-2024-04-29,Keyboard,40.0,6,East,Robert Johnson,Excellent,240.0
-2024-06-01,RAM,129.99,10,North,Lisa Chen,Exceeded Expectations,1299.9
-2024-04-18,Mouse,15.99,1,,Robert Johnson,Excellent,15.99
-2024-07-18,Headphones,19.99,4,North,Lisa Chen,Exceeded Expectations,79.96
-2025-02-15,Keyboard,40.0,1,West,Robert Johnson,Bad,40.0
-2024-05-09,,,7,South,Robert Johnson,Bad,
-2025-03-13,Laptop,499.99,5,South,Jane Doh,Under Expectations,2499.95
-2024-04-09,Laptop,499.99,1,East,John Smith,,499.99
-2024-10-19,GPU,1499.99,8,South,Jane Doh,Exceeded Expectations,11999.92
-2024-06-05,CPU,399.99,8,Central,Lisa Chen,Exceeded Expectations,3199.92
-2025-01-18,RAM,129.99,,West,John Smith,Under Expectations,
-2024-09-02,Headphones,19.99,1,Central,Robert Johnson,Under Expectations,19.99
-2024-10-07,Monster,3.99,3,North,Jane Doh,Excellent,11.97
-2025-01-16,,,9,,Lisa Chen,,
-2024-09-30,Keyboard,40.0,3,North,Jane Doh,Exceeded Expectations,120.0
-2024-04-20,Headphones,19.99,10,West,Jane Doh,,199.89999999999998
-2024-09-06,Monster,3.99,1,North,John Smith,Exceeded Expectations,3.99
-2024-05-09,Harddrive,49.99,9,Central,Robert Johnson,Satisfactory,449.91
-2025-03-08,Charger,9.99,5,North,Miguel Rodriguez,Satisfactory,49.95
-2024-11-01,GPU,1499.99,10,South,Lisa Chen,Under Expectations,14999.9
-2024-06-02,,,6,South,Miguel Rodriguez,Excellent,
-2025-01-28,Mouse,15.99,3,East,Jane Doh,,47.97
-2025-02-13,Marker,2.99,4,South,Robert Johnson,Under Expectations,11.96
-2024-07-25,Monster,3.99,5,Central,John Smith,Under Expectations,19.950000000000003
-2025-02-08,CPU,399.99,3,West,Robert Johnson,Satisfactory,1199.97
-2024-11-24,Motherboard,299.99,5,North,John Smith,Excellent,1499.95
-2025-03-15,SSD,39.99,2,Central,Miguel Rodriguez,Bad,79.98
-2024-07-16,Headphones,19.99,8,South,Jane Doh,Satisfactory,159.92
-2024-07-28,Charger,9.99,9,West,Miguel Rodriguez,Excellent,89.91
-2024-10-15,Charger,9.99,6,Central,John Smith,Satisfactory,59.94
-2024-05-22,Harddrive,49.99,9,East,Robert Johnson,Bad,449.91
-2025-02-05,Charger,9.99,9,West,Lisa Chen,Bad,89.91
-2024-11-23,CPU,399.99,8,North,John Smith,,3199.92
-2025-03-13,Mouse,15.99,7,South,Lisa Chen,Under Expectations,111.93
-2024-08-31,Marker,2.99,3,Central,John Smith,Satisfactory,8.97
-2024-05-27,CPU,399.99,2,West,Lisa Chen,Bad,799.98
-2024-12-14,Charger,9.99,2,South,Lisa Chen,Under Expectations,19.98
-2024-11-24,Harddrive,49.99,7,South,Robert Johnson,Excellent,349.93
-2024-12-19,GPU,1499.99,6,East,Jane Doh,Exceeded Expectations,8999.94
-2024-04-26,Mouse,15.99,2,West,Jane Doh,Exceeded Expectations,31.98
-2024-06-03,Mouse,15.99,8,West,Lisa Chen,Excellent,127.92
-2025-03-18,Mouse,15.99,8,South,Lisa Chen,Bad,127.92
-2024-05-02,Charger,9.99,10,East,Robert Johnson,Exceeded Expectations,99.9
-2025-01-27,RAM,129.99,6,South,Jane Doh,Under Expectations,779.94
-2025-01-31,RAM,129.99,9,West,Robert Johnson,Under Expectations,1169.91
-2024-12-21,Mouse,15.99,9,Central,,Bad,143.91
-2025-03-24,Motherboard,299.99,9,South,Jane Doh,Exceeded Expectations,2699.91
-2024-12-07,GPU,1499.99,6,North,Lisa Chen,Excellent,8999.94
-2025-02-07,Marker,2.99,1,East,Lisa Chen,Excellent,2.99
-,Marker,2.99,1,East,John Smith,Under Expectations,2.99
-2024-06-30,Keyboard,40.0,8,West,Jane Doh,Bad,320.0
-2024-10-23,,,5,West,Miguel Rodriguez,Exceeded Expectations,
-2024-05-04,Monitor,119.99,6,North,Lisa Chen,Excellent,719.9399999999999
-2024-08-30,Charger,9.99,3,Central,Robert Johnson,Bad,29.97
-2025-03-08,RAM,129.99,7,North,John Smith,Satisfactory,909.9300000000001
-2024-06-12,Laptop,499.99,7,South,Lisa Chen,,3499.9300000000003
-2024-08-01,Monster,3.99,5,North,Jane Doh,Satisfactory,19.950000000000003
-2024-07-17,Motherboard,299.99,3,West,Jane Doh,Satisfactory,899.97
-2024-09-20,SSD,39.99,5,,Jane Doh,Under Expectations,199.95000000000002
-2024-07-29,Motherboard,299.99,4,North,Robert Johnson,Excellent,1199.96
-2024-04-16,Marker,2.99,5,South,John Smith,Exceeded Expectations,14.950000000000001
-2024-07-24,Marker,2.99,3,West,Lisa Chen,Under Expectations,8.97
-2024-09-07,Monitor,119.99,8,South,John Smith,Excellent,959.92
-2025-01-11,Harddrive,49.99,10,West,Miguel Rodriguez,Excellent,499.90000000000003
-2025-03-10,Motherboard,299.99,1,South,Robert Johnson,Exceeded Expectations,299.99
-2025-03-06,Laptop,499.99,10,Central,Lisa Chen,Exceeded Expectations,4999.9
-2024-11-18,Motherboard,299.99,5,South,Lisa Chen,Under Expectations,1499.95
-2024-05-28,Laptop,499.99,6,Central,Miguel Rodriguez,Under Expectations,2999.94
-2024-11-08,Keyboard,40.0,3,West,Miguel Rodriguez,Excellent,120.0
-2024-09-07,Monitor,119.99,1,Central,,Satisfactory,119.99
-2024-04-07,,,5,South,Jane Doh,Bad,
-2024-10-23,Charger,9.99,4,Central,John Smith,Exceeded Expectations,39.96
-2024-06-10,RAM,129.99,4,West,Jane Doh,Satisfactory,519.96
-2024-05-19,Monitor,119.99,3,North,John Smith,Excellent,359.96999999999997
-2024-04-21,Monitor,119.99,7,West,Miguel Rodriguez,Exceeded Expectations,839.93
-2024-12-20,Keyboard,40.0,1,Central,Lisa Chen,Excellent,40.0
-2024-04-23,CPU,399.99,3,West,Miguel Rodriguez,Exceeded Expectations,1199.97
-2024-11-07,Laptop,499.99,5,Central,Lisa Chen,Excellent,2499.95
-2024-05-22,GPU,1499.99,5,Central,Miguel Rodriguez,Under Expectations,7499.95
-2025-01-20,,,2,Central,Robert Johnson,Excellent,
-2024-10-22,Monster,3.99,,Central,Miguel Rodriguez,Bad,
-2024-11-21,SSD,39.99,7,West,Lisa Chen,Satisfactory,279.93
-2024-10-09,Marker,2.99,9,Central,Miguel Rodriguez,Exceeded Expectations,26.910000000000004
-2024-08-04,CPU,399.99,2,South,Miguel Rodriguez,Excellent,799.98
-2024-06-17,Harddrive,49.99,5,South,Robert Johnson,Excellent,249.95000000000002
-2025-02-10,Charger,9.99,,North,Jane Doh,Satisfactory,
-2024-08-18,Mouse,15.99,9,West,John Smith,Under Expectations,143.91
-2024-04-10,Laptop,499.99,3,Central,Robert Johnson,,1499.97
-2024-09-09,Monitor,119.99,6,Central,Robert Johnson,Under Expectations,719.9399999999999
-2024-09-12,Laptop,499.99,10,South,Jane Doh,Satisfactory,4999.9
-2024-09-09,Harddrive,49.99,6,Central,Miguel Rodriguez,Bad,299.94
-2025-03-18,Marker,2.99,5,East,,Bad,14.950000000000001
-2024-04-18,Monitor,119.99,8,South,Robert Johnson,Excellent,959.92
-2024-05-16,SSD,39.99,3,South,Jane Doh,Satisfactory,119.97
-2024-09-01,Keyboard,40.0,1,South,John Smith,Excellent,40.0
-2025-03-10,GPU,1499.99,4,West,Jane Doh,Bad,5999.96
-2024-10-07,Keyboard,40.0,10,West,Jane Doh,Bad,400.0
-2025-02-11,,,9,North,Lisa Chen,Satisfactory,
-2024-10-05,Laptop,499.99,4,South,Jane Doh,,1999.96
-2025-03-10,RAM,129.99,7,West,Lisa Chen,Satisfactory,909.9300000000001
-2024-12-13,Mouse,15.99,10,South,Jane Doh,Excellent,159.9
-2024-09-18,Harddrive,49.99,10,Central,Jane Doh,Satisfactory,499.90000000000003
-2024-06-01,Monster,3.99,4,Central,Lisa Chen,Under Expectations,15.96
-2024-08-08,Monster,3.99,3,Central,Jane Doh,Excellent,11.97
-2024-08-23,CPU,399.99,10,Central,Miguel Rodriguez,Exceeded Expectations,3999.9
-2025-01-21,Motherboard,299.99,9,West,John Smith,Exceeded Expectations,2699.91
-2024-05-15,Monitor,119.99,3,North,Lisa Chen,Bad,359.96999999999997
-2024-07-03,Headphones,19.99,7,,Miguel Rodriguez,,139.92999999999998
-2025-02-13,Charger,9.99,3,West,Lisa Chen,Under Expectations,29.97
-2024-06-18,Marker,2.99,6,East,Miguel Rodriguez,Exceeded Expectations,17.94
-2024-07-25,Monster,3.99,9,Central,Jane Doh,Exceeded Expectations,35.910000000000004
-2024-08-10,Harddrive,49.99,4,South,Miguel Rodriguez,Bad,199.96
-2025-02-09,Headphones,19.99,5,East,John Smith,,99.94999999999999
-2025-02-02,CPU,399.99,5,Central,Miguel Rodriguez,Bad,1999.95
-2024-09-19,Laptop,499.99,3,South,Miguel Rodriguez,Satisfactory,1499.97
-2024-05-04,Motherboard,299.99,1,West,Lisa Chen,Under Expectations,299.99
-2024-04-05,Keyboard,40.0,1,East,Lisa Chen,Exceeded Expectations,40.0
-,Mouse,15.99,1,West,Miguel Rodriguez,,15.99
-2024-05-16,Monster,3.99,8,West,Miguel Rodriguez,Exceeded Expectations,31.92
-2024-05-23,SSD,39.99,2,Central,Lisa Chen,,79.98
-2024-09-06,Laptop,499.99,4,Central,Miguel Rodriguez,,1999.96
-2024-08-15,RAM,129.99,2,Central,Lisa Chen,Excellent,259.98
-2024-04-24,Monitor,119.99,7,East,John Smith,Satisfactory,839.93
-2025-03-07,Headphones,19.99,4,North,Lisa Chen,Bad,79.96
-2024-04-03,Keyboard,40.0,9,North,John Smith,Under Expectations,360.0
-2024-08-16,SSD,39.99,8,Central,John Smith,Satisfactory,319.92
-2024-08-03,Laptop,499.99,10,North,Lisa Chen,Exceeded Expectations,4999.9
-2025-01-04,Motherboard,299.99,7,North,Jane Doh,Exceeded Expectations,2099.9300000000003
-2024-05-07,Mouse,15.99,9,South,Jane Doh,Excellent,143.91
-2025-02-28,Laptop,499.99,10,,Jane Doh,Excellent,4999.9
-2024-05-30,Motherboard,299.99,5,,John Smith,Satisfactory,1499.95
-2024-11-26,Monster,3.99,7,South,Miguel Rodriguez,Exceeded Expectations,27.93
-2024-07-21,Marker,2.99,8,South,Lisa Chen,Excellent,23.92
-2024-11-05,RAM,129.99,9,South,John Smith,,1169.91
-2024-10-19,Motherboard,299.99,2,South,Jane Doh,Satisfactory,599.98
-2024-08-10,Marker,2.99,9,East,Miguel Rodriguez,Excellent,26.910000000000004
-2025-02-05,CPU,399.99,5,Central,Miguel Rodriguez,Bad,1999.95
-2024-05-01,Motherboard,299.99,10,South,Miguel Rodriguez,,2999.9
-2024-04-03,Harddrive,49.99,5,North,Jane Doh,Excellent,249.95000000000002
-2024-11-05,Harddrive,49.99,3,South,Robert Johnson,Bad,149.97
-2024-10-31,Motherboard,299.99,3,East,John Smith,Exceeded Expectations,899.97
-2024-11-08,SSD,39.99,4,Central,Lisa Chen,Satisfactory,159.96
-2024-04-23,Headphones,19.99,6,East,Lisa Chen,Excellent,119.94
-2024-11-05,Motherboard,299.99,2,Central,John Smith,,599.98
-2024-05-20,RAM,129.99,5,Central,Lisa Chen,Bad,649.95
-2024-04-25,Charger,9.99,2,North,Miguel Rodriguez,Exceeded Expectations,19.98
-2024-04-23,RAM,129.99,7,Central,John Smith,Under Expectations,909.9300000000001
-2024-09-15,Headphones,19.99,8,North,Robert Johnson,Bad,159.92
-2024-05-13,Harddrive,49.99,10,Central,Jane Doh,Excellent,499.90000000000003
-2025-01-29,Headphones,19.99,1,South,Lisa Chen,Excellent,19.99
-2024-04-08,Monitor,119.99,8,South,Robert Johnson,Bad,959.92
-2024-05-08,Laptop,499.99,2,West,John Smith,Exceeded Expectations,999.98
-2024-11-02,Laptop,499.99,1,Central,Robert Johnson,Under Expectations,499.99
-2024-10-07,SSD,39.99,7,Central,John Smith,Under Expectations,279.93
-2024-12-31,,,2,North,John Smith,Satisfactory,
-2025-03-03,CPU,399.99,,West,Lisa Chen,Excellent,
-2024-05-29,Mouse,15.99,6,West,Jane Doh,Exceeded Expectations,95.94
-2024-11-18,Harddrive,49.99,10,North,Miguel Rodriguez,Exceeded Expectations,499.90000000000003
-2024-07-21,Motherboard,299.99,4,East,Lisa Chen,Satisfactory,1199.96
-2024-08-16,Headphones,19.99,9,Central,Lisa Chen,Excellent,179.91
-2025-02-01,Laptop,499.99,4,Central,Lisa Chen,Exceeded Expectations,1999.96
-2024-09-18,Laptop,499.99,1,Central,Robert Johnson,Under Expectations,499.99
-2024-04-12,Keyboard,40.0,3,North,Jane Doh,Exceeded Expectations,120.0
-2024-12-20,Harddrive,49.99,2,West,Miguel Rodriguez,Under Expectations,99.98
-2024-07-08,RAM,129.99,2,East,John Smith,Under Expectations,259.98
-2024-09-09,Charger,9.99,10,East,Jane Doh,Satisfactory,99.9
-2024-08-30,Laptop,499.99,3,South,Jane Doh,Bad,1499.97
-2024-10-11,Laptop,499.99,5,South,Robert Johnson,Excellent,2499.95
-2025-01-24,Headphones,19.99,,South,Robert Johnson,Satisfactory,
-2025-02-15,Harddrive,49.99,10,West,John Smith,Under Expectations,499.90000000000003
-2025-01-26,GPU,1499.99,8,East,Robert Johnson,Exceeded Expectations,11999.92
-2024-08-31,,,2,South,Jane Doh,Satisfactory,
-2024-11-13,Marker,2.99,4,East,Lisa Chen,Satisfactory,11.96
-2024-04-08,SSD,39.99,8,Central,Robert Johnson,Bad,319.92
-2024-04-01,Monster,3.99,7,West,Miguel Rodriguez,Under Expectations,27.93
-2024-05-07,Headphones,19.99,3,West,Miguel Rodriguez,Excellent,59.97
-2024-08-24,Charger,9.99,9,South,Robert Johnson,Bad,89.91
-2024-12-04,CPU,399.99,10,Central,Miguel Rodriguez,Exceeded Expectations,3999.9
-2024-09-14,Charger,9.99,1,Central,Robert Johnson,Exceeded Expectations,9.99
-2024-11-12,,,4,North,John Smith,Satisfactory,
-2025-03-12,GPU,1499.99,5,South,Lisa Chen,Satisfactory,7499.95
-2024-10-08,Motherboard,299.99,8,North,John Smith,Bad,2399.92
-2024-06-09,Charger,9.99,3,East,Jane Doh,Bad,29.97
-2024-07-17,Harddrive,49.99,5,North,Miguel Rodriguez,Under Expectations,249.95000000000002
-2024-07-02,RAM,129.99,2,Central,Jane Doh,Bad,259.98
-2024-06-14,GPU,1499.99,7,South,Miguel Rodriguez,Excellent,10499.93
-2024-12-05,Monster,3.99,5,North,Miguel Rodriguez,Excellent,19.950000000000003
-2024-11-13,RAM,129.99,10,South,Miguel Rodriguez,Satisfactory,1299.9
-2024-11-27,Headphones,19.99,5,East,Lisa Chen,,99.94999999999999
-2024-09-07,Keyboard,40.0,6,Central,John Smith,Bad,240.0
-2025-03-11,Charger,9.99,7,South,John Smith,Bad,69.93
-2024-12-16,SSD,39.99,9,,Jane Doh,Excellent,359.91
-2024-11-14,Headphones,19.99,6,South,Lisa Chen,Exceeded Expectations,119.94
-2024-10-23,Marker,2.99,1,South,Jane Doh,Satisfactory,2.99
-2024-09-06,CPU,399.99,5,Central,Robert Johnson,Satisfactory,1999.95
-2024-04-19,Mouse,15.99,,East,Robert Johnson,Satisfactory,
-2024-05-03,Monitor,119.99,5,South,Jane Doh,Under Expectations,599.9499999999999
-2024-07-24,CPU,399.99,7,West,Robert Johnson,Excellent,2799.9300000000003
-2024-06-18,Monster,3.99,7,West,Jane Doh,Excellent,27.93
-2024-09-25,Marker,2.99,3,South,Lisa Chen,Exceeded Expectations,8.97
-2024-10-13,Keyboard,40.0,6,South,Lisa Chen,Under Expectations,240.0
-2024-03-30,Laptop,499.99,7,East,Lisa Chen,Exceeded Expectations,3499.9300000000003
-2024-07-16,Monitor,119.99,4,West,Lisa Chen,Under Expectations,479.96
-2024-09-03,Marker,2.99,6,South,Jane Doh,Bad,17.94
-2024-07-20,Charger,9.99,7,Central,John Smith,Satisfactory,69.93
-2024-05-24,CPU,399.99,1,West,John Smith,Excellent,399.99
-2024-11-10,Charger,9.99,9,Central,John Smith,Excellent,89.91
-2024-12-26,Keyboard,40.0,4,North,John Smith,Excellent,160.0
-2024-09-16,SSD,39.99,1,East,Miguel Rodriguez,Excellent,39.99
-2025-02-22,RAM,129.99,4,East,John Smith,Satisfactory,519.96
-2024-08-04,RAM,129.99,8,North,Robert Johnson,Under Expectations,1039.92
-2024-09-28,SSD,39.99,4,Central,Jane Doh,,159.96
-2025-03-17,Headphones,19.99,3,North,Robert Johnson,Bad,59.97
-2024-09-19,Mouse,15.99,9,South,Robert Johnson,Bad,143.91
-2024-04-15,Harddrive,49.99,5,North,John Smith,Exceeded Expectations,249.95000000000002
-2024-11-22,Headphones,19.99,,Central,Lisa Chen,Satisfactory,
-2024-06-03,Marker,2.99,5,,Jane Doh,Satisfactory,14.950000000000001
-2024-04-13,,,9,Central,Robert Johnson,Exceeded Expectations,
-2024-12-06,Harddrive,49.99,4,East,John Smith,Satisfactory,199.96
-2025-01-25,SSD,39.99,10,East,John Smith,,399.90000000000003
-2025-02-09,Harddrive,49.99,5,North,Lisa Chen,Under Expectations,249.95000000000002
-2024-11-03,Charger,9.99,1,North,John Smith,Satisfactory,9.99
-2025-01-21,Marker,2.99,3,West,Jane Doh,Under Expectations,8.97
-2024-07-23,Monitor,119.99,,West,Miguel Rodriguez,Excellent,
-2024-11-30,Keyboard,40.0,4,South,Jane Doh,Exceeded Expectations,160.0
-2025-02-06,,,8,,Miguel Rodriguez,Satisfactory,
-2024-08-17,Headphones,19.99,10,North,Robert Johnson,Excellent,199.89999999999998
-2024-04-19,Harddrive,49.99,5,East,John Smith,Under Expectations,249.95000000000002
-2024-08-05,Monitor,119.99,10,North,Jane Doh,Excellent,1199.8999999999999
-2024-07-25,Keyboard,40.0,7,West,Jane Doh,Excellent,280.0
-2025-01-11,GPU,1499.99,10,West,Jane Doh,Exceeded Expectations,14999.9
-2024-11-18,SSD,39.99,10,North,Miguel Rodriguez,Under Expectations,399.90000000000003
-2024-03-29,Mouse,15.99,10,,Jane Doh,Under Expectations,159.9
-2024-09-04,Headphones,19.99,3,West,Lisa Chen,Satisfactory,59.97
-2024-07-15,GPU,1499.99,9,North,Miguel Rodriguez,Bad,13499.91
-2024-07-29,Marker,2.99,9,South,John Smith,Satisfactory,26.910000000000004
-,,,5,Central,Robert Johnson,Bad,
-2025-01-29,Marker,2.99,8,,Robert Johnson,Satisfactory,23.92
-2024-05-15,Headphones,19.99,8,Central,Lisa Chen,Bad,159.92
-2024-12-17,Motherboard,299.99,4,South,,Exceeded Expectations,1199.96
-2024-09-09,Keyboard,40.0,3,North,Jane Doh,Bad,120.0
-2024-06-12,Keyboard,40.0,6,South,Robert Johnson,Satisfactory,240.0
-2024-05-17,Marker,2.99,2,Central,Lisa Chen,Under Expectations,5.98
-2025-02-02,CPU,399.99,3,North,Lisa Chen,Exceeded Expectations,1199.97
-2025-02-06,SSD,39.99,1,Central,Robert Johnson,Under Expectations,39.99
-2024-09-16,Mouse,15.99,2,East,Lisa Chen,Satisfactory,31.98
-2024-08-01,Harddrive,49.99,5,West,Jane Doh,Excellent,249.95000000000002
-2024-11-29,Charger,9.99,9,South,Robert Johnson,Satisfactory,89.91
-2024-06-27,SSD,39.99,,East,Jane Doh,Excellent,
-2024-07-27,GPU,1499.99,1,North,Jane Doh,Bad,1499.99
-2024-07-16,GPU,1499.99,8,Central,Miguel Rodriguez,Satisfactory,11999.92
-2025-01-03,Marker,2.99,5,Central,Robert Johnson,,14.950000000000001
-2025-03-07,Harddrive,49.99,9,South,Jane Doh,Under Expectations,449.91
-2024-12-05,GPU,1499.99,8,East,,Exceeded Expectations,11999.92
-2024-06-30,Charger,9.99,4,North,Lisa Chen,Bad,39.96
-2025-01-29,Laptop,499.99,6,Central,Jane Doh,Exceeded Expectations,2999.94
-2024-10-19,SSD,39.99,1,South,Lisa Chen,Under Expectations,39.99
-2024-08-17,Charger,9.99,10,South,John Smith,Satisfactory,99.9
-2024-09-14,Keyboard,40.0,5,North,Robert Johnson,Excellent,200.0
-2025-03-08,Mouse,15.99,4,North,Lisa Chen,,63.96
-2024-04-04,SSD,39.99,10,East,John Smith,Satisfactory,399.90000000000003
-2024-05-30,RAM,129.99,2,North,,Excellent,259.98
-2024-04-30,Charger,9.99,1,North,Robert Johnson,Satisfactory,9.99
-2024-11-18,,,3,East,,Under Expectations,
-2025-01-24,Mouse,15.99,1,Central,John Smith,Under Expectations,15.99
-2025-02-02,SSD,39.99,4,South,Jane Doh,Exceeded Expectations,159.96
-2024-07-22,GPU,1499.99,,South,Robert Johnson,Exceeded Expectations,
-2024-12-14,Keyboard,40.0,9,Central,Miguel Rodriguez,Exceeded Expectations,360.0
-2025-01-09,Marker,2.99,1,Central,Miguel Rodriguez,Bad,2.99
-2025-02-16,Monster,3.99,,East,Lisa Chen,Bad,
-2024-11-12,Motherboard,299.99,6,Central,Miguel Rodriguez,Exceeded Expectations,1799.94
-2024-04-12,RAM,129.99,3,South,Robert Johnson,Satisfactory,389.97
-,GPU,1499.99,4,North,Miguel Rodriguez,Exceeded Expectations,5999.96
-2024-11-18,Charger,9.99,6,South,Miguel Rodriguez,Satisfactory,59.94
-2025-01-04,Charger,9.99,4,East,Lisa Chen,Satisfactory,39.96
-,GPU,1499.99,3,North,John Smith,Under Expectations,4499.97
-2025-02-15,CPU,399.99,10,South,Miguel Rodriguez,Bad,3999.9
-2025-01-31,Motherboard,299.99,1,Central,Lisa Chen,Under Expectations,299.99
-,Keyboard,40.0,6,East,Jane Doh,Under Expectations,240.0
-2024-11-24,Motherboard,299.99,5,West,Robert Johnson,Under Expectations,1499.95
-2024-12-01,Marker,2.99,8,North,Jane Doh,Under Expectations,23.92
-2024-06-20,Mouse,15.99,7,North,Miguel Rodriguez,Satisfactory,111.93
-2024-06-13,SSD,39.99,7,East,John Smith,Satisfactory,279.93
-2024-05-15,Headphones,19.99,5,Central,Jane Doh,Bad,99.94999999999999
-2024-10-08,Laptop,499.99,2,North,Lisa Chen,Excellent,999.98
-2024-04-22,Marker,2.99,9,East,Lisa Chen,Under Expectations,26.910000000000004
-2024-07-15,Motherboard,299.99,7,East,John Smith,Excellent,2099.9300000000003
-2024-10-23,GPU,1499.99,1,East,John Smith,Bad,1499.99
-2025-03-08,Marker,2.99,7,North,Jane Doh,Bad,20.93
-2024-09-19,Marker,2.99,3,Central,Lisa Chen,Satisfactory,8.97
-2024-05-08,Harddrive,49.99,7,Central,Lisa Chen,Exceeded Expectations,349.93
-2024-06-02,CPU,399.99,5,West,Lisa Chen,Under Expectations,1999.95
-2025-03-16,Harddrive,49.99,2,East,John Smith,Under Expectations,99.98
-2025-02-12,Monster,3.99,10,East,John Smith,Bad,39.900000000000006
-2024-12-05,Laptop,499.99,7,Central,John Smith,Satisfactory,3499.9300000000003
-2025-01-16,GPU,1499.99,4,Central,John Smith,Excellent,5999.96
-2024-10-27,Motherboard,299.99,5,,Robert Johnson,Excellent,1499.95
-2025-02-22,Headphones,19.99,8,North,John Smith,Under Expectations,159.92
-2024-09-28,GPU,1499.99,9,East,Robert Johnson,Excellent,13499.91
-2025-01-22,Monster,3.99,1,South,,Exceeded Expectations,3.99
-2024-06-27,,,8,East,Miguel Rodriguez,Bad,
-2024-04-01,Laptop,499.99,9,Central,Miguel Rodriguez,Satisfactory,4499.91
-2024-12-14,Motherboard,299.99,5,East,Robert Johnson,Exceeded Expectations,1499.95
-2024-05-22,Mouse,15.99,5,West,Robert Johnson,Exceeded Expectations,79.95
-2025-01-28,Mouse,15.99,4,Central,Jane Doh,Bad,63.96
-2024-06-07,Laptop,499.99,9,West,Miguel Rodriguez,Excellent,4499.91
-2024-06-03,Charger,9.99,10,South,Jane Doh,Satisfactory,99.9
-2024-10-12,Harddrive,49.99,4,East,Miguel Rodriguez,Bad,199.96
-2025-01-19,Motherboard,299.99,2,Central,Robert Johnson,Excellent,599.98
-2024-04-02,SSD,39.99,6,Central,Jane Doh,,239.94
-2024-06-16,GPU,1499.99,5,West,Jane Doh,Satisfactory,7499.95
-2024-08-16,RAM,129.99,8,North,Robert Johnson,Excellent,1039.92
-2024-10-27,Monitor,119.99,6,East,John Smith,Excellent,719.9399999999999
-2025-03-01,GPU,1499.99,10,Central,Jane Doh,,14999.9
-2025-02-02,Keyboard,40.0,4,Central,Jane Doh,Bad,160.0
-2024-05-02,RAM,129.99,8,North,Miguel Rodriguez,Exceeded Expectations,1039.92
-2025-02-06,GPU,1499.99,4,South,Jane Doh,Excellent,5999.96
-2024-09-04,CPU,399.99,,North,John Smith,Bad,
-2024-07-26,Harddrive,49.99,10,South,Jane Doh,Exceeded Expectations,499.90000000000003
-2024-10-31,Monster,3.99,6,West,Lisa Chen,Satisfactory,23.94
-2024-09-13,Keyboard,40.0,2,Central,Robert Johnson,Under Expectations,80.0
-2024-03-26,Charger,9.99,4,West,Robert Johnson,Excellent,39.96
-2024-05-25,CPU,399.99,3,West,Jane Doh,Excellent,1199.97
-2024-08-04,RAM,129.99,6,Central,Jane Doh,Satisfactory,779.94
-2024-10-07,Harddrive,49.99,5,Central,Miguel Rodriguez,,249.95000000000002
-2024-08-15,Mouse,15.99,6,East,Jane Doh,Under Expectations,95.94
-2024-04-24,Laptop,499.99,6,South,Jane Doh,Under Expectations,2999.94
-2024-07-02,Charger,9.99,6,West,Robert Johnson,Under Expectations,59.94
-2024-08-17,RAM,129.99,6,South,Robert Johnson,Bad,779.94
-2024-11-19,GPU,1499.99,1,Central,Jane Doh,Excellent,1499.99
-2024-12-30,Monster,3.99,2,North,Jane Doh,Exceeded Expectations,7.98
-2024-10-15,Laptop,499.99,,East,John Smith,Satisfactory,
-2024-09-30,Harddrive,49.99,4,East,John Smith,Under Expectations,199.96
-2024-07-07,SSD,39.99,1,South,Robert Johnson,Satisfactory,39.99
-2024-10-23,SSD,39.99,6,North,Miguel Rodriguez,Under Expectations,239.94
-2024-05-30,Headphones,19.99,6,South,Jane Doh,Excellent,119.94
-2024-04-26,CPU,399.99,2,Central,Miguel Rodriguez,Satisfactory,799.98
-2024-05-15,Keyboard,40.0,2,North,Miguel Rodriguez,Under Expectations,80.0
-2025-01-09,Keyboard,40.0,7,North,Robert Johnson,,280.0
-2025-02-04,Motherboard,299.99,10,East,Robert Johnson,Bad,2999.9
-2024-09-12,Keyboard,40.0,2,North,Robert Johnson,Bad,80.0
-2025-03-04,Harddrive,49.99,1,Central,Robert Johnson,Bad,49.99
-2024-04-11,SSD,39.99,9,East,Miguel Rodriguez,Under Expectations,359.91
-2024-10-02,Monster,3.99,3,East,Jane Doh,Under Expectations,11.97
-2025-02-20,CPU,399.99,4,North,Lisa Chen,Under Expectations,1599.96
-2025-03-25,Harddrive,49.99,2,West,Jane Doh,Excellent,99.98
-2025-01-07,Monster,3.99,10,Central,John Smith,Satisfactory,39.900000000000006
-2024-10-12,Harddrive,49.99,9,East,Lisa Chen,Exceeded Expectations,449.91
-2024-09-15,SSD,39.99,9,Central,Robert Johnson,Excellent,359.91
-2024-06-27,Harddrive,49.99,8,West,Jane Doh,Bad,399.92
-2024-11-30,Marker,2.99,9,West,John Smith,Satisfactory,26.910000000000004
-2024-04-16,Headphones,19.99,10,East,Robert Johnson,Excellent,199.89999999999998
-,Laptop,499.99,8,North,Miguel Rodriguez,Bad,3999.92
-2024-04-08,Monitor,119.99,4,Central,Lisa Chen,Excellent,479.96
-2024-10-20,Harddrive,49.99,1,North,Robert Johnson,Satisfactory,49.99
-,SSD,39.99,9,North,Lisa Chen,Bad,359.91
-2024-11-15,Harddrive,49.99,2,South,John Smith,Bad,99.98
-2024-06-10,RAM,129.99,9,East,,Bad,1169.91
-2024-03-29,Charger,9.99,6,North,Jane Doh,Exceeded Expectations,59.94
-2024-12-04,SSD,39.99,8,West,Robert Johnson,Exceeded Expectations,319.92
-2024-10-01,Headphones,19.99,9,Central,John Smith,Under Expectations,179.91
-2024-04-10,Monster,3.99,1,North,Lisa Chen,,3.99
-2024-08-10,Harddrive,49.99,5,Central,Miguel Rodriguez,Exceeded Expectations,249.95000000000002
-2024-04-25,Keyboard,40.0,1,North,Robert Johnson,Excellent,40.0
-2024-06-14,Monitor,119.99,6,South,Miguel Rodriguez,Satisfactory,719.9399999999999
-2024-06-16,Marker,2.99,3,South,John Smith,Excellent,8.97
-2024-05-30,Keyboard,40.0,7,Central,Miguel Rodriguez,Satisfactory,280.0
-2024-06-05,Keyboard,40.0,3,South,John Smith,Bad,120.0
-2024-04-10,,,1,North,John Smith,Exceeded Expectations,
-2024-07-07,Charger,9.99,9,Central,,Exceeded Expectations,89.91
-2024-12-10,RAM,129.99,1,West,John Smith,Bad,129.99
-2024-04-06,Marker,2.99,1,East,Robert Johnson,Under Expectations,2.99
-2024-05-12,GPU,1499.99,10,South,Lisa Chen,Under Expectations,14999.9
-2024-10-04,Monster,3.99,4,North,Jane Doh,Bad,15.96
-2024-09-25,Laptop,499.99,9,,Jane Doh,Excellent,4499.91
-2024-09-17,Headphones,19.99,7,West,John Smith,Excellent,139.92999999999998
-2025-02-20,Marker,2.99,6,Central,Robert Johnson,Exceeded Expectations,17.94
-2024-12-24,Laptop,499.99,6,Central,Lisa Chen,Satisfactory,2999.94
-2024-07-03,Monitor,119.99,9,North,Jane Doh,Satisfactory,1079.9099999999999
-2025-03-17,Marker,2.99,2,North,Lisa Chen,Under Expectations,5.98
-2025-01-17,Monitor,119.99,4,North,Miguel Rodriguez,Under Expectations,479.96
-2024-10-24,GPU,1499.99,1,West,John Smith,Excellent,1499.99
-2025-02-15,Headphones,19.99,8,North,Robert Johnson,Satisfactory,159.92
-2024-05-23,SSD,39.99,8,North,Miguel Rodriguez,Bad,319.92
-2024-07-23,Headphones,19.99,4,South,Miguel Rodriguez,Under Expectations,79.96
-2025-03-21,CPU,399.99,9,East,Lisa Chen,Exceeded Expectations,3599.91
-2024-11-24,SSD,39.99,10,North,Robert Johnson,Bad,399.90000000000003
-2024-08-12,Monitor,119.99,9,Central,Lisa Chen,Satisfactory,1079.9099999999999
-2025-03-25,Monitor,119.99,8,East,Robert Johnson,Exceeded Expectations,959.92
-2024-12-04,Marker,2.99,8,North,,,23.92
-2024-08-22,Marker,2.99,3,South,Miguel Rodriguez,Under Expectations,8.97
-2024-11-21,Laptop,499.99,10,East,Robert Johnson,Excellent,4999.9
-2024-11-13,Laptop,499.99,1,East,John Smith,Bad,499.99
-2024-09-13,GPU,1499.99,3,Central,Miguel Rodriguez,Exceeded Expectations,4499.97
-2024-10-13,Motherboard,299.99,2,North,Jane Doh,Bad,599.98
-2025-02-06,SSD,39.99,9,Central,Jane Doh,Exceeded Expectations,359.91
-2024-07-25,Mouse,15.99,2,West,John Smith,Under Expectations,31.98
-2024-10-20,Monster,3.99,2,South,John Smith,Bad,7.98
-2024-08-29,Keyboard,40.0,4,West,Robert Johnson,Under Expectations,160.0
-2024-04-21,SSD,39.99,8,West,Lisa Chen,Bad,319.92
-2025-02-05,Harddrive,49.99,3,Central,Robert Johnson,Excellent,149.97
-2024-11-15,Monitor,119.99,2,Central,Robert Johnson,Exceeded Expectations,239.98
-2025-02-17,Keyboard,40.0,7,Central,Lisa Chen,Excellent,280.0
-2024-05-06,Headphones,19.99,5,West,Robert Johnson,Bad,99.94999999999999
-2024-04-25,SSD,39.99,,Central,Miguel Rodriguez,Exceeded Expectations,
-2024-12-16,Monitor,119.99,,North,Jane Doh,Under Expectations,
-2025-01-27,Mouse,15.99,4,East,John Smith,Under Expectations,63.96
-2024-10-25,Monitor,119.99,1,North,Jane Doh,Satisfactory,119.99
-2025-02-09,Mouse,15.99,4,,,Under Expectations,63.96
-2024-10-12,SSD,39.99,7,Central,John Smith,,279.93
-2024-08-03,Motherboard,299.99,8,South,Lisa Chen,Bad,2399.92
-2024-10-05,Mouse,15.99,6,East,Miguel Rodriguez,Excellent,95.94
-2024-11-12,Motherboard,299.99,1,South,Jane Doh,Under Expectations,299.99
-2024-12-05,Monitor,119.99,4,South,John Smith,Under Expectations,479.96
-2024-06-13,GPU,1499.99,5,South,Lisa Chen,,7499.95
-2025-02-22,,,5,North,Robert Johnson,Exceeded Expectations,
-2024-12-16,GPU,1499.99,9,Central,John Smith,Exceeded Expectations,13499.91
-2025-03-01,Keyboard,40.0,8,East,Robert Johnson,Excellent,320.0
-2024-06-08,Laptop,499.99,10,West,Robert Johnson,Bad,4999.9
-2024-11-09,Harddrive,49.99,2,North,Robert Johnson,Under Expectations,99.98
-2024-08-20,Marker,2.99,8,West,Miguel Rodriguez,Under Expectations,23.92
-2024-07-07,Harddrive,49.99,6,East,Miguel Rodriguez,Excellent,299.94
-2024-04-30,Monitor,119.99,9,North,Robert Johnson,Excellent,1079.9099999999999
-2024-11-24,Keyboard,40.0,10,South,John Smith,Bad,400.0
-2024-12-28,Laptop,499.99,9,Central,John Smith,,4499.91
-2024-04-25,GPU,1499.99,8,West,Lisa Chen,Bad,11999.92
-2024-08-19,,,3,East,Miguel Rodriguez,Exceeded Expectations,
-2024-11-27,Mouse,15.99,10,Central,John Smith,Under Expectations,159.9
-2024-11-01,Marker,2.99,5,West,John Smith,Satisfactory,14.950000000000001
-2024-05-12,Charger,9.99,10,Central,Robert Johnson,Excellent,99.9
-2025-03-18,Monitor,119.99,10,East,Jane Doh,Excellent,1199.8999999999999
-2024-06-23,Mouse,15.99,10,South,Lisa Chen,Exceeded Expectations,159.9
-2024-07-06,Charger,9.99,6,South,Lisa Chen,Satisfactory,59.94
-2024-08-20,Monitor,119.99,2,West,Lisa Chen,Bad,239.98
-2025-01-15,SSD,39.99,5,East,Lisa Chen,,199.95000000000002
-2024-04-23,Headphones,19.99,8,South,Jane Doh,Satisfactory,159.92
-2024-08-06,,,,,Robert Johnson,Under Expectations,
-2024-04-25,GPU,1499.99,10,East,Jane Doh,,14999.9
-2024-08-24,SSD,39.99,7,Central,Jane Doh,Under Expectations,279.93
-2025-01-10,GPU,1499.99,8,West,Lisa Chen,Satisfactory,11999.92
-2024-04-17,SSD,39.99,9,Central,Robert Johnson,Satisfactory,359.91
-2024-12-08,RAM,129.99,9,South,Robert Johnson,Exceeded Expectations,1169.91
-2024-11-25,GPU,1499.99,5,South,Jane Doh,Exceeded Expectations,7499.95
-2024-12-09,CPU,399.99,,Central,Lisa Chen,Bad,
-2024-09-07,Marker,2.99,7,East,Jane Doh,Exceeded Expectations,20.93
-2025-02-25,Motherboard,299.99,8,North,John Smith,Under Expectations,2399.92
-2024-04-27,Keyboard,40.0,5,North,John Smith,Satisfactory,200.0
-2025-03-09,Laptop,499.99,5,West,,Bad,2499.95
-2024-07-06,SSD,39.99,10,West,Jane Doh,Excellent,399.90000000000003
-2024-03-30,Charger,9.99,1,West,Robert Johnson,Exceeded Expectations,9.99
-2025-01-26,CPU,399.99,3,East,Jane Doh,Bad,1199.97
-2025-01-26,GPU,1499.99,1,West,John Smith,Satisfactory,1499.99
-2024-05-18,Monitor,119.99,2,West,John Smith,Bad,239.98
-2024-06-03,Monster,3.99,,Central,Miguel Rodriguez,Exceeded Expectations,
-2024-08-15,SSD,39.99,9,South,Miguel Rodriguez,Satisfactory,359.91
-2024-05-04,Keyboard,40.0,9,East,Miguel Rodriguez,Under Expectations,360.0
-2024-11-01,Charger,9.99,7,West,Robert Johnson,Excellent,69.93
-2024-06-23,CPU,399.99,3,Central,Jane Doh,Bad,1199.97
-2024-09-14,GPU,1499.99,9,West,Robert Johnson,Under Expectations,13499.91
-2024-07-14,SSD,39.99,9,Central,Miguel Rodriguez,Exceeded Expectations,359.91
-2024-07-16,Marker,2.99,6,Central,Robert Johnson,Excellent,17.94
-2024-12-27,Charger,9.99,1,North,Miguel Rodriguez,Excellent,9.99
-2025-03-08,Motherboard,299.99,4,South,,Bad,1199.96
-2024-12-23,Monitor,119.99,7,Central,Robert Johnson,Exceeded Expectations,839.93
-2024-08-14,CPU,399.99,7,West,Miguel Rodriguez,Excellent,2799.9300000000003
-2024-08-02,Headphones,19.99,6,East,Jane Doh,Exceeded Expectations,119.94
-2024-06-19,Harddrive,49.99,10,West,John Smith,Bad,499.90000000000003
-2024-11-29,Marker,2.99,4,East,Miguel Rodriguez,Under Expectations,11.96
-2024-04-25,Laptop,499.99,5,North,Lisa Chen,Satisfactory,2499.95
-2025-01-18,Keyboard,40.0,8,Central,Jane Doh,Excellent,320.0
-2024-04-08,Mouse,15.99,7,Central,John Smith,Excellent,111.93
-2025-01-23,Laptop,499.99,4,South,Robert Johnson,Satisfactory,1999.96
-2024-12-08,Laptop,499.99,10,Central,Robert Johnson,Under Expectations,4999.9
-2024-07-01,Monster,3.99,2,Central,John Smith,Satisfactory,7.98
-2024-11-23,Charger,9.99,10,North,Miguel Rodriguez,Under Expectations,99.9
-2024-05-08,,,8,South,John Smith,Under Expectations,
-,SSD,39.99,4,South,John Smith,Under Expectations,159.96
-2025-02-11,SSD,39.99,9,Central,Miguel Rodriguez,Bad,359.91
-,CPU,399.99,6,West,Robert Johnson,Excellent,2399.94
-2024-08-18,Marker,2.99,4,South,Jane Doh,Satisfactory,11.96
-2024-11-19,,,4,East,Miguel Rodriguez,Satisfactory,
-2025-01-08,SSD,39.99,7,North,Lisa Chen,Excellent,279.93
-2025-03-01,CPU,399.99,10,North,,Under Expectations,3999.9
-2024-10-23,Harddrive,49.99,4,Central,John Smith,Excellent,199.96
-2024-08-15,Keyboard,40.0,9,East,Robert Johnson,Under Expectations,360.0
-2024-06-14,GPU,1499.99,9,Central,John Smith,Satisfactory,13499.91
-2024-12-06,CPU,399.99,5,Central,Miguel Rodriguez,Bad,1999.95
-2024-11-01,Laptop,499.99,3,West,John Smith,Excellent,1499.97
-2024-06-19,GPU,1499.99,7,South,Jane Doh,Satisfactory,10499.93
-2025-01-14,Monster,3.99,3,East,Jane Doh,Bad,11.97
-2024-06-01,Headphones,19.99,1,North,Robert Johnson,Bad,19.99
-2024-09-11,Motherboard,299.99,10,East,John Smith,Under Expectations,2999.9
-2024-10-26,Charger,9.99,4,East,John Smith,Satisfactory,39.96
-2025-03-23,Monster,3.99,3,East,Robert Johnson,Under Expectations,11.97
-,CPU,399.99,2,North,Miguel Rodriguez,Exceeded Expectations,799.98
-2025-02-07,GPU,1499.99,6,East,Jane Doh,Excellent,8999.94
-2024-12-29,Headphones,19.99,2,Central,Lisa Chen,Bad,39.98
-2024-10-16,Monster,3.99,10,North,Lisa Chen,Exceeded Expectations,39.900000000000006
-2024-07-30,GPU,1499.99,9,North,Robert Johnson,Excellent,13499.91
-2024-06-13,Motherboard,299.99,7,East,Lisa Chen,Under Expectations,2099.9300000000003
-2024-12-02,CPU,399.99,9,North,Robert Johnson,,3599.91
-2024-05-18,Mouse,15.99,1,,,,15.99
-2024-09-02,GPU,1499.99,8,South,John Smith,Excellent,11999.92
-2024-04-19,GPU,1499.99,6,East,Jane Doh,Bad,8999.94
-2024-11-27,,,5,East,Robert Johnson,,
-2025-02-14,Harddrive,49.99,10,North,Lisa Chen,,499.90000000000003
-2024-08-15,Motherboard,299.99,7,North,Lisa Chen,Under Expectations,2099.9300000000003
-2024-11-08,Motherboard,299.99,8,Central,Robert Johnson,Under Expectations,2399.92
-2024-05-18,Mouse,15.99,1,Central,Robert Johnson,Bad,15.99
-2024-03-25,Charger,9.99,6,South,Jane Doh,Under Expectations,59.94
-2024-03-29,Headphones,19.99,5,East,John Smith,Satisfactory,99.94999999999999
+2024-12-27,Monitor,119.99,7,West,Miguel Rodriguez,3.5,839.93
+2024-07-23,Monster,3.99,3,Central,Jane Doh,2.1,11.97
+2024-11-25,SSD,39.99,5,Central,,4.7,199.95
+2024-05-28,RAM,129.99,7,,John Smith,2.7,909.93
+2024-07-27,Harddrive,49.99,5,West,Miguel Rodriguez,4.7,249.95
+2025-02-27,Laptop,499.99,8,Central,Robert Johnson,2.3,3999.92
+2025-01-17,RAM,129.99,6,Central,Robert Johnson,3.5,779.94
+2024-10-24,Mouse,15.99,3,South,Robert Johnson,4.5,47.97
+2024-07-02,Monster,3.99,4,South,Miguel Rodriguez,,15.96
+2025-01-06,Marker,2.99,6,Central,Miguel Rodriguez,,17.94
+2024-11-13,Mouse,15.99,6,Central,Robert Johnson,4.0,95.94
+2024-08-05,CPU,399.99,1,South,John Smith,1.7,399.99
+2025-02-28,CPU,399.99,5,South,Miguel Rodriguez,4.7,1999.95
+2024-06-01,Keyboard,40.0,1,East,John Smith,3.7,40.0
+2024-12-25,Monitor,119.99,6,North,Lisa Chen,4.7,719.94
+2024-07-20,Headphones,19.99,10,South,Lisa Chen,3.3,199.9
+2025-02-16,Keyboard,40.0,8,Central,Jane Doh,4.1,320.0
+2024-09-06,CPU,399.99,7,West,Jane Doh,2.9,2799.93
+2024-11-18,Harddrive,49.99,4,West,John Smith,1.4,199.96
+2025-01-02,GPU,1499.99,2,South,Lisa Chen,,2999.98
+2025-03-17,Keyboard,40.0,6,North,Jane Doh,2.5,240.0
+2024-04-04,Monitor,119.99,10,West,Robert Johnson,3.3,1199.9
+2025-02-01,RAM,129.99,4,North,Lisa Chen,4.2,519.96
+2024-04-26,Mouse,15.99,9,Central,Miguel Rodriguez,4.8,143.91
+2024-10-19,SSD,39.99,8,North,,1.8,319.92
+2024-10-08,Motherboard,299.99,4,South,Lisa Chen,2.5,1199.96
+2024-12-31,Monster,3.99,2,South,Lisa Chen,2.2,7.98
+2025-03-11,CPU,399.99,1,West,Robert Johnson,2.5,399.99
+2024-10-22,Headphones,19.99,3,East,John Smith,2.8,59.97
+2024-08-23,Charger,9.99,10,North,Jane Doh,4.5,99.9
+2024-03-26,Motherboard,299.99,10,North,Lisa Chen,3.7,2999.9
+2024-06-10,Mouse,15.99,4,East,Robert Johnson,1.4,63.96
+2025-01-11,SSD,39.99,6,West,John Smith,4.3,239.94
+2024-06-27,,,,North,Jane Doh,3.1,
+2024-11-11,Headphones,19.99,3,Central,Jane Doh,3.0,59.97
+2025-03-01,RAM,129.99,5,East,Miguel Rodriguez,1.6,649.95
+2024-06-13,GPU,1499.99,1,Central,John Smith,2.6,1499.99
+2024-08-01,Monitor,119.99,8,South,,2.6,959.92
+2024-05-21,RAM,129.99,9,West,Miguel Rodriguez,3.0,1169.91
+2024-10-17,SSD,39.99,10,West,Lisa Chen,2.1,399.9
+2024-07-29,SSD,39.99,8,Central,Jane Doh,3.4,319.92
+2025-02-24,Keyboard,40.0,3,Central,Jane Doh,4.6,120.0
+2024-10-15,Monster,3.99,2,South,Lisa Chen,1.4,7.98
+2025-02-01,Charger,9.99,4,Central,Robert Johnson,1.0,39.96
+2024-10-29,Laptop,499.99,7,Central,Miguel Rodriguez,4.9,3499.93
+2025-03-01,Laptop,499.99,2,South,Miguel Rodriguez,3.4,999.98
+2024-10-12,SSD,39.99,3,North,Jane Doh,2.2,119.97
+2024-06-05,CPU,399.99,8,Central,John Smith,2.3,3199.92
+2024-10-16,Monster,3.99,10,North,Jane Doh,3.1,39.9
+2024-04-05,Mouse,15.99,8,North,Lisa Chen,4.9,127.92
+2024-09-06,Harddrive,49.99,10,West,Lisa Chen,3.7,499.9
+2024-09-22,Harddrive,49.99,2,North,Jane Doh,3.0,99.98
+,Harddrive,49.99,1,Central,Lisa Chen,1.8,49.99
+2025-02-28,Charger,9.99,2,West,John Smith,3.6,19.98
+2024-12-24,Keyboard,40.0,4,East,Jane Doh,3.7,160.0
+2024-12-12,Laptop,499.99,9,Central,Lisa Chen,2.2,4499.91
+2024-11-11,Marker,2.99,2,North,John Smith,2.5,5.98
+2024-06-13,,,6,North,Jane Doh,1.4,
+2024-09-05,Motherboard,299.99,1,Central,John Smith,2.4,299.99
+2024-09-04,Laptop,499.99,8,Central,Robert Johnson,4.7,3999.92
+2024-04-04,Harddrive,49.99,5,East,Robert Johnson,3.3,249.95
+2024-06-24,Harddrive,49.99,4,South,Lisa Chen,3.6,199.96
+2025-02-08,Monster,3.99,4,North,Miguel Rodriguez,,15.96
+2024-04-01,Monitor,119.99,4,East,Robert Johnson,2.9,479.96
+2024-12-05,Keyboard,40.0,9,North,Miguel Rodriguez,1.4,360.0
+2024-05-11,Harddrive,49.99,1,South,John Smith,4.7,49.99
+2024-07-03,GPU,1499.99,5,South,Lisa Chen,4.7,7499.95
+2024-08-05,Charger,9.99,7,East,Miguel Rodriguez,3.3,69.93
+2025-01-14,Charger,9.99,4,South,Jane Doh,4.2,39.96
+2024-12-02,Monster,3.99,1,East,Lisa Chen,3.2,3.99
+2024-10-16,Motherboard,299.99,5,East,Lisa Chen,1.9,1499.95
+2024-07-01,Harddrive,49.99,6,South,Robert Johnson,1.5,299.94
+2024-04-10,Charger,9.99,1,West,Jane Doh,3.5,9.99
+2024-06-27,Monster,3.99,8,Central,Jane Doh,4.1,31.92
+2024-03-26,Monitor,119.99,5,East,Robert Johnson,1.0,599.95
+2024-11-25,Monitor,119.99,6,North,Jane Doh,4.0,719.94
+2025-03-03,Marker,2.99,4,Central,Miguel Rodriguez,4.1,11.96
+2024-08-04,Headphones,19.99,5,Central,John Smith,2.5,99.95
+2024-08-02,Harddrive,49.99,7,South,Robert Johnson,4.1,349.93
+2024-10-18,Motherboard,299.99,2,East,John Smith,1.7,599.98
+2024-05-16,Marker,2.99,6,East,John Smith,1.4,17.94
+2024-04-21,,,10,East,Jane Doh,,
+2025-03-12,Monitor,119.99,8,North,John Smith,1.9,959.92
+2024-08-10,Monster,3.99,4,South,Lisa Chen,3.6,15.96
+2024-06-30,Harddrive,49.99,4,South,Lisa Chen,1.4,199.96
+2024-05-01,SSD,39.99,9,North,Robert Johnson,1.3,359.91
+2024-07-09,CPU,399.99,4,West,John Smith,3.9,1599.96
+2024-07-09,GPU,1499.99,4,North,Jane Doh,1.6,5999.96
+2025-01-19,Headphones,19.99,1,East,Robert Johnson,4.2,19.99
+2024-03-27,Keyboard,40.0,1,South,Miguel Rodriguez,1.8,40.0
+2024-04-05,Keyboard,40.0,8,West,Robert Johnson,1.7,320.0
+2024-08-16,Keyboard,40.0,6,Central,Miguel Rodriguez,1.0,240.0
+2024-11-18,Laptop,499.99,4,,Miguel Rodriguez,2.5,1999.96
+2024-11-16,Laptop,499.99,2,East,Robert Johnson,2.8,999.98
+2024-12-04,Motherboard,299.99,2,South,Robert Johnson,4.6,599.98
+2024-08-21,Monster,3.99,8,East,John Smith,4.6,31.92
+2024-05-15,Mouse,15.99,,East,Jane Doh,1.8,
+2025-02-20,SSD,39.99,7,Central,Miguel Rodriguez,1.6,279.93
+2024-09-14,CPU,399.99,2,North,Jane Doh,3.4,799.98
+2024-12-17,Charger,9.99,3,East,Robert Johnson,1.1,29.97
+2024-07-29,Monitor,119.99,6,South,Miguel Rodriguez,3.1,719.94
+2025-03-14,Monster,3.99,1,North,Lisa Chen,2.6,3.99
+2025-03-24,Monitor,119.99,7,South,Lisa Chen,2.4,839.93
+2024-12-04,Charger,9.99,3,East,Miguel Rodriguez,1.0,29.97
+2024-10-28,Monitor,119.99,6,South,Robert Johnson,2.2,719.94
+2025-01-13,Monitor,119.99,8,West,Lisa Chen,3.8,959.92
+2024-11-27,Keyboard,40.0,1,Central,Miguel Rodriguez,2.3,40.0
+2024-10-29,Marker,2.99,9,Central,Miguel Rodriguez,2.5,26.91
+2024-08-29,Harddrive,49.99,6,East,Jane Doh,4.8,299.94
+2024-11-11,CPU,399.99,8,South,Robert Johnson,,3199.92
+2024-04-15,Harddrive,49.99,10,East,Jane Doh,4.1,499.9
+2025-01-15,Mouse,15.99,6,North,Jane Doh,1.8,95.94
+2025-03-23,Monitor,119.99,10,North,John Smith,2.1,1199.9
+2024-04-02,Keyboard,40.0,8,Central,Jane Doh,4.4,320.0
+2024-09-20,Laptop,499.99,1,East,Lisa Chen,2.2,499.99
+2024-10-19,RAM,129.99,5,Central,Jane Doh,3.1,649.95
+2025-02-11,Harddrive,49.99,7,West,Lisa Chen,3.8,349.93
+2024-12-02,Motherboard,299.99,3,South,Lisa Chen,4.1,899.97
+2025-01-29,Mouse,15.99,8,Central,John Smith,2.7,127.92
+2024-10-27,Mouse,15.99,8,West,Robert Johnson,3.9,127.92
+2024-12-27,Laptop,499.99,6,South,Robert Johnson,1.7,2999.94
+2024-12-07,RAM,129.99,3,Central,Robert Johnson,3.1,389.97
+2024-09-02,Motherboard,299.99,8,Central,Robert Johnson,2.6,2399.92
+2024-10-03,RAM,129.99,1,Central,John Smith,5.0,129.99
+2024-12-03,Monitor,119.99,4,North,Robert Johnson,3.6,479.96
+2024-12-10,Charger,9.99,2,North,Jane Doh,3.6,19.98
+2025-02-10,CPU,399.99,4,Central,Lisa Chen,3.1,1599.96
+2024-09-21,Marker,2.99,10,South,Jane Doh,2.2,29.9
+2025-03-21,CPU,399.99,8,Central,,1.1,3199.92
+2025-03-22,Keyboard,40.0,2,Central,Jane Doh,4.4,80.0
+2024-07-04,Monster,3.99,1,Central,Jane Doh,1.7,3.99
+2024-03-31,Charger,9.99,10,Central,John Smith,3.1,99.9
+2024-11-15,Harddrive,49.99,3,East,John Smith,4.4,149.97
+2024-04-30,Monitor,119.99,2,North,Lisa Chen,4.4,239.98
+2024-10-05,Harddrive,49.99,10,West,Miguel Rodriguez,3.9,499.9
+2024-07-25,Monster,3.99,10,East,,3.1,39.9
+2025-02-02,Charger,9.99,6,North,Miguel Rodriguez,4.3,59.94
+,Mouse,15.99,8,East,John Smith,2.2,127.92
+2024-04-12,RAM,129.99,4,Central,Lisa Chen,4.5,519.96
+2025-03-18,GPU,1499.99,6,Central,Miguel Rodriguez,3.3,8999.94
+2024-07-20,Headphones,19.99,4,East,Jane Doh,4.3,79.96
+2024-07-30,Charger,9.99,2,North,Miguel Rodriguez,3.0,19.98
+2024-07-29,Laptop,499.99,4,Central,John Smith,4.0,1999.96
+2024-05-31,Monitor,119.99,7,East,Lisa Chen,4.3,839.93
+2024-10-11,Laptop,499.99,10,Central,Jane Doh,4.8,4999.9
+2024-08-28,GPU,1499.99,10,East,John Smith,2.7,14999.9
+2024-05-25,Charger,9.99,8,Central,Robert Johnson,,79.92
+2025-03-18,,,3,South,Robert Johnson,3.2,
+2024-10-21,RAM,129.99,5,North,Jane Doh,4.6,649.95
+2024-12-22,CPU,399.99,5,South,Lisa Chen,3.7,1999.95
+,CPU,399.99,8,West,Lisa Chen,1.6,3199.92
+2024-10-05,Laptop,499.99,5,Central,Miguel Rodriguez,2.6,2499.95
+2025-03-17,RAM,129.99,10,Central,Miguel Rodriguez,1.2,1299.9
+2024-07-21,Headphones,19.99,6,North,Jane Doh,1.3,119.94
+2024-05-11,GPU,1499.99,3,East,Robert Johnson,1.5,4499.97
+2024-06-27,SSD,39.99,9,East,,1.5,359.91
+,Marker,2.99,8,West,John Smith,1.4,23.92
+2024-05-20,Mouse,15.99,7,East,John Smith,3.1,111.93
+2024-11-29,Keyboard,40.0,3,South,Lisa Chen,1.3,120.0
+2025-03-06,,,5,,Jane Doh,3.3,
+2024-06-30,Monitor,119.99,7,North,Robert Johnson,4.2,839.93
+2024-05-07,Monitor,119.99,1,North,Lisa Chen,3.0,119.99
+2024-07-11,Headphones,19.99,1,South,Robert Johnson,2.6,19.99
+,CPU,399.99,8,North,Miguel Rodriguez,2.5,3199.92
+2024-12-09,Mouse,15.99,4,North,John Smith,2.2,63.96
+2024-08-04,Monitor,119.99,9,South,Lisa Chen,3.3,1079.91
+2024-07-11,Marker,2.99,1,West,Lisa Chen,1.4,2.99
+2024-08-14,GPU,1499.99,4,Central,Miguel Rodriguez,4.7,5999.96
+2025-03-11,GPU,1499.99,2,East,Jane Doh,1.3,2999.98
+2024-06-18,Marker,2.99,7,,Lisa Chen,1.7,20.93
+2024-08-29,Monster,3.99,6,Central,Lisa Chen,3.3,23.94
+2025-03-07,Laptop,499.99,4,East,Lisa Chen,2.4,1999.96
+2024-06-26,,,9,North,John Smith,4.7,
+2025-03-05,Headphones,19.99,6,North,John Smith,3.1,119.94
+2024-10-20,GPU,1499.99,3,South,Jane Doh,2.9,4499.97
+2024-10-30,Laptop,499.99,6,East,Robert Johnson,3.6,2999.94
+2024-12-06,Motherboard,299.99,6,East,Robert Johnson,4.5,1799.94
+2024-10-26,GPU,1499.99,8,North,Lisa Chen,3.7,11999.92
+2024-09-28,SSD,39.99,3,Central,Robert Johnson,2.1,119.97
+2024-09-16,Marker,2.99,9,West,John Smith,2.1,26.91
+2025-02-16,Marker,2.99,2,Central,Robert Johnson,2.0,5.98
+2024-08-01,RAM,129.99,8,North,Jane Doh,1.6,1039.92
+2024-12-01,Motherboard,299.99,3,South,Miguel Rodriguez,4.9,899.97
+2024-11-13,SSD,39.99,,Central,Robert Johnson,4.4,
+2024-08-20,Laptop,499.99,10,North,Jane Doh,1.4,4999.9
+2025-01-12,CPU,399.99,1,Central,Robert Johnson,3.7,399.99
+2024-09-02,Motherboard,299.99,1,South,Miguel Rodriguez,3.6,299.99
+2024-05-27,Mouse,15.99,6,Central,Robert Johnson,2.3,95.94
+2024-12-16,Motherboard,299.99,8,South,Miguel Rodriguez,1.6,2399.92
+2024-06-18,Motherboard,299.99,7,East,John Smith,1.7,2099.93
+2025-03-03,Harddrive,49.99,9,East,Jane Doh,2.6,449.91
+2025-03-02,GPU,1499.99,9,South,John Smith,2.2,13499.91
+2024-08-21,Monster,3.99,3,East,Miguel Rodriguez,,11.97
+2024-12-06,GPU,1499.99,5,South,John Smith,1.7,7499.95
+2025-01-14,Laptop,499.99,6,South,John Smith,3.6,2999.94
+2024-04-06,RAM,129.99,8,South,Lisa Chen,3.2,1039.92
+2024-11-17,Charger,9.99,9,Central,John Smith,4.7,89.91
+2024-11-16,Monitor,119.99,2,South,John Smith,3.9,239.98
+2024-12-16,Monster,3.99,2,East,Robert Johnson,1.1,7.98
+2025-01-23,Laptop,499.99,10,,Lisa Chen,4.1,4999.9
+2024-09-26,SSD,39.99,7,West,Lisa Chen,,279.93
+2024-11-18,Marker,2.99,1,North,Lisa Chen,3.8,2.99
+2024-07-27,Motherboard,299.99,10,Central,,3.4,2999.9
+2024-09-16,Monitor,119.99,3,,Miguel Rodriguez,,359.97
+2025-02-05,CPU,399.99,10,Central,Robert Johnson,3.1,3999.9
+2025-03-08,Monster,3.99,3,East,Robert Johnson,2.7,11.97
+2024-07-15,Monitor,119.99,5,South,Robert Johnson,2.0,599.95
+2025-02-14,Charger,9.99,7,Central,Lisa Chen,4.2,69.93
+2024-07-08,Monster,3.99,9,South,Miguel Rodriguez,3.3,35.91
+2024-05-28,Marker,2.99,10,West,Robert Johnson,4.7,29.9
+2025-01-31,Motherboard,299.99,2,West,Miguel Rodriguez,4.5,599.98
+2024-11-21,Marker,2.99,2,North,Jane Doh,3.4,5.98
+2024-08-20,Harddrive,49.99,3,,Robert Johnson,1.1,149.97
+2025-02-22,CPU,399.99,6,South,Miguel Rodriguez,2.0,2399.94
+2024-12-28,Keyboard,40.0,9,West,Jane Doh,4.8,360.0
+2025-01-15,SSD,39.99,9,South,John Smith,1.2,359.91
+2024-09-22,GPU,1499.99,5,Central,Lisa Chen,3.8,7499.95
+2024-10-20,Motherboard,299.99,7,,Lisa Chen,2.4,2099.93
+2024-04-03,Laptop,499.99,3,West,Miguel Rodriguez,4.3,1499.97
+2024-09-14,Harddrive,49.99,5,Central,John Smith,4.9,249.95
+2024-12-23,Motherboard,299.99,4,East,Robert Johnson,2.1,1199.96
+2024-04-02,Headphones,19.99,8,South,,4.3,159.92
+2024-05-05,Charger,9.99,8,South,Jane Doh,2.3,79.92
+2024-08-17,CPU,399.99,5,North,Miguel Rodriguez,3.3,1999.95
+2024-11-04,Headphones,19.99,5,Central,Lisa Chen,4.3,99.95
+2024-07-12,Motherboard,299.99,5,South,Robert Johnson,2.3,1499.95
+2024-10-21,Charger,9.99,10,West,Lisa Chen,1.2,99.9
+2025-01-12,GPU,1499.99,8,South,Jane Doh,1.7,11999.92
+2024-09-15,Motherboard,299.99,4,West,Miguel Rodriguez,2.9,1199.96
+2024-08-20,Charger,9.99,7,North,John Smith,2.0,69.93
+2025-03-09,GPU,1499.99,3,North,Lisa Chen,4.5,4499.97
+2024-09-10,Marker,2.99,5,West,Miguel Rodriguez,1.5,14.95
+2024-07-03,SSD,39.99,6,Central,Robert Johnson,3.6,239.94
+2024-12-20,RAM,129.99,3,South,Miguel Rodriguez,1.1,389.97
+2024-11-09,Monitor,119.99,6,North,Robert Johnson,3.8,719.94
+2024-11-05,Laptop,499.99,9,North,Lisa Chen,1.5,4499.91
+2024-09-17,Monitor,119.99,1,South,Miguel Rodriguez,,119.99
+2024-08-23,Headphones,19.99,6,East,Lisa Chen,3.1,119.94
+2025-03-11,Motherboard,299.99,7,East,Lisa Chen,2.0,2099.93
+2024-09-27,Mouse,15.99,10,West,Lisa Chen,3.0,159.9
+2024-08-25,RAM,129.99,5,West,Jane Doh,1.3,649.95
+2024-12-01,Harddrive,49.99,5,North,Jane Doh,4.3,249.95
+2024-11-19,Harddrive,49.99,5,East,Jane Doh,1.1,249.95
+2024-05-17,Keyboard,40.0,4,South,Miguel Rodriguez,2.2,160.0
+2024-12-17,Marker,2.99,2,West,Jane Doh,4.0,5.98
+2024-06-28,Mouse,15.99,7,West,Jane Doh,2.6,111.93
+2025-01-22,RAM,129.99,1,East,Jane Doh,1.7,129.99
+2025-03-17,Motherboard,299.99,9,North,Miguel Rodriguez,3.4,2699.91
+2024-05-22,Headphones,19.99,10,North,Jane Doh,2.2,199.9
+2024-07-15,Monster,3.99,,Central,Lisa Chen,3.7,
+2025-01-31,SSD,39.99,5,East,Jane Doh,3.6,199.95
+2024-07-22,RAM,129.99,9,South,John Smith,4.5,1169.91
+2024-04-08,Harddrive,49.99,,East,Lisa Chen,2.0,
+2024-07-07,Motherboard,299.99,2,South,John Smith,3.3,599.98
+2025-03-04,CPU,399.99,9,West,Robert Johnson,3.4,3599.91
+2024-12-09,SSD,39.99,10,North,John Smith,3.5,399.9
+2024-12-08,Headphones,19.99,8,Central,Robert Johnson,2.8,159.92
+2025-02-15,Harddrive,49.99,2,North,Jane Doh,3.6,99.98
+,Motherboard,299.99,5,Central,John Smith,4.8,1499.95
+2024-03-28,Monitor,119.99,6,South,Lisa Chen,1.4,719.94
+2024-08-18,Laptop,499.99,3,East,John Smith,3.1,1499.97
+2024-08-01,Mouse,15.99,7,North,Jane Doh,4.8,111.93
+2025-03-03,SSD,39.99,4,West,Jane Doh,1.1,159.96
+2024-11-04,RAM,129.99,9,North,Jane Doh,1.6,1169.91
+2024-06-23,Mouse,15.99,10,South,Lisa Chen,3.7,159.9
+2025-01-26,Keyboard,40.0,2,Central,Lisa Chen,2.1,80.0
+2024-04-28,Marker,2.99,4,East,Lisa Chen,3.0,11.96
+2025-01-24,Charger,9.99,9,West,Miguel Rodriguez,3.9,89.91
+2024-08-23,GPU,1499.99,3,East,Jane Doh,2.7,4499.97
+2024-11-19,Monster,3.99,2,Central,John Smith,2.5,7.98
+,Motherboard,299.99,10,East,Lisa Chen,1.2,2999.9
+2025-01-02,SSD,39.99,10,Central,Miguel Rodriguez,4.1,399.9
+,Mouse,15.99,8,South,,2.2,127.92
+2024-07-16,Monster,3.99,5,West,Robert Johnson,3.7,19.95
+2024-04-13,Mouse,15.99,5,South,Jane Doh,3.2,79.95
+2024-05-17,Harddrive,49.99,10,East,Lisa Chen,3.0,499.9
+2025-01-12,Keyboard,40.0,,North,Robert Johnson,1.6,
+2024-12-26,Charger,9.99,2,Central,Jane Doh,2.0,19.98
+2024-08-02,RAM,129.99,7,,Robert Johnson,3.0,909.93
+2024-08-22,CPU,399.99,4,North,,3.1,1599.96
+2024-06-09,Charger,9.99,7,South,Miguel Rodriguez,3.7,69.93
+2025-02-17,Motherboard,299.99,3,Central,Miguel Rodriguez,2.1,899.97
+2024-04-27,RAM,129.99,4,North,Robert Johnson,3.4,519.96
+2024-08-17,Keyboard,40.0,7,Central,Jane Doh,3.8,280.0
+2024-08-19,Harddrive,49.99,9,West,John Smith,4.4,449.91
+,Laptop,499.99,3,South,Miguel Rodriguez,4.2,1499.97
+2024-10-05,CPU,399.99,1,South,Robert Johnson,,399.99
+2024-08-02,Headphones,19.99,5,West,Jane Doh,3.6,99.95
+2024-12-02,RAM,129.99,7,,Lisa Chen,2.3,909.93
+2024-05-25,GPU,1499.99,7,North,Robert Johnson,3.5,10499.93
+2024-11-07,Keyboard,40.0,10,North,Robert Johnson,4.8,400.0
+2024-11-27,Marker,2.99,,South,Robert Johnson,4.3,
+2024-08-20,Monster,3.99,4,North,Jane Doh,2.4,15.96
+2024-12-04,,,2,East,Robert Johnson,1.5,
+2024-09-12,RAM,129.99,2,West,Jane Doh,1.5,259.98
+2024-11-17,Headphones,19.99,9,Central,John Smith,3.6,179.91
+2024-10-24,CPU,399.99,8,South,Miguel Rodriguez,3.1,3199.92
+2025-01-01,RAM,129.99,10,South,Miguel Rodriguez,3.6,1299.9
+2024-05-14,RAM,129.99,5,Central,Robert Johnson,,649.95
+2024-07-01,Motherboard,299.99,9,South,Jane Doh,3.0,2699.91
+,Charger,9.99,1,North,Jane Doh,2.7,9.99
+2025-03-07,SSD,39.99,5,South,John Smith,4.7,199.95
+2024-07-04,Marker,2.99,1,Central,Jane Doh,3.7,2.99
+2024-08-21,Headphones,19.99,,South,Miguel Rodriguez,2.1,
+,Headphones,19.99,1,North,Miguel Rodriguez,3.3,19.99
+2025-03-17,SSD,39.99,3,Central,Robert Johnson,4.6,119.97
+2024-06-20,Headphones,19.99,3,Central,Lisa Chen,,59.97
+2025-01-13,GPU,1499.99,1,North,Lisa Chen,3.1,1499.99
+2024-04-18,Monster,3.99,7,South,,1.5,27.93
+,Charger,9.99,,North,Miguel Rodriguez,2.6,
+2024-08-13,Monitor,119.99,7,South,Jane Doh,4.0,839.93
+2025-02-19,Headphones,19.99,6,Central,John Smith,3.2,119.94
+2024-08-03,Laptop,499.99,3,North,Robert Johnson,3.7,1499.97
+2024-04-05,Monster,3.99,8,East,Miguel Rodriguez,3.8,31.92
+2024-08-25,Marker,2.99,1,North,Jane Doh,3.5,2.99
+2024-08-11,Motherboard,299.99,8,North,,4.9,2399.92
+2024-09-03,Motherboard,299.99,8,West,Robert Johnson,2.0,2399.92
+2024-09-03,Monster,3.99,3,East,Miguel Rodriguez,1.3,11.97
+2025-01-23,Keyboard,40.0,5,Central,John Smith,1.7,200.0
+2024-06-10,Charger,9.99,10,South,Jane Doh,2.2,99.9
+2024-07-10,Headphones,19.99,5,Central,Robert Johnson,4.3,99.95
+2025-03-05,SSD,39.99,6,Central,Jane Doh,2.3,239.94
+2024-04-15,Marker,2.99,4,East,John Smith,3.9,11.96
+2025-02-15,Motherboard,299.99,8,West,Jane Doh,2.5,2399.92
+2025-01-06,Harddrive,49.99,4,,Miguel Rodriguez,5.0,199.96
+2024-05-30,CPU,399.99,10,East,Lisa Chen,4.7,3999.9
+2024-12-11,Laptop,499.99,4,East,John Smith,1.0,1999.96
+2024-05-16,RAM,129.99,9,Central,John Smith,4.5,1169.91
+2025-03-01,Keyboard,40.0,10,Central,,3.2,400.0
+2024-08-17,Mouse,15.99,8,South,Miguel Rodriguez,3.6,127.92
+2025-03-10,Harddrive,49.99,6,West,Miguel Rodriguez,1.8,299.94
+2024-06-30,Monitor,119.99,1,North,Robert Johnson,4.3,119.99
+2024-04-18,RAM,129.99,8,West,Lisa Chen,4.0,1039.92
+2024-07-14,Headphones,19.99,2,East,John Smith,1.9,39.98
+2024-11-24,Laptop,499.99,2,West,Jane Doh,3.4,999.98
+2024-11-09,Headphones,19.99,1,East,John Smith,2.0,19.99
+2024-07-26,Monster,3.99,7,East,Robert Johnson,3.2,27.93
+2024-05-01,Marker,2.99,7,North,John Smith,3.0,20.93
+2024-05-13,Laptop,499.99,4,,John Smith,1.2,1999.96
+2024-06-25,,,5,Central,Robert Johnson,1.4,
+2024-04-28,RAM,129.99,2,East,Jane Doh,3.1,259.98
+2025-01-27,Keyboard,40.0,1,North,Robert Johnson,1.6,40.0
+2024-11-18,GPU,1499.99,6,West,Jane Doh,3.4,8999.94
+2024-08-05,Laptop,499.99,7,South,Robert Johnson,4.0,3499.93
+2025-03-21,RAM,129.99,2,South,John Smith,5.0,259.98
+2025-02-26,Laptop,499.99,2,South,John Smith,4.4,999.98
+2024-07-03,Charger,9.99,2,East,Robert Johnson,3.7,19.98
+2024-07-15,RAM,129.99,3,North,Miguel Rodriguez,3.6,389.97
+,GPU,1499.99,9,West,Robert Johnson,3.5,13499.91
+2024-11-04,RAM,129.99,9,North,Miguel Rodriguez,2.9,1169.91
+2024-07-10,Harddrive,49.99,5,Central,Jane Doh,3.2,249.95
+2024-09-21,Headphones,19.99,2,South,Robert Johnson,,39.98
+2025-01-18,CPU,399.99,6,Central,Robert Johnson,2.5,2399.94
+2024-07-08,Mouse,15.99,2,West,Miguel Rodriguez,1.0,31.98
+2024-10-05,Headphones,19.99,8,Central,John Smith,3.6,159.92
+2025-01-05,Harddrive,49.99,4,East,Jane Doh,1.6,199.96
+2024-03-27,Charger,9.99,,Central,John Smith,1.1,
+2025-02-16,Monitor,119.99,10,North,Lisa Chen,3.6,1199.9
+2024-12-04,SSD,39.99,1,South,Robert Johnson,3.8,39.99
+2024-12-10,Monitor,119.99,3,North,John Smith,1.1,359.97
+2024-10-30,Harddrive,49.99,1,West,Lisa Chen,,49.99
+2024-10-07,CPU,399.99,9,East,John Smith,2.3,3599.91
+2024-05-03,Motherboard,299.99,9,West,Robert Johnson,2.8,2699.91
+2024-05-25,Headphones,19.99,10,Central,Miguel Rodriguez,2.8,199.9
+2024-09-23,Laptop,499.99,8,West,Robert Johnson,4.0,3999.92
+2024-08-21,SSD,39.99,3,West,John Smith,1.2,119.97
+2024-04-26,Monitor,119.99,2,West,Lisa Chen,1.5,239.98
+2024-05-11,Keyboard,40.0,8,West,Miguel Rodriguez,3.5,320.0
+2024-06-13,Mouse,15.99,1,West,Robert Johnson,2.9,15.99
+2024-04-11,Motherboard,299.99,10,South,John Smith,1.2,2999.9
+2024-11-01,Mouse,15.99,7,West,Lisa Chen,3.4,111.93
+2024-05-18,SSD,39.99,4,East,Robert Johnson,,159.96
+2024-11-07,Headphones,19.99,2,Central,John Smith,1.4,39.98
+2024-11-08,GPU,1499.99,7,West,Lisa Chen,4.5,10499.93
+2024-09-18,SSD,39.99,3,South,Miguel Rodriguez,3.5,119.97
+2025-03-16,SSD,39.99,8,Central,Robert Johnson,3.9,319.92
+2024-09-18,RAM,129.99,6,South,Robert Johnson,3.9,779.94
+2024-12-19,Charger,9.99,2,South,Jane Doh,1.8,19.98
+2024-08-31,Harddrive,49.99,2,West,Miguel Rodriguez,4.8,99.98
+2024-04-23,Laptop,499.99,2,Central,John Smith,3.3,999.98
+2024-04-27,SSD,39.99,3,Central,Jane Doh,4.3,119.97
+2024-12-08,Monitor,119.99,4,Central,,2.8,479.96
+2024-09-15,CPU,399.99,8,South,Jane Doh,1.5,3199.92
+2024-05-24,Keyboard,40.0,1,Central,Lisa Chen,3.3,40.0
+2024-07-31,Keyboard,40.0,10,West,Lisa Chen,4.4,400.0
+2024-12-14,Monitor,119.99,4,Central,Lisa Chen,5.0,479.96
+2024-07-10,CPU,399.99,10,East,Jane Doh,4.6,3999.9
+2024-05-09,Laptop,499.99,1,South,Miguel Rodriguez,1.1,499.99
+2024-11-09,Headphones,19.99,1,East,Jane Doh,4.8,19.99
+2024-08-25,RAM,129.99,2,Central,John Smith,,259.98
+,Keyboard,40.0,2,Central,John Smith,2.2,80.0
+2024-09-22,Headphones,19.99,8,North,Lisa Chen,3.0,159.92
+2024-05-05,Keyboard,40.0,3,West,John Smith,2.3,120.0
+2024-11-23,Harddrive,49.99,6,South,,3.3,299.94
+2025-02-14,Harddrive,49.99,2,Central,John Smith,3.8,99.98
+2024-09-24,Monitor,119.99,9,North,Miguel Rodriguez,2.4,1079.91
+2025-03-02,RAM,129.99,2,South,Robert Johnson,3.5,259.98
+2025-01-04,Charger,9.99,4,North,Jane Doh,1.3,39.96
+2025-03-23,Laptop,499.99,2,North,Lisa Chen,2.7,999.98
+2024-11-04,SSD,39.99,2,Central,John Smith,2.7,79.98
+2024-10-28,Laptop,499.99,4,Central,Jane Doh,,1999.96
+2024-10-29,Harddrive,49.99,8,East,Miguel Rodriguez,2.8,399.92
+2025-02-01,Keyboard,40.0,2,East,Robert Johnson,,80.0
+2025-01-13,Headphones,19.99,5,Central,Jane Doh,3.0,99.95
+2024-07-10,GPU,1499.99,2,Central,Robert Johnson,4.3,2999.98
+2024-07-27,RAM,129.99,8,North,Miguel Rodriguez,2.0,1039.92
+2024-08-18,Monitor,119.99,1,West,Lisa Chen,3.3,119.99
+2024-08-15,Motherboard,299.99,2,South,Robert Johnson,4.8,599.98
+2025-03-10,RAM,129.99,5,North,Lisa Chen,2.9,649.95
+2024-05-21,SSD,39.99,2,North,Miguel Rodriguez,5.0,79.98
+2024-07-19,GPU,1499.99,7,West,Jane Doh,4.2,10499.93
+2024-10-30,Mouse,15.99,5,North,Jane Doh,2.6,79.95
+2025-01-28,Mouse,15.99,2,East,Jane Doh,1.2,31.98
+2024-05-16,Keyboard,40.0,7,,John Smith,2.6,280.0
+2024-03-29,Monster,3.99,5,West,Robert Johnson,1.7,19.95
+2024-09-23,CPU,399.99,8,South,Lisa Chen,4.9,3199.92
+2024-05-03,Motherboard,299.99,5,Central,John Smith,1.7,1499.95
+2025-02-01,Harddrive,49.99,,South,Jane Doh,3.5,
+2024-04-16,Monitor,119.99,2,North,John Smith,4.2,239.98
+2024-07-10,Laptop,499.99,2,North,Jane Doh,1.4,999.98
+2024-10-22,Marker,2.99,8,West,John Smith,2.6,23.92
+2024-11-01,RAM,129.99,9,North,Robert Johnson,4.4,1169.91
+2024-05-21,Mouse,15.99,8,East,Robert Johnson,4.3,127.92
+2025-02-21,RAM,129.99,1,West,Robert Johnson,2.3,129.99
+2024-04-10,Monitor,119.99,8,South,John Smith,1.5,959.92
+2024-12-04,SSD,39.99,3,South,Miguel Rodriguez,2.9,119.97
+2024-10-02,GPU,1499.99,5,Central,Miguel Rodriguez,4.9,7499.95
+2025-02-07,Harddrive,49.99,10,,Miguel Rodriguez,3.8,499.9
+2024-07-13,GPU,1499.99,2,,Lisa Chen,3.2,2999.98
+2025-01-01,Monitor,119.99,9,Central,Jane Doh,4.1,1079.91
+2025-03-25,Mouse,15.99,4,East,,4.2,63.96
+2024-07-23,Monitor,119.99,5,West,John Smith,3.5,599.95
+2025-03-05,Laptop,499.99,8,East,Lisa Chen,1.6,3999.92
+2024-12-04,Mouse,15.99,6,West,Lisa Chen,3.1,95.94
+2025-03-09,Keyboard,40.0,8,West,John Smith,,320.0
+2024-06-03,Headphones,19.99,7,Central,Jane Doh,4.0,139.93
+2024-12-16,RAM,129.99,9,South,Lisa Chen,4.3,1169.91
+2024-07-14,Keyboard,40.0,3,,Jane Doh,2.8,120.0
+2024-12-23,Charger,9.99,6,Central,Jane Doh,3.5,59.94
+2024-08-16,SSD,39.99,3,Central,John Smith,2.9,119.97
+2024-09-15,Motherboard,299.99,9,North,Robert Johnson,2.4,2699.91
+2024-04-03,Motherboard,299.99,9,Central,John Smith,4.5,2699.91
+2024-12-17,Charger,9.99,4,South,John Smith,3.9,39.96
+2024-09-28,Headphones,19.99,10,North,John Smith,4.8,199.9
+2024-12-19,SSD,39.99,6,South,John Smith,2.1,239.94
+2025-03-10,Motherboard,299.99,5,East,Miguel Rodriguez,3.1,1499.95
+2024-12-15,Monster,3.99,9,East,Jane Doh,,35.91
+2024-10-18,Motherboard,299.99,,East,Miguel Rodriguez,3.6,
+2024-09-11,Monster,3.99,,South,John Smith,2.2,
+2024-10-23,Motherboard,299.99,8,East,Miguel Rodriguez,2.1,2399.92
+2025-02-19,Laptop,499.99,9,West,Miguel Rodriguez,2.5,4499.91
+2025-03-17,Headphones,19.99,6,East,Jane Doh,1.0,119.94
+2024-08-22,Mouse,15.99,,North,Jane Doh,1.0,
+2025-02-26,Monster,3.99,8,South,Miguel Rodriguez,2.9,31.92
+2024-10-22,SSD,39.99,9,South,Robert Johnson,3.4,359.91
+2024-08-15,Harddrive,49.99,9,Central,Jane Doh,2.2,449.91
+2024-12-31,Motherboard,299.99,4,North,Lisa Chen,2.5,1199.96
+2024-04-24,Headphones,19.99,4,East,Robert Johnson,3.2,79.96
+2024-11-27,Charger,9.99,,North,Robert Johnson,3.7,
+2024-09-22,Charger,9.99,10,North,Lisa Chen,4.2,99.9
+2024-04-09,Keyboard,40.0,10,East,John Smith,1.8,400.0
+2024-09-01,Monster,3.99,10,South,Jane Doh,2.9,39.9
+2024-11-03,Charger,9.99,3,North,Miguel Rodriguez,3.4,29.97
+2024-04-17,Keyboard,40.0,2,South,Robert Johnson,,80.0
+2024-12-25,CPU,399.99,10,Central,Miguel Rodriguez,4.7,3999.9
+2024-07-27,SSD,39.99,4,North,,3.3,159.96
+2025-01-29,Laptop,499.99,2,East,Robert Johnson,3.9,999.98
+2024-05-08,SSD,39.99,9,Central,Miguel Rodriguez,4.0,359.91
+2024-05-07,Motherboard,299.99,5,North,John Smith,4.6,1499.95
+2024-09-28,RAM,129.99,8,Central,Jane Doh,3.3,1039.92
+2024-08-31,GPU,1499.99,2,North,Lisa Chen,4.5,2999.98
+2024-10-06,Charger,9.99,,,Miguel Rodriguez,,
+2024-03-27,Harddrive,49.99,9,South,,2.2,449.91
+,Keyboard,40.0,8,North,Jane Doh,2.7,320.0
+2024-10-21,Marker,2.99,2,Central,John Smith,4.0,5.98
+2024-10-15,Mouse,15.99,5,West,John Smith,1.7,79.95
+2024-08-23,Monster,3.99,8,Central,Miguel Rodriguez,5.0,31.92
+2025-01-21,Mouse,15.99,3,Central,John Smith,1.5,47.97
+2025-01-07,Keyboard,40.0,1,East,Jane Doh,,40.0
+2024-04-27,Headphones,19.99,10,North,Lisa Chen,4.2,199.9
+2024-03-28,Mouse,15.99,7,Central,Lisa Chen,2.2,111.93
+2024-11-10,CPU,399.99,6,South,Lisa Chen,4.2,2399.94
+2024-03-29,Monster,3.99,2,West,Miguel Rodriguez,4.2,7.98
+2024-10-15,Motherboard,299.99,6,South,Robert Johnson,4.8,1799.94
+2024-07-23,Mouse,15.99,3,West,Jane Doh,2.8,47.97
+2024-08-10,RAM,129.99,2,West,Jane Doh,1.9,259.98
+2024-06-17,GPU,1499.99,10,North,Miguel Rodriguez,3.3,14999.9
+2025-02-01,CPU,399.99,9,East,Jane Doh,2.1,3599.91
+2024-03-27,SSD,39.99,6,West,Jane Doh,3.2,239.94
+,Harddrive,49.99,5,West,Jane Doh,2.5,249.95
+2024-05-07,,,3,North,Lisa Chen,2.5,
+,RAM,129.99,5,Central,Robert Johnson,4.7,649.95
+2024-07-19,GPU,1499.99,5,South,Jane Doh,3.5,7499.95
+2025-03-07,Keyboard,40.0,2,East,John Smith,1.9,80.0
+2024-08-17,Monster,3.99,6,North,Robert Johnson,4.9,23.94
+2024-09-22,Monitor,119.99,8,East,Jane Doh,,959.92
+2024-11-04,Monster,3.99,3,South,John Smith,3.6,11.97
+2024-09-16,Monitor,119.99,9,North,Miguel Rodriguez,1.6,1079.91
+2024-12-09,Charger,9.99,8,East,John Smith,1.8,79.92
+2024-06-16,CPU,399.99,4,,John Smith,3.6,1599.96
+2024-06-26,Charger,9.99,7,East,Lisa Chen,4.6,69.93
+2024-10-29,Motherboard,299.99,5,North,Miguel Rodriguez,3.1,1499.95
+2024-04-25,Keyboard,40.0,4,East,Robert Johnson,3.7,160.0
+2024-12-04,CPU,399.99,3,East,Lisa Chen,3.1,1199.97
+2024-05-02,Motherboard,299.99,2,North,Miguel Rodriguez,1.6,599.98
+2024-11-05,GPU,1499.99,10,East,Jane Doh,4.2,14999.9
+2024-09-08,Mouse,15.99,9,East,John Smith,3.9,143.91
+2024-11-06,SSD,39.99,2,South,Jane Doh,3.0,79.98
+2025-01-24,Mouse,15.99,1,West,Miguel Rodriguez,3.0,15.99
+2024-06-02,Marker,2.99,3,West,Lisa Chen,4.1,8.97
+2025-03-17,Monster,3.99,9,South,Miguel Rodriguez,4.5,35.91
+2024-12-01,GPU,1499.99,3,North,Miguel Rodriguez,3.3,4499.97
+2024-10-17,RAM,129.99,1,West,John Smith,3.3,129.99
+2024-07-07,Monitor,119.99,5,North,Miguel Rodriguez,1.1,599.95
+2024-09-26,SSD,39.99,1,North,John Smith,4.7,39.99
+2024-06-05,Harddrive,49.99,2,West,Robert Johnson,2.0,99.98
+2024-11-07,CPU,399.99,7,West,Miguel Rodriguez,1.8,2799.93
+2024-09-23,CPU,399.99,5,North,Lisa Chen,4.3,1999.95
+2024-12-27,Keyboard,40.0,8,South,Lisa Chen,2.9,320.0
+2024-10-14,Monster,3.99,8,South,Robert Johnson,,31.92
+2025-02-22,Monster,3.99,5,South,Jane Doh,1.7,19.95
+2024-06-22,RAM,129.99,7,North,Miguel Rodriguez,3.4,909.93
+2024-05-16,Monitor,119.99,10,West,Robert Johnson,5.0,1199.9
+2024-08-17,GPU,1499.99,10,South,,1.2,14999.9
+2024-08-03,Headphones,19.99,6,East,John Smith,2.8,119.94
+2025-03-18,Keyboard,40.0,8,South,Lisa Chen,2.9,320.0
+2024-08-25,Charger,9.99,3,North,Miguel Rodriguez,1.7,29.97
+2024-09-21,Monster,3.99,7,East,Miguel Rodriguez,3.4,27.93
+2024-04-28,Keyboard,40.0,8,,John Smith,3.8,320.0
+2024-04-07,GPU,1499.99,5,Central,Jane Doh,,7499.95
+2024-08-03,RAM,129.99,1,East,Jane Doh,2.5,129.99
+2024-12-12,Marker,2.99,8,West,Miguel Rodriguez,1.4,23.92
+2024-10-29,Charger,9.99,6,Central,Lisa Chen,1.8,59.94
+2024-07-22,Monster,3.99,1,West,Miguel Rodriguez,4.1,3.99
+2024-05-22,CPU,399.99,9,West,Jane Doh,4.9,3599.91
+2025-01-21,SSD,39.99,5,Central,Robert Johnson,3.4,199.95
+2025-03-11,Headphones,19.99,2,South,Robert Johnson,1.9,39.98
+2024-10-21,Charger,9.99,10,Central,Robert Johnson,1.2,99.9
+2024-05-07,Charger,9.99,6,Central,Robert Johnson,1.7,59.94
+2024-05-12,GPU,1499.99,8,East,Jane Doh,4.5,11999.92
+2024-12-20,RAM,129.99,4,West,Jane Doh,4.8,519.96
+2024-12-29,CPU,399.99,3,North,Lisa Chen,2.4,1199.97
+2024-08-22,Monster,3.99,1,Central,Lisa Chen,,3.99
+2024-09-19,Motherboard,299.99,1,North,Miguel Rodriguez,1.1,299.99
+2024-08-09,Laptop,499.99,6,East,John Smith,2.8,2999.94
+2024-11-27,Keyboard,40.0,4,West,Lisa Chen,2.5,160.0
+2024-06-16,Keyboard,40.0,3,South,Miguel Rodriguez,1.9,120.0
+2024-07-14,Headphones,19.99,5,Central,Miguel Rodriguez,2.1,99.95
+2025-03-22,Marker,2.99,2,Central,Lisa Chen,4.4,5.98
+2024-09-11,Monitor,119.99,10,North,John Smith,2.8,1199.9
+2024-10-18,GPU,1499.99,,South,Lisa Chen,4.2,
+2024-05-27,Headphones,19.99,2,Central,Lisa Chen,4.4,39.98
+2024-09-17,GPU,1499.99,6,East,John Smith,2.0,8999.94
+2024-12-22,Monster,3.99,4,Central,Jane Doh,1.3,15.96
+2024-12-26,Monitor,119.99,6,Central,John Smith,3.0,719.94
+2024-10-04,Motherboard,299.99,1,Central,Robert Johnson,4.2,299.99
+2024-07-30,Motherboard,299.99,7,Central,John Smith,,2099.93
+2024-06-03,Mouse,15.99,5,South,Miguel Rodriguez,3.9,79.95
+2025-01-01,Harddrive,49.99,8,North,Lisa Chen,3.5,399.92
+2024-12-17,SSD,39.99,10,Central,Miguel Rodriguez,2.2,399.9
+2024-05-05,Charger,9.99,9,East,Miguel Rodriguez,2.5,89.91
+2024-03-29,Mouse,15.99,10,West,Miguel Rodriguez,1.6,159.9
+2024-05-20,RAM,129.99,4,West,Miguel Rodriguez,3.5,519.96
+2024-12-05,Marker,2.99,2,Central,Miguel Rodriguez,1.4,5.98
+2024-08-06,Headphones,19.99,1,South,Robert Johnson,3.6,19.99
+2024-10-31,Headphones,19.99,,North,John Smith,1.1,
+2025-03-14,RAM,129.99,6,West,Miguel Rodriguez,2.6,779.94
+2024-08-14,Laptop,499.99,5,West,John Smith,4.2,2499.95
+2025-03-13,Mouse,15.99,9,East,John Smith,2.8,143.91
+2024-07-09,Laptop,499.99,,Central,Lisa Chen,3.9,
+2024-05-22,Mouse,15.99,5,South,Robert Johnson,1.1,79.95
+2024-12-24,Keyboard,40.0,3,South,Lisa Chen,1.6,120.0
+2024-09-24,Monster,3.99,2,East,John Smith,3.8,7.98
+2025-01-16,Headphones,19.99,1,West,Robert Johnson,1.9,19.99
+2024-06-30,Charger,9.99,10,East,Miguel Rodriguez,4.6,99.9
+2024-11-11,Harddrive,49.99,10,West,Miguel Rodriguez,1.3,499.9
+2024-06-10,Harddrive,49.99,6,South,John Smith,4.0,299.94
+2024-09-04,Monitor,119.99,8,Central,Lisa Chen,2.3,959.92
+2024-11-07,Charger,9.99,3,West,Lisa Chen,2.2,29.97
+2025-02-01,Charger,9.99,10,West,Lisa Chen,1.6,99.9
+2024-11-04,Charger,9.99,5,North,Lisa Chen,4.7,49.95
+2024-05-10,Mouse,15.99,4,South,John Smith,2.1,63.96
+2024-06-05,Mouse,15.99,4,North,Robert Johnson,4.1,63.96
+2024-07-21,Mouse,15.99,3,Central,Jane Doh,2.0,47.97
+2024-08-10,Monster,3.99,10,South,Lisa Chen,4.2,39.9
+2024-04-23,Mouse,15.99,5,East,John Smith,4.3,79.95
+2024-11-22,Monster,3.99,1,North,Jane Doh,4.8,3.99
+2024-06-25,GPU,1499.99,5,West,John Smith,1.2,7499.95
+2024-11-06,Harddrive,49.99,,Central,Jane Doh,3.7,
+2025-02-01,Monster,3.99,9,South,Lisa Chen,4.0,35.91
+2024-09-28,RAM,129.99,6,North,Robert Johnson,1.1,779.94
+2024-11-23,Monitor,119.99,4,North,John Smith,2.2,479.96
+2024-06-09,Monster,3.99,5,West,Jane Doh,4.8,19.95
+2024-08-10,Monster,3.99,1,West,Jane Doh,4.4,3.99
+2024-07-03,Harddrive,49.99,4,Central,John Smith,4.1,199.96
+2024-08-10,Keyboard,40.0,8,South,Robert Johnson,2.6,320.0
+2025-01-26,Marker,2.99,3,West,Lisa Chen,1.1,8.97
+2025-03-02,Monitor,119.99,8,South,Jane Doh,1.3,959.92
+2025-02-02,,,10,East,Miguel Rodriguez,1.2,
+2024-11-02,Monitor,119.99,5,East,John Smith,3.8,599.95
+2024-07-21,Laptop,499.99,4,North,Jane Doh,3.5,1999.96
+2024-08-02,Harddrive,49.99,8,West,,5.0,399.92
+2024-12-09,GPU,1499.99,7,South,Robert Johnson,4.1,10499.93
+2025-03-22,RAM,129.99,3,South,Lisa Chen,1.2,389.97
+,Headphones,19.99,5,West,Robert Johnson,1.5,99.95
+2024-12-29,GPU,1499.99,3,East,Lisa Chen,3.0,4499.97
+2024-05-21,Charger,9.99,9,North,John Smith,2.5,89.91
+2024-07-10,RAM,129.99,6,South,John Smith,1.1,779.94
+2025-01-13,Headphones,19.99,1,Central,Robert Johnson,1.3,19.99
+2024-11-05,Harddrive,49.99,6,East,Robert Johnson,,299.94
+2024-12-06,Mouse,15.99,4,South,Miguel Rodriguez,4.1,63.96
+2024-03-28,Keyboard,40.0,3,South,Jane Doh,4.1,120.0
+2024-07-05,Mouse,15.99,6,Central,Robert Johnson,2.2,95.94
+2024-03-28,Monster,3.99,4,Central,Jane Doh,2.1,15.96
+2024-12-05,RAM,129.99,8,South,Robert Johnson,4.2,1039.92
+2024-04-22,Keyboard,40.0,8,South,John Smith,2.4,320.0
+2024-10-08,Monster,3.99,8,East,John Smith,4.2,31.92
+2024-11-12,Monster,3.99,9,West,John Smith,2.9,35.91
+2024-11-19,Marker,2.99,5,Central,,2.3,14.95
+2025-02-23,GPU,1499.99,10,South,Miguel Rodriguez,2.2,14999.9
+2024-05-22,SSD,39.99,8,North,,1.2,319.92
+2025-02-16,RAM,129.99,8,Central,John Smith,2.3,1039.92
+2024-08-09,Laptop,499.99,1,South,Jane Doh,1.7,499.99
+2024-11-23,Mouse,15.99,6,West,John Smith,1.3,95.94
+2024-08-29,Motherboard,299.99,3,,Lisa Chen,3.7,899.97
+2024-05-16,CPU,399.99,7,North,Robert Johnson,4.8,2799.93
+2024-10-09,Monster,3.99,4,North,Lisa Chen,1.1,15.96
+2024-05-23,Headphones,19.99,9,East,Jane Doh,3.6,179.91
+2024-04-26,,,5,Central,Miguel Rodriguez,,
+2024-04-29,Motherboard,299.99,8,,Robert Johnson,2.6,2399.92
+2024-05-24,RAM,129.99,5,West,Jane Doh,1.8,649.95
+2024-04-05,Monster,3.99,9,North,John Smith,2.2,35.91
+2024-07-11,Keyboard,40.0,10,South,John Smith,2.5,400.0
+2024-11-20,Marker,2.99,6,West,Miguel Rodriguez,1.8,17.94
+2024-05-18,SSD,39.99,8,East,Robert Johnson,2.0,319.92
+2024-11-18,Charger,9.99,7,West,Robert Johnson,1.8,69.93
+2025-03-15,Charger,9.99,4,South,Miguel Rodriguez,4.3,39.96
+2024-07-28,Motherboard,299.99,6,West,Jane Doh,1.3,1799.94
+2025-02-03,Laptop,499.99,4,South,John Smith,2.6,1999.96
+2024-07-23,Monster,3.99,10,Central,Miguel Rodriguez,2.1,39.9
+2024-05-03,GPU,1499.99,2,Central,Miguel Rodriguez,3.3,2999.98
+2024-04-09,RAM,129.99,6,West,Miguel Rodriguez,4.4,779.94
+2024-08-04,Headphones,19.99,3,East,,4.4,59.97
+2024-06-05,RAM,129.99,2,North,Lisa Chen,3.0,259.98
+2024-08-03,GPU,1499.99,1,North,Lisa Chen,2.4,1499.99
+2024-12-26,Marker,2.99,2,East,John Smith,1.1,5.98
+2025-02-11,Headphones,19.99,9,South,Lisa Chen,2.6,179.91
+2024-08-12,Mouse,15.99,1,West,Lisa Chen,3.4,15.99
+2024-05-28,RAM,129.99,5,,Lisa Chen,3.3,649.95
+2024-08-11,CPU,399.99,4,North,John Smith,4.6,1599.96
+2025-03-17,CPU,399.99,5,West,Jane Doh,4.5,1999.95
+2024-08-01,Monitor,119.99,9,East,Miguel Rodriguez,1.4,1079.91
+2024-12-03,Monster,3.99,6,,John Smith,4.1,23.94
+,CPU,399.99,9,West,Miguel Rodriguez,3.3,3599.91
+2025-01-31,Monster,3.99,3,West,Miguel Rodriguez,2.2,11.97
+2024-03-27,Laptop,499.99,1,East,John Smith,4.8,499.99
+2025-03-23,Headphones,19.99,6,East,,1.5,119.94
+2024-06-22,Harddrive,49.99,8,West,Lisa Chen,,399.92
+2025-02-03,RAM,129.99,1,South,Lisa Chen,2.6,129.99
+2024-12-27,Motherboard,299.99,3,West,Lisa Chen,2.3,899.97
+2024-10-12,SSD,39.99,10,East,Jane Doh,2.8,399.9
+2025-01-03,RAM,129.99,3,South,Robert Johnson,1.8,389.97
+2025-03-24,,,5,North,John Smith,4.0,
+2024-06-06,GPU,1499.99,,East,John Smith,3.5,
+2024-04-16,Laptop,499.99,4,Central,Lisa Chen,4.2,1999.96
+2025-03-06,SSD,39.99,1,East,Robert Johnson,1.1,39.99
+2024-09-19,Monitor,119.99,10,West,Robert Johnson,2.6,1199.9
+2024-09-20,CPU,399.99,3,North,Jane Doh,1.9,1199.97
+2025-02-13,Harddrive,49.99,2,Central,Lisa Chen,3.4,99.98
+2024-12-07,Harddrive,49.99,,Central,Jane Doh,3.3,
+2024-08-07,Laptop,499.99,5,East,Lisa Chen,4.4,2499.95
+2024-12-07,Laptop,499.99,3,West,Lisa Chen,1.6,1499.97
+2024-10-02,Monster,3.99,4,South,Lisa Chen,3.6,15.96
+2024-11-30,SSD,39.99,6,East,Robert Johnson,4.2,239.94
+2024-09-04,Harddrive,49.99,1,North,Robert Johnson,5.0,49.99
+2025-03-09,Charger,9.99,4,West,Robert Johnson,4.0,39.96
+2024-03-30,Mouse,15.99,3,Central,Robert Johnson,2.1,47.97
+2024-12-06,GPU,1499.99,9,Central,Miguel Rodriguez,2.7,13499.91
+2025-01-21,Charger,9.99,8,East,Lisa Chen,4.9,79.92
+2024-03-27,Charger,9.99,9,South,Robert Johnson,4.5,89.91
+2025-01-13,RAM,129.99,6,South,Lisa Chen,3.8,779.94
+2024-11-13,Headphones,19.99,7,East,John Smith,3.1,139.93
+2024-12-18,CPU,399.99,9,East,Jane Doh,2.7,3599.91
+2024-05-30,CPU,399.99,4,Central,Lisa Chen,2.8,1599.96
+2024-09-13,CPU,399.99,5,North,John Smith,1.3,1999.95
+2024-12-15,Monitor,119.99,8,West,Robert Johnson,4.8,959.92
+2024-09-04,Monitor,119.99,5,East,John Smith,2.7,599.95
+2025-01-26,Mouse,15.99,5,South,John Smith,3.7,79.95
+2024-11-18,Monster,3.99,9,Central,Lisa Chen,1.7,35.91
+2025-01-10,CPU,399.99,6,West,Miguel Rodriguez,5.0,2399.94
+2024-05-29,Charger,9.99,2,East,John Smith,2.7,19.98
+2024-08-05,Marker,2.99,7,South,Miguel Rodriguez,2.4,20.93
+2024-04-30,Headphones,19.99,6,Central,Lisa Chen,1.4,119.94
+2025-03-09,Harddrive,49.99,5,South,Robert Johnson,3.5,249.95
+2024-09-10,Charger,9.99,9,Central,Miguel Rodriguez,4.6,89.91
+2025-01-11,Charger,9.99,8,North,John Smith,3.6,79.92
+2024-08-20,Monster,3.99,3,South,Robert Johnson,1.0,11.97
+2024-08-20,CPU,399.99,1,East,John Smith,1.7,399.99
+2024-06-20,Monster,3.99,6,East,Jane Doh,4.0,23.94
+2024-03-30,Monster,3.99,7,West,Miguel Rodriguez,1.4,27.93
+2024-08-04,Monitor,119.99,4,East,,2.7,479.96
+2024-05-09,Monster,3.99,6,,Lisa Chen,4.7,23.94
+2024-11-05,CPU,399.99,5,East,Jane Doh,4.4,1999.95
+2024-07-26,Monitor,119.99,7,East,Lisa Chen,3.3,839.93
+2024-10-22,SSD,39.99,5,East,,1.7,199.95
+2025-01-27,Motherboard,299.99,5,East,Lisa Chen,1.5,1499.95
+2024-06-08,Charger,9.99,10,West,Robert Johnson,3.0,99.9
+2025-01-17,Harddrive,49.99,10,South,Miguel Rodriguez,1.9,499.9
+2024-05-15,Marker,2.99,8,South,Jane Doh,3.1,23.92
+2024-07-06,Monitor,119.99,6,Central,John Smith,3.5,719.94
+2024-12-30,Motherboard,299.99,10,Central,Robert Johnson,2.2,2999.9
+2024-04-16,Marker,2.99,1,South,Lisa Chen,4.6,2.99
+2025-01-05,CPU,399.99,2,South,Lisa Chen,4.7,799.98
+2025-03-19,Harddrive,49.99,10,North,Lisa Chen,1.3,499.9
+2025-01-30,Charger,9.99,2,Central,John Smith,4.3,19.98
+2024-08-13,Motherboard,299.99,7,Central,Robert Johnson,4.0,2099.93
+2025-03-25,Headphones,19.99,8,Central,Robert Johnson,4.3,159.92
+,RAM,129.99,4,Central,,1.6,519.96
+2024-10-20,GPU,1499.99,6,East,Lisa Chen,4.9,8999.94
+2024-09-18,Laptop,499.99,6,East,John Smith,3.6,2999.94
+2024-12-07,RAM,129.99,1,North,,3.2,129.99
+2024-10-24,Monster,3.99,4,East,Robert Johnson,1.1,15.96
+2024-09-30,Monitor,119.99,9,South,Lisa Chen,3.2,1079.91
+2025-01-02,Laptop,499.99,10,West,Jane Doh,4.6,4999.9
+2024-06-01,Laptop,499.99,4,South,Lisa Chen,3.1,1999.96
+2024-08-27,CPU,399.99,7,South,John Smith,2.7,2799.93
+2024-07-04,Keyboard,40.0,7,Central,Lisa Chen,1.8,280.0
+2025-02-02,GPU,1499.99,7,Central,Robert Johnson,4.7,10499.93
+2024-07-31,Headphones,19.99,3,Central,,3.9,59.97
+,Charger,9.99,6,East,John Smith,2.2,59.94
+2025-02-06,Monitor,119.99,2,Central,Robert Johnson,4.4,239.98
+2024-11-17,GPU,1499.99,5,East,Robert Johnson,2.6,7499.95
+2024-04-02,Monitor,119.99,1,North,Lisa Chen,4.0,119.99
+2025-02-11,GPU,1499.99,4,North,Robert Johnson,4.0,5999.96
+2024-04-17,Laptop,499.99,4,North,John Smith,,1999.96
+2024-08-12,Keyboard,40.0,6,East,John Smith,4.3,240.0
+2024-04-24,RAM,129.99,5,West,Miguel Rodriguez,3.1,649.95
+2024-05-19,CPU,399.99,6,East,Jane Doh,1.5,2399.94
+2024-11-28,Marker,2.99,7,East,Jane Doh,1.7,20.93
+2024-11-22,Monster,3.99,8,East,Robert Johnson,3.4,31.92
+2024-04-06,Mouse,15.99,1,North,John Smith,4.4,15.99
+2024-08-12,Keyboard,40.0,4,South,John Smith,2.4,160.0
+2025-03-12,RAM,129.99,1,East,Lisa Chen,3.2,129.99
+2024-10-20,Mouse,15.99,10,Central,Lisa Chen,4.2,159.9
+,Monster,3.99,6,North,John Smith,3.4,23.94
+2024-08-09,Motherboard,299.99,6,Central,Lisa Chen,2.3,1799.94
+2024-03-28,Harddrive,49.99,1,Central,,1.0,49.99
+2024-11-20,Charger,9.99,5,North,Robert Johnson,1.3,49.95
+2024-04-27,RAM,129.99,6,Central,Miguel Rodriguez,4.6,779.94
+2025-02-12,Mouse,15.99,3,West,Robert Johnson,3.2,47.97
+2024-09-29,Laptop,499.99,3,North,Miguel Rodriguez,,1499.97
+2025-03-24,Monitor,119.99,1,North,Jane Doh,1.5,119.99
+2024-12-16,Monitor,119.99,9,Central,Lisa Chen,1.7,1079.91
+2024-06-16,Mouse,15.99,7,North,Miguel Rodriguez,,111.93
+,RAM,129.99,9,South,Jane Doh,2.4,1169.91
+2024-10-01,Laptop,499.99,5,North,,1.2,2499.95
+2025-03-02,CPU,399.99,10,Central,Robert Johnson,2.6,3999.9
+2024-09-10,Marker,2.99,5,North,Jane Doh,,14.95
+2024-12-28,Harddrive,49.99,9,North,Jane Doh,1.1,449.91
+2024-09-29,CPU,399.99,3,East,John Smith,1.3,1199.97
+2024-05-15,Charger,9.99,2,West,Lisa Chen,1.1,19.98
+2024-10-17,Harddrive,49.99,3,Central,Miguel Rodriguez,3.7,149.97
+2024-05-02,Monitor,119.99,2,South,Robert Johnson,2.4,239.98
+2024-09-19,Motherboard,299.99,,East,Miguel Rodriguez,1.2,
+2024-11-19,Keyboard,40.0,8,East,John Smith,3.0,320.0
+2025-01-31,SSD,39.99,,West,Miguel Rodriguez,3.3,
+2024-12-06,Harddrive,49.99,9,East,Robert Johnson,3.5,449.91
+2024-04-10,RAM,129.99,7,South,Robert Johnson,3.1,909.93
+2024-06-14,Laptop,499.99,6,East,Miguel Rodriguez,3.5,2999.94
+2024-07-24,SSD,39.99,3,West,Robert Johnson,,119.97
+2024-04-15,Monitor,119.99,4,Central,Robert Johnson,4.7,479.96
+2024-05-20,Charger,9.99,10,South,John Smith,2.0,99.9
+,Marker,2.99,3,South,Jane Doh,2.3,8.97
+2025-01-18,Charger,9.99,3,West,Lisa Chen,2.0,29.97
+2024-04-13,Charger,9.99,3,Central,John Smith,2.0,29.97
+2024-09-07,Monster,3.99,2,Central,Miguel Rodriguez,4.3,7.98
+2024-08-23,GPU,1499.99,4,Central,Jane Doh,4.4,5999.96
+2024-04-20,Mouse,15.99,8,West,Jane Doh,2.5,127.92
+2025-03-23,CPU,399.99,9,South,Robert Johnson,1.7,3599.91
+2024-09-20,Monster,3.99,7,North,John Smith,4.0,27.93
+2025-03-12,Monster,3.99,7,South,Lisa Chen,4.1,27.93
+2025-01-23,RAM,129.99,3,East,Jane Doh,2.8,389.97
+2024-10-03,Laptop,499.99,7,South,Robert Johnson,1.8,3499.93
+2024-11-14,GPU,1499.99,2,East,Robert Johnson,1.8,2999.98
+2024-11-07,RAM,129.99,,South,Robert Johnson,2.1,
+2025-02-09,Charger,9.99,2,,John Smith,4.5,19.98
+2024-03-28,Motherboard,299.99,4,Central,John Smith,4.9,1199.96
+2025-03-14,GPU,1499.99,1,Central,Robert Johnson,3.9,1499.99
+2024-07-30,Charger,9.99,8,Central,Lisa Chen,2.3,79.92
+2025-01-08,Monster,3.99,4,West,Robert Johnson,3.4,15.96
+2024-09-15,Monster,3.99,8,East,Lisa Chen,2.2,31.92
+2025-01-03,Laptop,499.99,10,Central,Jane Doh,3.6,4999.9
+2024-09-18,SSD,39.99,6,Central,Jane Doh,2.5,239.94
+2024-05-19,SSD,39.99,7,,Lisa Chen,4.5,279.93
+2024-05-19,SSD,39.99,9,East,Robert Johnson,4.1,359.91
+2024-11-23,Keyboard,40.0,4,West,Lisa Chen,4.6,160.0
+2024-05-10,Motherboard,299.99,9,South,Miguel Rodriguez,2.7,2699.91
+2024-09-17,Harddrive,49.99,7,West,John Smith,1.6,349.93
+2025-01-23,CPU,399.99,2,South,John Smith,1.7,799.98
+2024-05-12,Monster,3.99,6,North,Lisa Chen,3.2,23.94
+2024-10-19,Laptop,499.99,4,South,Jane Doh,,1999.96
+2024-06-08,Motherboard,299.99,1,East,Jane Doh,3.3,299.99
+2024-04-15,Keyboard,40.0,3,South,Robert Johnson,2.7,120.0
+2024-12-24,Keyboard,40.0,10,South,Miguel Rodriguez,2.9,400.0
+2024-04-24,Headphones,19.99,6,North,Robert Johnson,2.9,119.94
+2024-07-17,SSD,39.99,7,Central,Miguel Rodriguez,3.0,279.93
+2024-04-18,Motherboard,299.99,4,North,Jane Doh,3.1,1199.96
+2024-10-30,Headphones,19.99,8,East,John Smith,4.7,159.92
+2024-06-12,Monster,3.99,1,West,Robert Johnson,2.7,3.99
+2024-08-16,Charger,9.99,5,East,Robert Johnson,3.4,49.95
+2025-03-15,Harddrive,49.99,3,North,Miguel Rodriguez,1.7,149.97
+2024-06-03,SSD,39.99,8,South,Miguel Rodriguez,,319.92
+2024-11-16,Motherboard,299.99,7,South,Jane Doh,3.8,2099.93
+2024-05-19,SSD,39.99,9,North,Miguel Rodriguez,2.3,359.91
+2024-07-26,Monitor,119.99,10,East,Jane Doh,3.3,1199.9
+2024-08-14,CPU,399.99,1,Central,Jane Doh,3.7,399.99
+2024-05-03,GPU,1499.99,10,North,John Smith,3.6,14999.9
+2025-02-21,RAM,129.99,5,South,Miguel Rodriguez,3.6,649.95
+2024-05-27,Mouse,15.99,10,Central,Jane Doh,4.7,159.9
+2024-08-03,Harddrive,49.99,,East,Jane Doh,4.2,
+2024-07-05,Mouse,15.99,4,South,Robert Johnson,2.8,63.96
+2025-01-07,GPU,1499.99,7,East,Lisa Chen,2.6,10499.93
+2024-12-19,Harddrive,49.99,,East,Robert Johnson,3.3,
+2024-04-19,Monitor,119.99,1,East,Robert Johnson,4.0,119.99
+2024-04-19,Laptop,499.99,9,North,Lisa Chen,1.2,4499.91
+2024-10-06,Headphones,19.99,2,East,Miguel Rodriguez,5.0,39.98
+2024-08-15,Monster,3.99,9,Central,Jane Doh,3.4,35.91
+2025-03-23,SSD,39.99,10,East,Lisa Chen,2.0,399.9
+2024-06-06,RAM,129.99,10,West,Miguel Rodriguez,2.2,1299.9
+2024-04-05,GPU,1499.99,1,North,Jane Doh,4.3,1499.99
+2024-08-26,Harddrive,49.99,1,West,Lisa Chen,4.7,49.99
+2024-05-27,RAM,129.99,4,North,Jane Doh,1.4,519.96
+2024-09-07,Marker,2.99,3,Central,Lisa Chen,4.8,8.97
+2024-08-22,Keyboard,40.0,3,Central,Lisa Chen,1.9,120.0
+2024-05-18,Harddrive,49.99,8,East,Miguel Rodriguez,,399.92
+2024-07-19,Laptop,499.99,10,Central,Miguel Rodriguez,4.0,4999.9
+2025-02-02,RAM,129.99,6,North,Lisa Chen,4.9,779.94
+2025-02-04,Charger,9.99,4,West,Jane Doh,3.3,39.96
+2025-03-24,Monitor,119.99,3,West,Lisa Chen,2.7,359.97
+2024-12-05,,,8,East,Lisa Chen,2.4,
+2024-08-09,CPU,399.99,,North,Jane Doh,1.9,
+2025-03-12,Keyboard,40.0,4,North,Robert Johnson,1.5,160.0
+2024-09-29,CPU,399.99,2,Central,John Smith,2.4,799.98
+2024-12-19,Monitor,119.99,10,West,Miguel Rodriguez,1.9,1199.9
+2024-05-07,Monitor,119.99,8,West,Miguel Rodriguez,2.8,959.92
+2024-11-19,Headphones,19.99,5,East,Miguel Rodriguez,2.9,99.95
+2024-05-04,Monster,3.99,8,Central,Robert Johnson,3.6,31.92
+2025-02-06,Mouse,15.99,10,East,Miguel Rodriguez,,159.9
+,Harddrive,49.99,8,West,Miguel Rodriguez,2.2,399.92
+2024-09-24,Marker,2.99,1,Central,Miguel Rodriguez,4.5,2.99
+2024-10-29,SSD,39.99,3,East,Robert Johnson,,119.97
+2024-12-03,Keyboard,40.0,3,Central,Lisa Chen,1.3,120.0
+2024-10-21,SSD,39.99,,East,,3.1,
+2024-09-04,RAM,129.99,3,North,Robert Johnson,3.1,389.97
+2024-04-08,GPU,1499.99,7,Central,Robert Johnson,1.5,10499.93
+2025-01-28,GPU,1499.99,6,Central,Robert Johnson,2.1,8999.94
+2024-10-18,SSD,39.99,10,West,Miguel Rodriguez,4.2,399.9
+2025-02-10,GPU,1499.99,,Central,Miguel Rodriguez,1.4,
+2024-07-20,Monster,3.99,1,,Lisa Chen,3.9,3.99
+2024-10-13,Marker,2.99,10,North,Robert Johnson,,29.9
+2025-02-01,Monster,3.99,3,,Jane Doh,3.8,11.97
+2024-12-15,GPU,1499.99,,North,Robert Johnson,3.8,
+2024-09-30,,,2,East,Miguel Rodriguez,2.3,
+2024-09-15,Headphones,19.99,9,West,Jane Doh,,179.91
+,GPU,1499.99,5,West,Lisa Chen,1.3,7499.95
+2024-09-29,Laptop,499.99,1,East,Robert Johnson,1.2,499.99
+2024-05-26,Charger,9.99,8,South,Robert Johnson,4.3,79.92
+2024-07-09,Charger,9.99,1,Central,Lisa Chen,4.3,9.99
+2025-01-03,Monster,3.99,10,South,John Smith,4.5,39.9
+2024-12-05,GPU,1499.99,7,Central,Jane Doh,1.0,10499.93
+2024-05-07,RAM,129.99,9,Central,Lisa Chen,3.3,1169.91
+2024-11-08,Charger,9.99,1,East,John Smith,2.2,9.99
+2024-05-22,Charger,9.99,3,East,John Smith,4.4,29.97
+2024-09-22,Marker,2.99,8,West,Lisa Chen,2.7,23.92
+2024-06-04,SSD,39.99,1,North,Miguel Rodriguez,2.1,39.99
+2024-10-22,GPU,1499.99,7,Central,Lisa Chen,1.7,10499.93
+2025-01-21,RAM,129.99,1,South,Jane Doh,1.3,129.99
+2024-12-15,Motherboard,299.99,8,South,John Smith,3.2,2399.92
+2025-01-23,SSD,39.99,7,North,Robert Johnson,4.1,279.93
+2024-08-06,Motherboard,299.99,,Central,Lisa Chen,4.5,
+2024-12-01,GPU,1499.99,4,North,Miguel Rodriguez,2.4,5999.96
+2025-01-20,RAM,129.99,10,North,Robert Johnson,3.6,1299.9
+2024-05-23,Monitor,119.99,10,Central,Lisa Chen,,1199.9
+2024-06-18,CPU,399.99,5,South,John Smith,1.6,1999.95
+2024-08-30,Headphones,19.99,1,North,John Smith,1.7,19.99
+2025-03-25,Mouse,15.99,,Central,Lisa Chen,2.4,
+,Laptop,499.99,4,South,Miguel Rodriguez,,1999.96
+,Harddrive,49.99,7,Central,Jane Doh,2.5,349.93
+2024-12-29,Harddrive,49.99,4,East,Jane Doh,1.7,199.96
+2024-06-07,Motherboard,299.99,8,East,Miguel Rodriguez,3.7,2399.92
+2024-07-05,,,2,West,Robert Johnson,2.6,
+2025-02-28,Mouse,15.99,4,West,John Smith,1.5,63.96
+2024-07-28,Charger,9.99,4,South,John Smith,2.4,39.96
+,SSD,39.99,1,East,Robert Johnson,3.5,39.99
+2024-10-16,Mouse,15.99,7,Central,Jane Doh,3.7,111.93
+2024-07-05,,,7,South,Jane Doh,2.5,
+,CPU,399.99,4,East,Robert Johnson,4.4,1599.96
+2024-12-20,CPU,399.99,6,Central,Lisa Chen,4.5,2399.94
+2024-07-19,Monitor,119.99,10,South,Lisa Chen,3.7,1199.9
+2024-07-09,GPU,1499.99,5,West,Miguel Rodriguez,3.9,7499.95
+2024-04-16,Harddrive,49.99,8,Central,Miguel Rodriguez,3.1,399.92
+2024-12-16,Headphones,19.99,8,Central,John Smith,1.4,159.92
+2024-10-12,Motherboard,299.99,7,West,Robert Johnson,2.6,2099.93
+2024-04-17,Charger,9.99,9,North,Miguel Rodriguez,3.7,89.91
+2024-08-24,Headphones,19.99,8,West,,2.4,159.92
+2024-10-13,,,9,North,Jane Doh,1.3,
+2025-03-02,CPU,399.99,3,Central,Robert Johnson,2.6,1199.97
+2024-05-02,Mouse,15.99,8,East,Lisa Chen,3.1,127.92
+2024-10-26,Marker,2.99,7,East,Robert Johnson,1.0,20.93
+2024-09-23,Charger,9.99,8,West,Robert Johnson,3.3,79.92
+2024-10-28,Keyboard,40.0,7,East,Lisa Chen,3.6,280.0
+2024-07-22,GPU,1499.99,6,South,,1.4,8999.94
+2025-03-26,Monitor,119.99,6,East,Miguel Rodriguez,3.4,719.94
+2025-03-01,GPU,1499.99,2,Central,John Smith,4.8,2999.98
+2024-03-28,Monster,3.99,1,West,Miguel Rodriguez,1.1,3.99
+2025-03-22,Charger,9.99,4,South,Jane Doh,4.4,39.96
+2024-12-22,Marker,2.99,6,South,Miguel Rodriguez,4.1,17.94
+2025-01-12,CPU,399.99,4,East,Jane Doh,4.5,1599.96
+2024-05-14,GPU,1499.99,7,West,Robert Johnson,4.0,10499.93
+2024-07-31,Mouse,15.99,7,East,Miguel Rodriguez,2.8,111.93
+2024-10-30,Charger,9.99,2,North,Robert Johnson,1.3,19.98
+2025-02-07,Marker,2.99,7,Central,Lisa Chen,3.0,20.93
+2024-05-29,Laptop,499.99,4,North,Robert Johnson,2.7,1999.96
+2024-11-27,CPU,399.99,,West,,1.3,
+2024-10-25,CPU,399.99,4,South,Jane Doh,3.7,1599.96
+2024-07-17,Motherboard,299.99,4,North,John Smith,2.9,1199.96
+,,,1,South,Lisa Chen,2.2,
+2025-03-13,Motherboard,299.99,9,East,Miguel Rodriguez,3.3,2699.91
+2024-04-02,GPU,1499.99,3,North,Robert Johnson,4.2,4499.97
+2024-09-09,Marker,2.99,2,Central,John Smith,1.3,5.98
+2024-04-30,Harddrive,49.99,1,East,John Smith,1.2,49.99
+2024-09-29,Monster,3.99,4,East,Lisa Chen,1.7,15.96
+2024-04-30,GPU,1499.99,5,Central,Jane Doh,,7499.95
+2024-07-16,Mouse,15.99,8,South,Lisa Chen,2.1,127.92
+2024-05-17,Mouse,15.99,10,North,Robert Johnson,1.6,159.9
+2024-12-17,Marker,2.99,2,West,Jane Doh,4.5,5.98
+2024-06-13,GPU,1499.99,10,Central,Jane Doh,2.1,14999.9
+2024-08-10,Headphones,19.99,9,North,John Smith,4.8,179.91
+2024-08-19,Motherboard,299.99,5,South,Robert Johnson,3.9,1499.95
+2024-04-16,Headphones,19.99,5,Central,Jane Doh,1.8,99.95
+2024-04-02,SSD,39.99,4,West,Jane Doh,2.1,159.96
+2025-02-09,Motherboard,299.99,,Central,John Smith,2.9,
+2024-09-07,CPU,399.99,4,North,,4.8,1599.96
+2024-04-19,Marker,2.99,2,North,Jane Doh,2.1,5.98
+2025-01-24,Headphones,19.99,4,North,Robert Johnson,2.7,79.96
+2024-10-27,Monster,3.99,6,North,Jane Doh,4.2,23.94
+2024-05-08,Marker,2.99,2,Central,Miguel Rodriguez,4.9,5.98
+2025-01-01,RAM,129.99,4,,Lisa Chen,4.7,519.96
+2024-12-25,Harddrive,49.99,6,Central,,2.1,299.94
+2024-11-03,GPU,1499.99,5,Central,Jane Doh,3.5,7499.95
+2024-07-08,Mouse,15.99,2,North,Lisa Chen,4.0,31.98
+2024-08-31,Harddrive,49.99,5,Central,Lisa Chen,1.3,249.95
+2025-01-19,Motherboard,299.99,9,North,Jane Doh,3.5,2699.91
+2024-10-09,CPU,399.99,8,North,John Smith,3.0,3199.92
+2024-09-02,GPU,1499.99,10,East,John Smith,4.4,14999.9
+2024-05-23,Mouse,15.99,10,South,Jane Doh,,159.9
+2024-06-14,CPU,399.99,2,West,Robert Johnson,2.3,799.98
+2025-01-24,Marker,2.99,7,South,Lisa Chen,1.9,20.93
+,RAM,129.99,4,North,Jane Doh,1.1,519.96
+2024-07-16,Marker,2.99,3,Central,John Smith,3.6,8.97
+2024-04-14,,,5,North,Jane Doh,2.4,
+2025-03-02,Keyboard,40.0,9,Central,Jane Doh,1.1,360.0
+2024-11-22,Motherboard,299.99,2,South,Lisa Chen,1.7,599.98
+2024-07-16,Monitor,119.99,1,North,Lisa Chen,2.2,119.99
+2024-04-22,Monster,3.99,2,East,Miguel Rodriguez,3.6,7.98
+2024-07-10,CPU,399.99,4,West,Lisa Chen,4.8,1599.96
+2024-07-25,Monster,3.99,3,West,Lisa Chen,2.4,11.97
+2024-04-17,Headphones,19.99,4,East,Robert Johnson,3.1,79.96
+2024-10-15,Charger,9.99,5,Central,Miguel Rodriguez,4.2,49.95
+2025-02-03,CPU,399.99,1,North,Robert Johnson,2.4,399.99
+2024-04-18,Laptop,499.99,1,Central,Miguel Rodriguez,1.5,499.99
+2024-09-19,Harddrive,49.99,1,West,Lisa Chen,1.3,49.99
+2025-02-19,Harddrive,49.99,8,West,John Smith,3.8,399.92
+2024-10-16,GPU,1499.99,1,North,John Smith,4.8,1499.99
+2024-07-15,GPU,1499.99,10,North,Jane Doh,3.6,14999.9
+2024-12-05,Headphones,19.99,10,North,Robert Johnson,3.6,199.9
+2024-07-06,Laptop,499.99,10,East,Robert Johnson,2.9,4999.9
+2024-10-11,Marker,2.99,8,South,Jane Doh,3.3,23.92
+2024-04-28,Keyboard,40.0,5,West,Lisa Chen,,200.0
+2024-11-10,Laptop,499.99,6,North,Jane Doh,3.8,2999.94
+2024-08-22,Keyboard,40.0,9,North,Miguel Rodriguez,4.6,360.0
+2025-03-10,CPU,399.99,8,North,Robert Johnson,2.6,3199.92
+2024-08-02,CPU,399.99,,West,Lisa Chen,2.2,
+2025-02-25,Laptop,499.99,2,Central,John Smith,3.0,999.98
+2024-06-11,SSD,39.99,3,South,Robert Johnson,4.0,119.97
+2024-10-11,Marker,2.99,7,Central,Robert Johnson,3.4,20.93
+2024-06-24,Laptop,499.99,4,West,Jane Doh,4.2,1999.96
+2024-09-09,Motherboard,299.99,7,South,Miguel Rodriguez,4.3,2099.93
+2024-04-03,Monitor,119.99,1,South,Robert Johnson,1.8,119.99
+2024-05-12,Keyboard,40.0,9,East,Jane Doh,2.5,360.0
+2024-10-14,,,3,West,Miguel Rodriguez,5.0,
+2024-05-14,Mouse,15.99,2,North,,1.5,31.98
+2025-03-05,Mouse,15.99,1,Central,Miguel Rodriguez,2.6,15.99
+2024-08-25,Motherboard,299.99,9,North,Robert Johnson,1.5,2699.91
+2025-02-14,Monitor,119.99,8,North,John Smith,2.5,959.92
+2024-12-02,Headphones,19.99,,North,Robert Johnson,4.0,
+2024-06-22,Monster,3.99,5,West,John Smith,3.5,19.95
+2025-02-09,RAM,129.99,2,South,Miguel Rodriguez,2.0,259.98
+2024-06-04,GPU,1499.99,5,East,Miguel Rodriguez,4.1,7499.95
+2025-02-05,Monitor,119.99,4,Central,Robert Johnson,2.0,479.96
