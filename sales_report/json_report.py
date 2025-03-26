@@ -3,6 +3,7 @@ import json
 import matplotlib.pyplot as plt
 import os
 import numpy as np
+from datetime import datetime
 
 def process_sales_data(file_path):
     total_sales = 0
@@ -59,6 +60,7 @@ def process_sales_data(file_path):
                         quantity = int(row['Quantity'])
 
                         date = row['Date']
+                        date = datetime.strptime(date, '%Y-%m-%d').strftime('%Y-%m')
                         if date in sales_by_date:
                             sales_by_date[date] += amount
                         else:
@@ -84,8 +86,8 @@ def process_sales_data(file_path):
                 "sales_by_item": sales_by_item,
                 "quantity_by_region": quantity_by_region,
                 "quantity_by_item": quantity_by_item,
-                "sales_by_date": sales_by_date,
-                "quantity_by_date": quantity_by_date
+                "sales_by_date": dict(sorted(sales_by_date.items())),
+                "quantity_by_date": dict(sorted(quantity_by_date.items()))
         }
 
         return summary
