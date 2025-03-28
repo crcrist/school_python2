@@ -16,6 +16,13 @@ def process_sales_data(file_path):
     quantity_by_item = {}
     sales_by_date = {}
     quantity_by_date = {}
+    customer_experience_counts = {
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0
+    }
 
     try:
         with open(file_path, 'r') as csv_file:
@@ -72,7 +79,24 @@ def process_sales_data(file_path):
                         else:
                             quantity_by_date[date] = quantity
                             
-                
+                    if row['CustomerExperience']:
+                        try:
+                            score = float(row['CustomerExperience'])
+                            score_range = "1"
+                            if score < 2:
+                                score_range = "1"
+                            elif score < 3:
+                                score_range = "2"
+                            elif score < 4:
+                                score_range = "3"
+                            elif score < 5:
+                                score_range = "4"
+                            else: 
+                                score_range = "5"
+
+                            customer_experience_counts[score_range] += 1
+                        except ValueError:
+                            pass
 
                 except ValueError as e:
                     print(f"Error processing row {row} : {e}")
@@ -88,7 +112,8 @@ def process_sales_data(file_path):
                 "quantity_by_region": dict(sorted(quantity_by_region.items(), key=lambda item: item[1], reverse=True)),
                 "quantity_by_item": dict(sorted(quantity_by_item.items(), key=lambda item: item[1], reverse=True)),
                 "sales_by_date": dict(sorted(sales_by_date.items())),
-                "quantity_by_date": dict(sorted(quantity_by_date.items()))
+                "quantity_by_date": dict(sorted(quantity_by_date.items())),
+                "customer_experience_counts": customer_experience_counts
         }
 
         return summary
@@ -132,14 +157,7 @@ def create_visualizations(data, output_folder):
     plt.ylabel('Sales Amount')
     plt.savefig(f"{output_folder}/sales_by_region_bar.png")
 
-    # pie chart
-    plt.figure(figsize=(8,8))
-    plt.pie(sales, labels=regions, autopct='%1.1f%%')
-    plt.title('Sales Distribution by Region')
-    plt.savefig(f"{output_folder}/sales_by_region_pie.png")
-
-
-    # quantity by items visual 
+    # quantity by items sort
     items = list(data['quantity_by_item'].keys())
     quantity = list(data['quantity_by_item'].values())
 
@@ -157,6 +175,24 @@ def create_visualizations(data, output_folder):
     plt.tight_layout()
     plt.savefig(f"{output_folder}/quantity_by_item_bar.png")
 
+    # customer experience bar
+    scores = list(data['customer_experience_counts'].keys())
+    counts = list(data['customer_experience_counts'].values())
+
+    plt.figure(figsize=(8,6))
+    plt.bar(scores, counts, color = 'skyblue')
+    plt.title('Transaaction Count by Customer Experience Score')
+    plt.xlabel('Customer Experience Score')
+    plt.ylabel('Number of Transactions')
+    plt.xticks(scores)
+
+    for i, count in enumerate(counts):
+        plt.text(scores[i], count + 0.1, str(count), ha='center')
+
+    plt.grid(axis='y', linestyle='--', alpha=0.7)
+    plt.savefig(f"{output_folder}/customer_experience_bar.png")
+
+
     # donut chart
     top_n = 5
     plt.figure(figsize=(8,8))
@@ -169,52 +205,24 @@ def create_visualizations(data, output_folder):
 
     print(f"Visualizations saved to {output_folder}")
 
-    # scatter plot
-    df = pd.read_csv("sales_data.csv")
-    
-    regions = df['Region'].tolist()
-    sales = df['Quantity'].tolist()
-    customer_exp = df['CustomerExperience'].tolist() 
+    # line chart
+    date = list(data['sales_by_date'].keys())
+    sales = list(data['sales_by_date'].values())
     
     plt.figure(figsize=(10,6))
-    
-    unique_regions = list(df['Region'].unique())
-    colors = plt.cm.tab10(np.linspace(0, 1, len(unique_regions)))
-    color_dict = dict(zip(unique_regions, colors))
+    plt.plot(date, sales, marker = 'o', linewidth = 2)
 
-    # create emptly handles and lables for the legend
-    handles = []
-    labels = []
-    
-    # plot each region with the appropriate color
-    for region in unique_regions:
-        # filter data for the region
-        region_data = df[df['Region'] == region]
+    plt.xlabel('Date')
+    plt.ylabel('Sales')
+    plt.title('Sales by Date')
 
-        # create scatterplot for the region
-        scatter = plt.scatter(
-            region_data['Quantity'],
-            region_data['CustomerExperience'],
-            color=color_dict[region],
-            label=region,
-            alpha=0.7,
-            s=100
-        )
-
-        handles.append(scatter)
-        labels.append(region) 
-
-    plt.xlabel('Quantity')
-    plt.ylabel('Customer Experience Rating')
-    plt.title('Sales vs Customer Experience by Region')
-
-    plt.legend(handles, labels)
+    plt.xticks(rotation=45)
 
     plt.grid(True, linestyle='--', alpha=0.7)
 
     plt.tight_layout()
-    plt.savefig(f"{output_folder}/sales_vs_experience_scatter.png")
 
+    plt.savefig(f"{output_folder}/sales_by_date_line.png")
 
 def main():
     input_file = "sales_data.csv"
