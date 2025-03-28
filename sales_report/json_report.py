@@ -104,14 +104,14 @@ def process_sales_data(file_path):
         avg_sales = total_sales / sales_count if sales_count > 0 else 0 
 
         summary = {
-                "total_sales": total_sales,
+                "total_sales": round(total_sales, 2),
                 "total_quantity": total_quantity,
-                "average_sales": avg_sales,
-                "sales_by_region": dict(sorted(sales_by_region.items(), key=lambda item: item[1], reverse=True)),
-                "sales_by_item": dict(sorted(sales_by_item.items(), key=lambda item: item[1], reverse=True)),
+                "average_sales": round(avg_sales, 2),
+                "sales_by_region": {region: round(value, 2) for region, value in sorted(sales_by_region.items(), key=lambda item: item[1], reverse=True)},
+                "sales_by_item": {item: round(value, 2) for item, value in sorted(sales_by_item.items(), key=lambda item: item[1], reverse=True)},
                 "quantity_by_region": dict(sorted(quantity_by_region.items(), key=lambda item: item[1], reverse=True)),
                 "quantity_by_item": dict(sorted(quantity_by_item.items(), key=lambda item: item[1], reverse=True)),
-                "sales_by_date": dict(sorted(sales_by_date.items())),
+                "sales_by_date": {date: round(value, 2) for date, value in sorted(sales_by_date.items())},
                 "quantity_by_date": dict(sorted(quantity_by_date.items())),
                 "customer_experience_counts": customer_experience_counts
         }
