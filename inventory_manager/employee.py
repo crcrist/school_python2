@@ -116,7 +116,7 @@ def employee_dashboard():
         
         with st.form("add_item_form"):
             brand = st.text_input("Brand")
-            size = st.number_input("Size (oz)", min_value=0.0, step=0.1)
+            size = st.number_input("Size (oz)", min_value=0.0, value=12.0, step=0.1, format="%.1f")
             flavor = st.text_input("Flavor")
             category = st.selectbox("Category", 
                                    ["Energy", "Soda", "Water", "Sports", "Enhanced Water", 
@@ -160,7 +160,9 @@ def employee_dashboard():
                 st.subheader(f"Editing: {item['brand']} {item['flavor']}")
                 
                 edit_brand = st.text_input("Brand", value=item["brand"])
-                edit_size = st.number_input("Size (oz)", value=item["size"], min_value=0.0, step=0.1)
+                # Convert size to float to avoid type mismatch
+                size_value = float(item["size"])
+                edit_size = st.number_input("Size (oz)", value=size_value, min_value=0.0, step=0.1, format="%.1f")
                 edit_flavor = st.text_input("Flavor", value=item["flavor"])
                 edit_category = st.selectbox("Category", 
                                            ["Energy", "Soda", "Water", "Sports", "Enhanced Water", 
@@ -170,7 +172,8 @@ def employee_dashboard():
                                            if item["category"] in ["Energy", "Soda", "Water", "Sports", "Enhanced Water", 
                                                                  "Coffee", "Juice", "Tea", "Milk", "Protein", "Alternative Milk"] else 0)
                 edit_description = st.text_area("Description", value=item["description"])
-                edit_price = st.number_input("Price ($)", value=float(item["price"]), min_value=0.01, step=0.10, format="%.2f")
+                price_value = float(item["price"])
+                edit_price = st.number_input("Price ($)", value=price_value, min_value=0.01, step=0.10, format="%.2f")
                 
                 # Delete confirmation checkbox
                 delete_confirmation = st.checkbox("I confirm I want to delete this item", 
