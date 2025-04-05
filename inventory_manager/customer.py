@@ -1,10 +1,10 @@
 import streamlit as st
 import sqlite3
 import pandas as pd
-import datetime
+# import datetime
 import uuid
-from db_utils import get_inventory_data
-from cart import (get_cart_items, add_to_cart, remove_from_cart, 
+from db_setup import get_inventory_data
+from cart import (get_cart_items, add_to_cart, # remove_from_cart, is remove from cart necessary?  
                  update_cart_quantity, clear_cart, process_transaction)
 
 def customer_page():
@@ -14,15 +14,13 @@ def customer_page():
     # Initialize session state for customer ID if it doesn't exist
     if 'customer_id' not in st.session_state:
         # Generate a unique customer ID for this session
-        st.session_state.customer_id = f"guest_{uuid.uuid4().hex[:8]}"
-    
+        # since the customer is not required to create an account to shop, we must create this session id
+        st.session_state.customer_id = f"guest_{uuid.uuid4().hex[:8]}"     
     # Get tabs for the customer interface
     tab1, tab2, tab3 = st.tabs(["Shop", "Your Cart", "Order History"])
     
     # Get inventory data
     inventory_df = get_inventory_data()
-    
-    # Use the price from the database (no need to calculate)
     
     # Shop Tab
     with tab1:
@@ -54,6 +52,7 @@ def customer_page():
                 item_to_add = st.selectbox(
                     "Select Item",
                     filtered_df["item_id"].tolist(),
+                    # formatting the items in the drop down to look nice
                     format_func=lambda x: f"{filtered_df[filtered_df['item_id']==x]['brand'].iloc[0]} - {filtered_df[filtered_df['item_id']==x]['flavor'].iloc[0]} (${filtered_df[filtered_df['item_id']==x]['price'].iloc[0]:.2f})"
                 )
             
@@ -64,13 +63,14 @@ def customer_page():
             
             if add_button:
                 if add_to_cart(st.session_state.customer_id, item_to_add, quantity):
+                    # show item was added to cart successfully
                     st.success(f"Added to cart: {filtered_df[filtered_df['item_id']==item_to_add]['brand'].iloc[0]} {filtered_df[filtered_df['item_id']==item_to_add]['flavor'].iloc[0]}")
     
     # Cart Tab
     with tab2:
         st.header("Your Shopping Cart")
         
-        # Get cart items
+        # Get cart items using that session id created on startup
         cart_df = get_cart_items(st.session_state.customer_id)
         
         if cart_df.empty:
@@ -94,12 +94,13 @@ def customer_page():
             
             with col2:
                 if st.button("Proceed to Checkout"):
+                    # in streamlit variables in the session state dont need to be initialized beforehand, when a variable is assigned it is created automatically
                     st.session_state.checkout = True
                     st.rerun()
             
             # Edit quantities or remove items
             st.subheader("Edit Cart Items")
-            for index, item in cart_df.iterrows():
+            for _, item in cart_df.iterrows():
                 col1, col2, col3 = st.columns([3, 1, 1])
                 
                 with col1:
@@ -109,7 +110,7 @@ def customer_page():
                     new_qty = st.number_input(f"Qty", 
                                             min_value=0, 
                                             value=int(item['quantity']),
-                                            key=f"qty_{item['cart_id']}")
+                                            key=f"qty_{item['cart_id']}") # key is crucial so that the state of widget distinguished between other widgets in the app
                 
                 with col3:
                     if st.button("Update", key=f"update_{item['cart_id']}"):
@@ -133,7 +134,7 @@ def customer_page():
                     
                     with col2:
                         last_name = st.text_input("Last Name")
-                        phone = st.text_input("Phone")
+                        phone = st.text_input("Phone") # phone not used but makes form symmetrical 
                         city = st.text_input("City")
                         zip_code = st.text_input("ZIP Code")
                     
@@ -144,6 +145,7 @@ def customer_page():
                     purchase_button = st.form_submit_button("Complete Purchase")
                     
                     if purchase_button:
+                        # make sure the form is completely filled out, if not ask for retry
                         if not all([first_name, last_name, email, address, city, state, zip_code]):
                             st.error("Please fill out all required fields.")
                         else:
@@ -193,6 +195,7 @@ def customer_page():
             transaction_to_view = st.selectbox(
                 "Select transaction to view details",
                 transactions_df["transaction_id"].tolist(),
+                # show the transaction id, amount of the transaction, and the timestamp
                 format_func=lambda x: f"Transaction {x} - ${transactions_df[transactions_df['transaction_id']==x]['total_amount'].iloc[0]:.2f} ({transactions_df[transactions_df['transaction_id']==x]['timestamp'].iloc[0]})"
             )
             
@@ -211,6 +214,7 @@ def customer_page():
                 items_df = pd.read_sql_query(items_query, conn, params=(transaction_to_view,))
                 conn.close()
                 
+                # if there are items with the associated transaction id (there always should be) - then display them below
                 if not items_df.empty:
                     st.dataframe(items_df[['brand', 'flavor', 'category', 'quantity', 'price_per_item']], use_container_width=True)
                     

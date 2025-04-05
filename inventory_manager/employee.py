@@ -2,13 +2,12 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 import datetime
-from db_utils import get_inventory_data
+from db_setup import get_inventory_data
 
 def update_catalog_data(brand, size, flavor, category, description, price, username, timestamp):
     """Add a new item to the catalog"""
     conn = sqlite3.connect('example.db')
     cursor = conn.cursor()
-    # Include price in the SQL query
     sql = "INSERT INTO catalog (brand, size, flavor, category, description, price, username, timestamp) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
     cursor.execute(sql, (brand, size, flavor, category, description, price, username, timestamp))
     conn.commit()
@@ -98,6 +97,7 @@ def employee_dashboard():
         st.dataframe(inventory_df, use_container_width=True)
         
         # Export data option
+        # two separate buttons because the df must be converted to csv then downloadable
         if st.button("Export Inventory CSV"):
             # Convert DataFrame to CSV
             csv = inventory_df.to_csv(index=False)
@@ -127,9 +127,11 @@ def employee_dashboard():
             timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             
             if st.form_submit_button("Add Item"):
+                # make sure form is filled out, if not retry
                 if not all([brand, size > 0, flavor, category, price > 0]):
                     st.error("Please fill out all required fields.")
                 else:
+                    # tracking username and timestamp to see who makes inventory changes and when
                     if update_catalog_data(brand, size, flavor, category, description, price, username, timestamp):
                         st.success("Item added successfully!")
                         st.rerun()
@@ -139,12 +141,14 @@ def employee_dashboard():
         st.header("Edit or Delete Items")
         
         # Initialize session state for the delete confirmation if it doesn't exist
+        # user should only be able to delete an item after checking the confirmation checkbox, that is why we initialize earlier
         if 'delete_confirmed' not in st.session_state:
             st.session_state.delete_confirmed = False
         
         # Select an item to edit/delete
         item_to_edit = st.selectbox("Select item to edit",
                                   inventory_df["item_id"].tolist(),
+                                  # format the list to look nice
                                   format_func=lambda x: f"ID: {x} - {inventory_df[inventory_df['item_id']==x]['brand'].iloc[0]} ({inventory_df[inventory_df['item_id']==x]['flavor'].iloc[0]})",
                                   key="edit_select")
         
@@ -200,11 +204,14 @@ def employee_dashboard():
                         st.error("Failed to update item.")
             
             if delete_button:
+                # checks to see if the deletion confirmation checkbox is clicked
                 if delete_confirmation:
                     if delete_item(item_to_edit):
+                        # set the delete_confirmed back to false to ensure checkbox must be clicked again to delete
                         st.session_state.delete_confirmed = False
                         st.success("Item deleted successfully!")
                         st.rerun()
+                        # tried to make it so that the checkbox gets set back to default but there is an issue currently with that, need to fix
                     else:
                         st.error("Failed to delete item.")
                 else:
@@ -251,6 +258,7 @@ def employee_dashboard():
                 transaction_to_view = st.selectbox(
                     "Select transaction to view details",
                     transactions_df["transaction_id"].tolist(),
+                    # format transactions in dropbox to look nice
                     format_func=lambda x: f"ID: {x} - ${transactions_df[transactions_df['transaction_id']==x]['total_amount'].iloc[0]:.2f} ({transactions_df[transactions_df['transaction_id']==x]['timestamp'].iloc[0]})"
                 )
                 

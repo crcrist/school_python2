@@ -1,16 +1,18 @@
 # streamlit run main.py
 
 import streamlit as st
-import sqlite3
-from cart_transaction_load import create_cart_transaction_tables
+# import sqlite3
+# from cart_transaction_load import create_cart_transaction_tables
 from customer import customer_page
 from employee import employee_login, employee_dashboard
+from db_setup import initialize_database
 
 st.set_page_config(page_title="Beverage Store", layout="wide")
 
 def main():
     # Create tables if they don't exist
-    create_cart_transaction_tables()
+    # create_cart_transaction_tables()
+    initialize_database()
     
     # Initialize session states
     if 'employee_logged_in' not in st.session_state:

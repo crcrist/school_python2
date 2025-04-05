@@ -1,4 +1,4 @@
-import streamlit as st
+# import streamlit as st
 import sqlite3
 import pandas as pd
 import datetime
@@ -103,21 +103,21 @@ def process_transaction(username, total_amount, first_name, last_name, email,
     
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
-    # Insert into transactions table
+    # insert into transactions table
     cursor.execute("""
     INSERT INTO transactions 
     (username, total_amount, first_name, last_name, email, address, city, state, zip_code, payment_method, timestamp)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """, (username, total_amount, first_name, last_name, email, address, city, state, zip_code, payment_method, timestamp))
     
-    # Get the transaction_id
-    transaction_id = cursor.lastrowid
+    # get the transaction_id
+    transaction_id = cursor.lastrowid # retriving the auto incrementing id assigned to the transaction inserted
     
-    # Get cart items
+    # get cart items
     cart_df = get_cart_items(username)
     
-    # Insert each cart item into transaction_items
-    for index, item in cart_df.iterrows():
+    # insert each cart item into transaction_items
+    for _, item in cart_df.iterrows(): # using _ because value is discarded, but necessary for iterrows
         price_per_item = item['price']
         cursor.execute("""
         INSERT INTO transaction_items 
