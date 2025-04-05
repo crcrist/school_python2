@@ -2,26 +2,27 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 import datetime
-from db_utils import get_inventory_data
+# from db_utils import get_inventory_data
 
 def get_cart_items(username):
     """Get all items in the user's cart with item details"""
     conn = sqlite3.connect('example.db')
     
-    # Join cart with catalog to get item details
+    # join cart with catalog to get item details
     query = """
     SELECT c.cart_id, c.username, c.item_id, c.quantity, c.timestamp,
            cat.brand, cat.flavor, cat.size, cat.category, cat.description,
-           cat.price  -- Use actual price from database
+           cat.price
     FROM cart c
     JOIN catalog cat ON c.item_id = cat.item_id
     WHERE c.username = ?
     """
     
     try:
+        # only need to pass the username value, however params expects a list or tuple, that is why params=(username,))
         cart_df = pd.read_sql_query(query, conn, params=(username,))
     except:
-        # If there's an error (e.g., table doesn't exist yet), return an empty DataFrame
+        # if there's an error (ie; table doesn't exist yet), return an empty DataFrame
         cart_df = pd.DataFrame(columns=['cart_id', 'username', 'item_id', 'quantity', 'timestamp', 
                                         'brand', 'flavor', 'size', 'category', 'description', 'price'])
     
@@ -34,21 +35,23 @@ def add_to_cart(username, item_id, quantity=1):
     conn = sqlite3.connect('example.db')
     cursor = conn.cursor()
     
-    # Check if item already in cart
+    # check if item already in cart
     cursor.execute("SELECT cart_id, quantity FROM cart WHERE username = ? AND item_id = ?", 
                   (username, item_id))
+
+    # check to see if row exists in db, fetchone brings back first row from query
     existing = cursor.fetchone()
     
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     
     if existing:
-        # Update quantity if already in cart
+        # update quantity if already in cart
         cart_id, current_qty = existing
         new_qty = current_qty + quantity
         cursor.execute("UPDATE cart SET quantity = ?, timestamp = ? WHERE cart_id = ?", 
                       (new_qty, timestamp, cart_id))
     else:
-        # Add new item to cart
+        # add new item to cart
         cursor.execute("INSERT INTO cart (username, item_id, quantity, timestamp) VALUES (?, ?, ?, ?)",
                       (username, item_id, quantity, timestamp))
     
@@ -79,7 +82,7 @@ def update_cart_quantity(cart_id, quantity):
     
     conn.commit()
     conn.close()
-    return cursor.rowcount > 0
+    return cursor.rowcount > 0 # returns true if rows were updated, false if not (signaling failure or non-existing cart id?)
 
 def clear_cart(username):
     """Remove all items from the user's cart"""
