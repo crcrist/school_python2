@@ -68,30 +68,6 @@ try:
     df['Album Name'] = df['Album Name'].str.lower()
     df['Track'] = df['Track'].str.lower()
     
-
-    print("\n--- Checking for outliers ---")
-    for col in ['Spotify Streams', 'YouTube Views', 'TikTok Views']:
-        if col in df.columns:
-            Q1 = df[col].quantile(0.25)
-            Q3 = df[col].quantile(0.75)
-            IQR = Q3 - Q1
-            outliers = df[(df[col] > Q3 + 1.5*IQR) | (df[col] < Q1 - 1.5*IQR)]
-            print(f"{col}: {len(outliers)} potential outliers ({len(outliers)/len(df):.2%})")
-            
-            # Print top 5 outliers
-            print(f"\nTop 5 highest outlier values for {col}:")
-            top_outliers = outliers.sort_values(by=col, ascending=False).head(5)
-            for idx, row in top_outliers.iterrows():
-                print(f"  {row['Track']} by {row['Artist']}: {row[col]:,.0f}")
-            
-            # Print bottom 5 outliers
-            print(f"\nBottom 5 lowest outlier values for {col}:")
-            bottom_outliers = outliers.sort_values(by=col).head(5)
-            for idx, row in bottom_outliers.iterrows():
-                print(f"  {row['Track']} by {row['Artist']}: {row[col]:,.0f}")
-            
-            print("-" * 50)
-
     print("\n--- Checking for impossible values ---")
     for col in numeric_cols:
         # Simple check for negative values in metrics that should be positive
@@ -106,7 +82,7 @@ try:
 
     print("""---------------------------------------------------------------------\n|                    EDA                                       |\n---------------------------------------------------------------------""")
 
-    for col in ['Spotify Streams', 'Spotify Popularity', 'YouTube Views'][:2]:  # Limit to 2 for example
+    for col in ['Spotify Streams', 'YouTube Views', 'TikTok Likes']:  
         plt.figure()
         plt.title(f'Distribution of {col}')
         # Use log scale for highly skewed data
@@ -137,7 +113,70 @@ try:
                 linewidths=0.5, vmin=-1, vmax=1)
     plt.title('Correlation Matrix of Numeric Features')
     plt.tight_layout()
-    plt.show()      
+    plt.show()     
+
+
+    print("""---------------------------------------------------------------------\n|                    Visuals                                       |\n---------------------------------------------------------------------""")
+    print("\n--- Top Artists by Spotify Streams ---")
+    top_artists = df.groupby('Artist')['Spotify Streams'].sum().sort_values(ascending=False).head(10)
+    plt.figure(figsize=(10,6))
+    sns.barplot(y=top_artists.index, x=top_artists.values, palette ='viridis')
+    plt.title('Top 10 Artists by Spotify Streams')
+    plt.xlabel('Total Spotify Streams')
+    plt.ylabel('Artist')
+    plt.tight_layout()
+    plt.savefig('top_artists_by_spotify_streams.png')
+    plt.show()
+
+
+    print("\n--- Top Artists by YouTube Views ---")
+    top_artists = df.groupby('Artist')['YouTube Views'].sum().sort_values(ascending=False).head(10)
+    plt.figure(figsize=(10,6))
+    sns.barplot(y=top_artists.index, x=top_artists.values, palette ='viridis')
+    plt.title('Top 10 Artists by YouTube Views')
+    plt.xlabel('Total YouTube Views')
+    plt.ylabel('Artist')
+    plt.tight_layout()
+    plt.savefig('top_artists_by_youtube_views.png')
+    plt.show()
+
+
+    print("\n--- Top Artists by TikTok Likes ---")
+    top_artists = df.groupby('Artist')['TikTok Likes'].sum().sort_values(ascending=False).head(10)
+    plt.figure(figsize=(10,6))
+    sns.barplot(y=top_artists.index, x=top_artists.values, palette ='viridis')
+    plt.title('Top 10 Artists by TikTok Likes')
+    plt.xlabel('Total TikTok Likes')
+    plt.ylabel('Artist')
+    plt.tight_layout()
+    plt.savefig('top_artists_by_tiktok_likes.png')
+    plt.show()
+
+
+
+    print("\n--- Spotify Streams vs YouTube Views ---")
+    plt.figure(figsize=(8,6))
+    sns.regplot(x='Spotify Streams', y='YouTube Views', data=df, scatter_kws={'alpha':0.5})
+        
+    plt.title('Relationship Between Spotify Streams and YouTube Views')
+    plt.xlabel('Spotify Streams')
+    plt.ylabel('YouTube Views')
+    plt.grid(True, alpha=0.2)
+    plt.tight_layout()
+    plt.savefig('spotify_streams_vs_youtube_views_linear_scatter.png')
+    plt.show()
+
+
+    print("\n--- Spotify Streams vs Shazam Counts ---")
+    plt.figure(figsize=(8,6))
+    sns.regplot(x='Spotify Streams', y='Shazam Counts', data=df, scatter_kws={'alpha':0.5})
+    plt.title('Relationship Between Spotify Streams and Shazam Counts')
+    plt.xlabel('Spotify Streams')
+    plt.ylabel('Shazam Counts')
+
+    plt.tight_layout()
+    plt.savefig('spotify_streams_vs_shazam_counts_linear_scatter.png')
+    plt.show()
 
 except UnicodeDecodeError as e:
     print(f"Error reading csv file: {e}")
