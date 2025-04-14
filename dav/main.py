@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
+from generate_pdf import generate_pdf_report
 
 # Set a consistent style and color
 sns.set_theme(style="whitegrid")
@@ -200,21 +201,29 @@ try:
     
     # Year-based analysis
     print("\n--- Time Series Analysis ---")
+# Year-based analysis
     if 'Release Year' in df.columns:
         yearly_streams = df.groupby('Release Year')['Spotify Streams'].sum()
         
         plt.figure(figsize=(14, 6))
-        plt.bar(yearly_streams.index, yearly_streams.values, color=MAIN_COLOR)
+        ax = plt.bar(yearly_streams.index, yearly_streams.values, color=MAIN_COLOR)
+        
+        # Format y-axis with billions
+        def billions(x, pos):
+            return f'{x/1e9:.1f}B'
+        
+        from matplotlib.ticker import FuncFormatter
+        plt.gca().yaxis.set_major_formatter(FuncFormatter(billions))
         
         plt.title('Total Spotify Streams by Release Year', fontsize=16)
         plt.xlabel('Year', fontsize=14)
-        plt.ylabel('Total Spotify Streams', fontsize=14)
+        plt.ylabel('Total Spotify Streams (Billions)', fontsize=14)  # Updated label with units
         plt.xticks(rotation=45)
         plt.grid(axis='y', alpha=0.3)
         plt.tight_layout()
         plt.savefig('results/yearly_streams.png')
-        plt.close()
-    
+        plt.close()   
+
     # Monthly pattern analysis
     print("\n--- Monthly Pattern Analysis ---")
     if 'Month Name' in df.columns:
@@ -294,6 +303,10 @@ try:
     print("""---------------------------------------------------------------------
                                 Summary Report                            |
     ---------------------------------------------------------------------""")
+
+    image_paths = [os.path.join('results', f) for f in os.listdir('results') if f.endswith('.png')]
+
+    generate_pdf_report(df, image_paths, 'results/analysis_report.txt')
     
     # Calculate key statistics for the report
     total_songs = len(df)
