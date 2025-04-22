@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 from generate_pdf import generate_pdf_report
+from matplotlib.ticker import FuncFormatter
 
 # Set a consistent style and color
 sns.set_theme(style="whitegrid")
@@ -30,15 +31,15 @@ try:
     pd.set_option('display.max_columns', None)
     pd.set_option('display.width', 200)
 
-    numeric_cols = df.select_dtypes(include=['float64', 'int64']).columns
-    print(df[numeric_cols].describe().T)
+    numeric_cols = df.select_dtypes(include=['float64', 'int64']).columns # only care about summary stats of numeric columns
+    print(df[numeric_cols].describe().T) # transpose the descriptions of the columns
     
     print("\n--- Data Types Summary ---")
-    column_types = df.dtypes
+    column_types = df.dtypes # what are the data types of columns
     print(column_types)
 
     print("\n--- Date Type Conversion ---")
-    df['Release Date'] = pd.to_datetime(df['Release Date'], errors='coerce')
+    df['Release Date'] = pd.to_datetime(df['Release Date'], errors='coerce') # convert release data to date data type
     print(f"Earliest release date: {df['Release Date'].min()}")
     print(f"Latest release date: {df['Release Date'].max()}")
     
@@ -48,13 +49,13 @@ try:
     df['Month Name'] = df['Release Date'].dt.month_name()
     
     print("\n--- Null Values Check ---")
-    null_counts = df.isnull().sum()
+    null_counts = df.isnull().sum() # how many null rows are there per column? 
     print(null_counts)
 
     print("\n--- Remove Null Artist Rows ---")
     print(f"Number of rows before removing null artists: {len(df)}")
     df = df.dropna(subset=['Artist'])
-    print(f"Number of rows after removing null artists: {len(df)}")
+    print(f"Number of rows after removing null artists: {len(df)}") # there were 5 null artist names
     print("\nUpdated null counts:")
     print(df.isnull().sum())
 
@@ -67,9 +68,9 @@ try:
 
     print("\n--- Dropping Duplicates ---")
     df = df.drop_duplicates()
-    print(f"Row count after duplicates dropped: {len(df)}")
+    print(f"Row count after duplicates dropped: {len(df)}") # 2 duplicate rows dropped
 
-    print("\n--- Case Standardization for Text Columns ---")
+    print("\n--- Case Standardization for Text Columns ---") # some artists names show up twice due to differing casing, so converting all to lower before aggregating
     print(f"Total unique artists: {df['Artist'].nunique()}")
     print(f"Total unique artists (case insensitive): {df['Artist'].str.lower().nunique()}")
     print(f"Total unique albums: {df['Album Name'].nunique()}")
@@ -82,7 +83,7 @@ try:
     df['Album Name'] = df['Album Name'].str.lower()
     df['Track'] = df['Track'].str.lower()
     
-    print("\n--- Checking for impossible values ---")
+    print("\n--- Checking for impossible values ---") # see if any of the numeric values have a neg value
     for col in numeric_cols:
         neg_count = (df[col] < 0).sum()
         if neg_count > 0:
@@ -91,12 +92,6 @@ try:
     # Additional cleaning: Convert text columns with numbers to numeric
     numeric_cols_to_convert = ['Spotify Streams', 'YouTube Views', 'TikTok Likes', 
                               'Spotify Playlist Count', 'YouTube Likes', 'Shazam Counts']
-    
-    print("\n--- Converting Text Columns with Numbers to Numeric ---")
-    for col in numeric_cols_to_convert:
-        if col in df.columns and df[col].dtype == 'object':
-            df[col] = pd.to_numeric(df[col], errors='coerce')
-            print(f"Converted {col} to numeric type")
     
     # Save the cleaned dataset
     df.to_csv('results/cleaned_spotify_songs.csv', index=False)
@@ -108,7 +103,7 @@ try:
 
     # Distribution plots
     print("\n--- Distribution Plots ---")
-    for col in ['Spotify Streams', 'YouTube Views', 'TikTok Likes']:  
+    for col in ['Spotify Streams', 'YouTube Views', 'TikTok Likes']: # since most of the values are at the higher end, the graphs are in log scale due to skewness 
         plt.figure(figsize=(10, 6))
         plt.title(f'Distribution of {col}', fontsize=14)
         # Use log scale for highly skewed data
@@ -127,7 +122,7 @@ try:
     print("\n--- Top Artists Analysis ---")
     for metric in ['Spotify Streams', 'YouTube Views', 'TikTok Likes']:
         if metric in df.columns:
-            top_artists = df.groupby('Artist')[metric].sum().sort_values(ascending=False).head(10)
+            top_artists = df.groupby('Artist')[metric].sum().sort_values(ascending=False).head(10) # find the top 10 artists by metrics listed
             
             plt.figure(figsize=(12, 7))
             
@@ -139,7 +134,7 @@ try:
             plt.ylabel(f'Total {metric}', fontsize=12)
             plt.xticks(rotation=45, ha='right')
             
-            # Add value labels to the bars
+            # Add value labels to the bars - string formatting for large values
             for i, v in enumerate(top_artists.values):
                 if v >= 1_000_000_000:
                     value_text = f'{v/1_000_000_000:.1f}B'
@@ -189,7 +184,7 @@ try:
     if 'Spotify Streams' in df.columns and 'Shazam Counts' in df.columns:
         plt.figure(figsize=(10, 6))
         sns.regplot(x='Spotify Streams', y='Shazam Counts', data=df, 
-                    scatter_kws={'alpha': 0.4, 's': 15, 'color': MAIN_COLOR}, 
+                    scatter_kws={'alpha': 0.4, 's': 15, 'color': MAIN_COLOR}, # alpha controls the transparency, s is for size 
                     line_kws={'color': SECONDARY_COLOR})
         plt.title('Relationship Between Spotify Streams and Shazam Counts', fontsize=14)
         plt.xlabel('Spotify Streams', fontsize=12)
@@ -201,7 +196,6 @@ try:
     
     # Year-based analysis
     print("\n--- Time Series Analysis ---")
-# Year-based analysis
     if 'Release Year' in df.columns:
         yearly_streams = df.groupby('Release Year')['Spotify Streams'].sum()
         
@@ -212,9 +206,7 @@ try:
         def billions(x, pos):
             return f'{x/1e9:.1f}B'
         
-        from matplotlib.ticker import FuncFormatter
         plt.gca().yaxis.set_major_formatter(FuncFormatter(billions))
-        
         plt.title('Total Spotify Streams by Release Year', fontsize=16)
         plt.xlabel('Year', fontsize=14)
         plt.ylabel('Total Spotify Streams (Billions)', fontsize=14)  # Updated label with units
@@ -241,7 +233,7 @@ try:
         
         # Add data labels on top of each bar
         for i, v in enumerate(monthly_counts):
-            plt.text(i, v + 5, str(v), ha='center', fontsize=10)
+            plt.text(i, v + 5, str(v), ha='center', fontsize=10) # for each month, move the label 5 units above the bar, display value as a string
         
         plt.title('Number of Song Releases by Month (Seasonal Pattern)', fontsize=16)
         plt.xlabel('Month', fontsize=14)
@@ -264,7 +256,7 @@ try:
         
         # Calculate percentages
         total_songs = explicit_data['Spotify Streams_count'].sum()
-        explicit_data['percent'] = (explicit_data['Spotify Streams_count'] / total_songs * 100)
+        explicit_data['percent'] = (explicit_data['Spotify Streams_count'] / total_songs * 100) # get the perc of explicit and non explicit
         
         # Create the donut chart with combined metrics
         plt.figure(figsize=(10, 10))
@@ -277,7 +269,7 @@ try:
             else:
                 label = 'Explicit'
             
-            avg_streams = explicit_data['Spotify Streams_mean'][i] / 1_000_000
+            avg_streams = explicit_data['Spotify Streams_mean'][i] / 1_000_000 # dividing by 1 million to make mroe readable
             pct = explicit_data['percent'][i]
             labels.append(f"{label}: {pct:.1f}%, {avg_streams:.1f}M")
         
