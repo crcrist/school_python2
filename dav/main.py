@@ -269,7 +269,7 @@ try:
             else:
                 label = 'Explicit'
             
-            avg_streams = explicit_data['Spotify Streams_mean'][i] / 1_000_000 # dividing by 1 million to make mroe readable
+            avg_streams = explicit_data['Spotify Streams_mean'][i] / 1_000_000 # dividing by 1 million to make more readable
             pct = explicit_data['percent'][i]
             labels.append(f"{label}: {pct:.1f}%, {avg_streams:.1f}M")
         
@@ -295,12 +295,10 @@ try:
     print("""---------------------------------------------------------------------
                                 Summary Report                            |
     ---------------------------------------------------------------------""")
-
+    # get all of the .pngs to place in pdf
     image_paths = [os.path.join('results', f) for f in os.listdir('results') if f.endswith('.png')]
 
-    generate_pdf_report(df, image_paths, 'results/analysis_report.txt')
-    
-    # Calculate key statistics for the report
+    # Calculate key statistics for the pdf report
     total_songs = len(df)
     total_artists = df['Artist'].nunique()
     total_streams = df['Spotify Streams'].sum() if 'Spotify Streams' in df.columns else "N/A"
@@ -349,7 +347,11 @@ try:
         
         f.write("## Conclusion\n")
         f.write("This analysis provides insights into streaming patterns across multiple platforms. The strong correlations between different platform metrics suggest that popular content tends to perform well across platforms. The data shows a concentration of success among a small group of artists, highlighting the winner-takes-all nature of music streaming. Future research could explore genre-specific trends and the impact of release timing on streaming success.\n")
-    
+   
+
+
+    generate_pdf_report(df, image_paths, 'results/analysis_report.txt')
+
     print("\nAnalysis complete! All results and visualizations saved to the 'results' directory.")
     print("Report saved as 'results/analysis_report.txt'")
 
